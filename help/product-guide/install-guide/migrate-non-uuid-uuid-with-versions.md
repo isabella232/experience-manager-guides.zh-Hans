@@ -1,7 +1,7 @@
 ---
 title: 将带有版本的非UUID内容转换为UUID内容
 description: 了解如何将具有版本的非UUID内容迁移到UUID内容。
-source-git-commit: b57364fa52d48791fbab07125f13007c563b7781
+source-git-commit: 4888bd4647a7ec8bbd4e53786b267cca96630219
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
    >[!NOTE]
    >
    >此实用程序不删除基线或审阅中使用的任何版本，也不具有任何标签。
-1. Launch `http://<server- name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
+1. Launch `http://<server-name>/libs/fmdita/clientlibs/xmleditor_uuid_upgrade/page.html`.
 1. 选择 **兼容性评估**  从左侧面板中浏览文件夹路径。
 1. 检查兼容性以列出以下信息：
    * 文件总数
