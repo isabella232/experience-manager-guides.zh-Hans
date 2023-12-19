@@ -1,11 +1,11 @@
 ---
 title: AEM Guides版本
-description: 最新AEM Guides发行版和先决条件AEM版本
+description: 最新的 AEM Guides 版本和必备 AEM 版本
 exl-id: 780697a9-bdc6-40c2-b258-64639fe30f88
 source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
