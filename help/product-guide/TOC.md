@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 指南
-source-git-commit: 757371f7d9e9029096abd2f269b3bdd715d1c965
+source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1638'
 ht-degree: 3%
 
 ---
@@ -380,6 +380,7 @@ ht-degree: 3%
       + [学习本机PDF发布 — 第1部分](./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md)
       + [学习本机PDF发布 — 实验操作 — BYOS](./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md)
       + [AEM Guides的扩展框架](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
+      + [外部数据源集成](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
    + 文章 {#kb-articles}
       + 创作 {#authoring}
          + 报告 {#reports}
