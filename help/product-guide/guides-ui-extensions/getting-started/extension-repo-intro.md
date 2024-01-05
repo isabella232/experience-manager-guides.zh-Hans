@@ -1,8 +1,9 @@
 ---
-sidebar_position: 3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: 扩展存储库简介
+description: AEM Guides扩展包目录结构
+source-git-commit: 9345278dd02f5736e5384f3a97b2422894d20339
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
