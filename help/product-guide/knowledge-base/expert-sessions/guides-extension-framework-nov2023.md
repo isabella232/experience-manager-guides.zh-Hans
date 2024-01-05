@@ -2,9 +2,9 @@
 title: AEM Guides的扩展框架 — 自定义Web编辑器并查看UI
 description: 借助Guides扩展框架，您可以使用易于更新的JSON、CSS和JavaScript来自定义Review Ui或Webeditor的所需部分。
 exl-id: 7b2efae3-be8c-4259-babb-f28a6903116a
-source-git-commit: 9406895007386cbd15d5a9412457333493d7bb36
+source-git-commit: 20fb3f3556b5188764266e7fdf8aa876e45c1922
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ ht-degree: 0%
 
 - **扩展框架基本存储库** - [GIT](https://github.com/adobe/guides-extension/tree/main)
 
-- **文档** - [Experience League时](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **文档** - [Experience League时](../../guides-ui-extensions/aem_guides_framework/basic-customisation.md)
 
-- **记录的常见用例** - [Experience League时](https://guides-extension.vercel.app/docs/aem_guides_framework/basic_customisation)
+- **记录的常见用例** - [Experience League时](../../guides-ui-extensions/aem_guides_framework/jui-framework.md)
 
 - **带示例的公共存储库** - [在GIT上](https://github.com/adobe/guides-extension/tree/sc-expert-session). 参阅分支sc-expert-session
 

@@ -1,10 +1,14 @@
 ---
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+title: 自定义
+description: 自定义审核应用程序
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
+
+
 # 自定义审核应用程序
 
 为了简化审阅应用程序的自定义，我们提供了一些挂钩，如下所述：
@@ -14,7 +18,7 @@ ht-degree: 0%
 - id： `review_comment`
 - 挂钩： `this.updateExtraProps`：
 
-如讨论内容 [此处](../../aem_guides_framework/basic_customisation.md)，自定义期间添加的任何新属性将遵循 `this.model.extraProps`. 方法 `updateExtraProps` 用于向审阅注释添加属性，以及在服务器上处理所添加属性的更新和存储。
+如讨论内容 [此处](../../aem_guides_framework/basic-customisation.md)，自定义期间添加的任何新属性将遵循 `this.model.extraProps`. 方法 `updateExtraProps` 用于向审阅注释添加属性，以及在服务器上处理所添加属性的更新和存储。
 
 ### 使用示例
 

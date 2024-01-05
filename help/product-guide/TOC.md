@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 指南
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1679'
 ht-degree: 4%
 
 ---
@@ -392,6 +392,18 @@ ht-degree: 4%
             + 模式管 {#schematron}
                + [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
       + 指南扩展框架 {#extention-framework}
+         + Aem Guides框架 {#aem-guides-framework}
+            + [基本自定义](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
+            + [JUI框架](./guides-ui-extensions/aem_guides_framework/jui-framework.md)
+            + 组件 {#framework-components}
+               + [按钮](./guides-ui-extensions/aem_guides_framework/components/button.md)
+               + [图标](./guides-ui-extensions/aem_guides_framework/components/icon.md)
+               + [标签](./guides-ui-extensions/aem_guides_framework/components/label.md)
+               + [列表](./guides-ui-extensions/aem_guides_framework/components/list.md)
+               + [文本区域](./guides-ui-extensions/aem_guides_framework/components/textArea.md)
+            + 小组件 {#framework-widgets}
+               + [渲染构件](./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md)
+               + [基本小组件](./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md)
          + 快速入门 {#getting-started}
             + [简介](./guides-ui-extensions/getting-started/Introduction.md)
             + [安装指南](./guides-ui-extensions/getting-started/integrating-customisations.md)
@@ -400,8 +412,9 @@ ht-degree: 4%
             + [简单的自定义](./guides-ui-extensions/customisations/add-button.md)
             + [自定义上下文菜单](./guides-ui-extensions/customisations/context-menus.md)
             + [自定义工具栏和顶栏](./guides-ui-extensions/customisations/toolbar-topbar.md)
-         + 审核{#review-app-customisations}
-            + [组件](./guides-ui-extensions/customisations/ReviewApp/components.md)
+            + 审核{#review-app-customisations}
+               + [组件](./guides-ui-extensions/customisations/ReviewApp/components.md)
+               + [自定义](./guides-ui-extensions/customisations/ReviewApp/customisation.md)
       + 发布 {#publishing}
          + [为本机PDF发布配置AEM环境](./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md)
          + [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)

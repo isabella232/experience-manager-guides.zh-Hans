@@ -1,12 +1,12 @@
 ---
-sidebar_position: 3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: 文本区域
+description: 文本区域
+source-git-commit: 2e1cb576fa3b0a765304508e5f7962a154f1a72c
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 0%
+source-wordcount: '64'
+ht-degree: 3%
 
 ---
-
 
 # 文本字段和文本区域
 

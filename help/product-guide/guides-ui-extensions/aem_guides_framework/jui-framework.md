@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: Jui框架
+description: 了解Jui框架
+source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '265'
 ht-degree: 1%
 
 ---
@@ -23,7 +24,7 @@ JUI-React-Spectrum库具有AdobeReact Spectrum组件的包装构件
 
 ### MVC UI设计
 
-![替换文本](./imgs/jui-mvc-flow.png)
+![JUI MVC流程](./imgs/jui-mvc-flow.png)
 
 ### 小组件
 
@@ -35,7 +36,7 @@ JUI-React-Spectrum库具有AdobeReact Spectrum组件的包装构件
 - 可以有其他构件
 - 应用程序是一个小组件
 
-![替换文本](./imgs/jui-widget.png)
+![JUI小组件](./imgs/jui-widget.png)
 
 ### 元素
 
@@ -76,4 +77,4 @@ JUI-React-Spectrum库具有AdobeReact Spectrum组件的包装构件
 
 ### 示例应用程序设计
 
-![替换文本](./imgs/jui-sample-app.png)
+![示例应用程序](./imgs/jui-sample-app.png)

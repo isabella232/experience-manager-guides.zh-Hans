@@ -1,12 +1,12 @@
 ---
-sidebar_position: 5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+title: 列表
+description: 列表
+source-git-commit: dfd4c898d3c093bfee1a8a6efff4e395efd20c60
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 1%
+source-wordcount: '59'
+ht-degree: 5%
 
 ---
-
 
 # 列表
 
@@ -33,7 +33,7 @@ const listJSON =  {
 },
 ```
 
-通常itemConfig是 `widget`. 要了解有关构件的更多信息，请访问 [小组件](../Widgets/basic_widget.md)
+通常itemConfig是 `widget`. 要了解有关构件的更多信息，请访问 [小组件](../Widgets/basic-widget.md)
 
 渲染的列表将如下所示：
 
