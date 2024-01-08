@@ -5,17 +5,11 @@ Below article will help you in Setting up and running FMPS with AEM Guides.**
 
 ## Compatibility of FMPS with AEM Guides :
 
-### Compatibility with 4.1 AEM Guides
-
-[Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
+ - ### Compatibility with 4.1 AEM Guides : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/release-notes/on-prem-release-notes/release-notes-4.1.html?lang=en/#compatibility-matrix)
    
-### Compatibility with 4.0 AEM Guides
-
-[Link](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
+  - ### Compatibility with 4.0 AEM Guides : [Link](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html/#Compatibility%20matrix)
    
-### Future Release
-
-[Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
+  - ### Future Release : [Link](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/release-info/latest-release-info.html?lang=en)
 
 ## Installation:
 
@@ -47,7 +41,7 @@ The user can provide "Settings File(.sts)" and "ditaval. Filtering will be done 
 -   **Setting file**: FrameMaker /FMPS Publish setting which contains all those settings which you want FMPS to honour while publishing For example: ,Generating output with customised template ,Generating Marks and Bleeds(PDF) , Generating PDF with TOC , index etc .
 -   **FMPS present:** Pre-defined combination of Ditaval and Settings file , Instead of giving separate Ditaval and settings file , User can pre-create FMPS preset which can be re-used for publishing need.
 
-**Note:**  If you don't select any of Settings or FMPS Preset then FMPS will publish with default system setting.
+**Note:**  If you don’t select any of Settings or FMPS Preset then FMPS will publish with default system setting.
 
 If you have selected FMPS Preset and also provided Settings/Ditaval file from AEM then this will conflict and FMPS Preset will be given precedence over custom Settings/Ditaval file.
 
@@ -59,9 +53,9 @@ You can Publish your already created baselines with FMPS2020.0.2 or higher versi
 
 ## FAQ and Troubleshooting:
 
-- ### FMPS publishing fails with "Timeout Exception"
- Check and increase value of "FMPS timeout" (Seconds) in
-       /system/console/configMgr/com.adobe.fmdita.config.ConfigManager"
+- ### FMPS publishing fails with “Timeout Exception”
+ Check and increase value of “FMPS timeout” (Seconds) in
+       /system/console/configMgr/com.adobe.fmdita.config.ConfigManager”
        .
 
 - ### Unable to get FMPS Preset in dropdown
@@ -70,7 +64,7 @@ Make Sure you have pre-defined FMPS Preset created on Server and your connection
 
 - ### I am getting Blank PDF when publishing.
 
-If you are using UUID then make sure you have Checked "Use UUID based referencing" in FrameMaker EditPreferences and vice versa for Non-UUID AEM guides
+If you are using UUID then make sure you have Checked “Use UUID based referencing” in FrameMaker EditPreferences and vice versa for Non-UUID AEM guides
 
 - ### My settings/Ditaval are not getting applied in final published output
 
@@ -79,7 +73,7 @@ Make sure you are not selecting both Setting/Ditaval file and FMPS Preset parall
 - ### Baseline not getting published from FMPS
 
 Baseline publishing is compatible with FMPS2020.0.2 or higher version.  
-Make sure your Baseline is created properly, To verify go to Map Dashboard Topic Download Map and select "Use Baseline ".
+Make sure your Baseline is created properly, To verify go to Map Dashboard Topic Download Map and select “Use Baseline “.
 
 - ### Publish Task from FMPS takes more time than other Engines.
 
