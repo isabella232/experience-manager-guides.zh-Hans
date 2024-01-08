@@ -2,7 +2,7 @@
 title: 使用自定义DITA-OT和DITA专业化
 description: 了解如何使用自定义DITA-OT和DITA专业化
 exl-id: ddc1393b-b269-40e5-9627-96dad82b42e9
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8e8e64ad1105b0546856cb82b47547ceacd405b9
 workflow-type: tm+mt
 source-wordcount: '2093'
 ht-degree: 0%
@@ -156,7 +156,7 @@ DITA专业化是通过添加新元素或删除现有元素来创建新DITA结构
 
 1. 将文件夹上传到以下位置：
 
-   `/libs/fmdita/dita_resources`
+   `/apps/fmdita/dita_resources`
 
 1. 单击顶部的Adobe Experience Manager链接，然后选择 **工具**.
 
