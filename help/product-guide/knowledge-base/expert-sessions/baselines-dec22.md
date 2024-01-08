@@ -2,9 +2,9 @@
 title: 使用基线管理内容
 description: 了解如何使用基线有效地管理您的内容。
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '183'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ AEM Guides中的版本管理使用基线完成，该基线允许您选择主题�
 ## 要点
 
 在本课程中，您将学习以下内容：
-
 - AEM Guides中的各种基线操作
 - 使用基线下载、发布和翻译
 - 使用基线的最佳实践
@@ -41,14 +40,13 @@ AEM Guides中的版本管理使用基线完成，该基线允许您选择主题�
 
 - **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **用户指南** - [使用基线](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md)
+- **用户指南** - [使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html)
 
 - **社区论坛**  — 对于特定于Experience League会话的社区互动，请访问 [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 >此会话中显示的功能在以下版本的AEM Guides中可用：
->
 > - 内部部署4.1及更高版本
 > - Cloud Service2211及更高版本
 

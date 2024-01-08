@@ -1,7 +1,7 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides（2023年12月版）中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2023年12月版。
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 通过执行以下步骤升级当前的Experience Manager指南as a Cloud Service设置：
 
 1. 查看Cloud Service的Git代码，并切换到在Cloud Service管道中配置的与要升级的环境对应的分支。
-2. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServiceGit代码的文件更改为2023.12.0.16。
+2. 更新 `<dox.version>` 中的属性 `/dox/dox.installer/pom.xml` Cloud ServiceGit代码的文件更改为2023.12.0.15。
 3. 提交更改并运行Cloud Service管道，以升级到2023年12月版的《Experience Manager指南》as a Cloud Service。
 
 ## 通过servlet启用脚本触发器的步骤
@@ -88,7 +88,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
 
-1. 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引||例如： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+1. 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引|| 例如： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 

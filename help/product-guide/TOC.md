@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 指南
-source-git-commit: 2f5e951d3452e05fb307d6c34487269b5172000e
+source-git-commit: 2c81d111dede5301366169ba5f4c3825ac39c491
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1686'
 ht-degree: 4%
 
 ---
@@ -155,6 +155,7 @@ ht-degree: 4%
       + AEM Guides中的输出预设 {#output-presets-aemg}
          + [AEM站点](./user-guide/generate-output-aem-site.md)
          + [PDF](./user-guide/generate-output-pdf.md)
+         + [知识库](./user-guide/generate-output-knowledge-base.md)
          + [HTML5](./user-guide/generate-output-html5.md)
          + [ePub](./user-guide/generate-output-epub.md)
          + [自定义](./user-guide/generate-output-custom.md)
@@ -266,6 +267,7 @@ ht-degree: 4%
             + [PDF模板](./native-pdf/pdf-template.md)
             + [PDF模板的组件](./native-pdf/components-pdf-template.md)
             + [设计页面布局](./native-pdf/design-page-layout.md)
+            + [PDF输出中的变量](./native-pdf/native-pdf-variables.md)
             + [支持语言变量](./native-pdf/native-pdf-language-variables.md)
             + 常见内容样式 {#content-styles}
                + [使用常见的内容样式](./native-pdf/stylesheet.md)
@@ -430,3 +432,4 @@ ht-degree: 4%
          + [使用条件内容](./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md)
          + [使用键](./knowledge-base/kb-articles/content-architecture/working-with-keys.md)
    + [使用氧气连接器](./oxygen-connector/use-aem-connector.md)
+

@@ -1,7 +1,7 @@
 ---
 title: 批量激活完成事件处理程序
 description: 了解批量激活完成事件处理程序
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 8f1bb12a92ab9a63aef1765e51159644242683a0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 1%
@@ -11,7 +11,6 @@ ht-degree: 1%
 # 批量激活完成事件处理程序
 
 Experience Manager指南公开 `com/adobe/fmdita/replication/complete` 用于在批量激活过程完成后执行任何操作的事件。 每当批量激活过程完成时，就会触发此事件。 例如，如果您运行批量激活地图的AEM站点预设，则会在激活过程结束后调用此事件。
-
 
 您需要创建一个AEM事件处理程序来读取此事件中可用的属性并进行进一步处理。
 

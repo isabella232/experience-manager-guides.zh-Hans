@@ -2,9 +2,9 @@
 title: 生成PDF
 description: 了解如何从Web编辑器和地图仪表板创建PDF预设。 在AEM Guides中配置PDF输出预设。
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1006'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,6 @@ ht-degree: 1%
 | 目标路径 | AEMPDF的存储库中的路径。<br><br>您还可以在设置目标路径时使用变量。 有关使用变量的更多详细信息，请参阅 [使用变量设置目标路径、站点名称或文件名选项](generate-output-use-variables.md#id18BUG70K05Z). |
 | 清理DITA-OT临时文件 | 选择此选项可清除DITA-OT生成的临时文件。 可以在输出生成日志中找到DITA-OT存储临时文件的位置。<br><br>如果在通过DITA-OT生成输出时遇到错误，可以取消选择此选项以保留临时文件。 然后，您可以使用这些文件排除输出生成错误。 |
 | 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br>请参阅 [使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) 了解更多详细信息。 |
-| 属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 从下拉列表中选择的属性列在下 **属性** 字段，并从下拉列表中删除。 设置后，这些属性也会复制到映射中的主题中。<br><br>注意：您还可以使用DITA-OT发布将元数据传递到输出。 有关详细信息，请参阅， [使用DITA-OT将元数据传递到输出](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| 属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性将显示在 **属性** 字段。 选择资产旁边的交叉图标以将其删除。 <br><br>注意：您还可以使用DITA-OT发布将元数据传递到输出。 有关详细信息，请参阅， [使用DITA-OT将元数据传递到输出](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)

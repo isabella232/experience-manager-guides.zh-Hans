@@ -1,11 +1,11 @@
 ---
 title: 下载并安装
-description: 了解如何下载和安装 AEM Guides
+description: 了解如何下载和安装
 exl-id: 40ea0510-b25e-4180-b076-c4f771071dda
-source-git-commit: 31dc283a5e51fc9c504ac4e75a9719dc247e90eb
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 5%
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 

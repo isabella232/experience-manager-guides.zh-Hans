@@ -1,10 +1,10 @@
 ---
-title: 本机PDF |PDF输出生成
+title: 本机PDF | PDF输出生成
 description: 了解如何在AEM Guides中使用本机PDF发布、创建和生成PDF输出预设、在生成本机PDF输出后下载临时文件以及使用语言变量。
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
 workflow-type: tm+mt
-source-wordcount: '3255'
+source-wordcount: '3196'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 使用此方法可从地图仪表板为地图生成PDF输出。 您可以通过在地图功能板中为打开的地图创建输出预设，在生成PDF之前设置发布属性。 要创建或编辑输出预设，请使用 *了解输出预设* 中的部分 [AEM Guidesas a Cloud Service用户指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-有关使用DITA-OT方法生成PDF的更多信息，请参见 [使用DITA-OT生成PDF](/help/product-guide/user-guide/generate-output-pdf.md).
+有关使用DITA-OT方法生成PDF的更多信息，请参见 [使用DITA-OT生成PDF](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-pdf.html).
 
 * **FrameMaker Publishing Server(FMP)**
 
 使用此方法可生成DITAPDF以及AEM存储库中可用的FrameMaker文档(.book和.fm)的文档输出。 PDF可通过配置输出预设创建，并使用FrameMaker Publishing Server(FMPS)发布。 您可以针对PDF和其他格式设计和配置输出的外观，并将其存储在设置文件(.sts)中。 然后，FMPS使用此设置文件来生成DITA映射或.book文件的输出。 要创建或编辑输出预设，请参阅  *了解输出预设* 中的部分 [AEM Guidesas a Cloud Service用户指南](https://helpx.adobe.com/content/dam/help/en/xml-documentation-solution/cs-apr-22/XML-Documentation-for-Adobe-Experience-Manager_CS_User-Guide_EN.pdf).
 
-有关配置FMPS的更多信息，请参阅 [从FrameMaker单据生成输出](/help/product-guide/user-guide/fm-output-generate.md).
+有关配置FMPS的更多信息，请参阅 [从FrameMaker单据生成输出](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Ffm-output-generatation.html).
 
 * **本机PDF发布**
 
@@ -74,8 +74,8 @@ ht-degree: 0%
 | --- | --- |
 | **输出路径** | AEM存储库中存储PDF输出的路径。 确保输出路径不在项目文件夹内。 如果留空，将在默认DITA映射输出位置生成输出。<br>您还可以使用以下现成的变量来定义输出路径。 您可以使用单个变量或变量组合来定义此选项。 <br> `${map_filename}`：使用DITA映射文件名称创建目标路径。 <br> `${map_title}`：使用DITA映射标题创建目标路径。 <br>`${preset_name}`：使用输出预设名称创建目标路径。 <br> `${language_code}`：使用映射文件所在的语言代码创建目标路径。 <br> `${map_parentpath}`：使用映射文件的完整路径创建目标路径。  <br>`${path_after_langfolder}`：使用语言文件夹后的映射文件的路径创建目标路径。 |
 | **PDF文件** | 指定文件名以保存PDF。 默认情况下，PDF文件名会添加DITA映射名称以及预设名称。 例如，ditamap是“TestMap”，预设的名称为“preset1”，则pdf的默认名称将为“TestMap_preset1.pdf”。 <br>您还可以使用以下开箱即用的变量来定义PDF文件。 您可以使用单个变量或变量组合来定义此选项。 <br>`${map_filename}`<br>`${map_title}`<br>`${preset_name}` <br> `${language_code}`。 |
-| **使用以下方式应用条件** | 对于条件化内容，请从以下选项中进行选择，以根据这些条件生成PDF输出： <br><ul> <li> **未应用** 如果不想对映射和源内容应用任何条件，请选择此选项。 <br><li> **Ditaval文件** 选择DITAVAL文件以生成条件化内容。 要进行选择，请单击“条件预设”并查找文件。 <br> <li> **条件预设** 从下拉列表中选择条件预设，以在发布输出时应用条件。 如果为DITA映射文件添加了条件，则此选项可见。 条件设置在DITA映射控制台的条件预设选项卡中可用。 要了解有关条件预设的更多信息，请参阅 [使用条件预设](/help/product-guide/user-guide/generate-output-use-condition-presets.md). <br> </ul> |
-| **使用基线** | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 请参阅 [使用基线](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) 以了解更多详细信息。 |
+| **使用以下方式应用条件** | 对于条件化内容，请从以下选项中进行选择，以根据这些条件生成PDF输出： <br><ul> <li> **未应用** 如果不想对映射和源内容应用任何条件，请选择此选项。 <br><li> **Ditaval文件** 选择DITAVAL文件以生成条件化内容。 要进行选择，请单击“条件预设”并查找文件。 <br> <li> **条件预设** 从下拉列表中选择条件预设，以在发布输出时应用条件。 如果为DITA映射文件添加了条件，则此选项可见。 条件设置在DITA映射控制台的条件预设选项卡中可用。 要了解有关条件预设的更多信息，请参阅 [使用条件预设](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-condition-presets.html). <br> </ul> |
+| **使用基线** | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。 请参阅 [使用基线](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Fgenerate-output-use-baseline-for-publishing.html) 以了解更多详细信息。 |
 | **在已发布的版本之间使用更改栏创建PDF** | 使用以下选项创建一个PDF，该内容使用更改栏显示两个版本之间的内容差异：   <br><ul><li> **以前版本的基线** 选择要与当前版本或其他基线进行比较的基线版本。 PDF中将显示一个更改栏，以指示修改的内容。 更改条是一条垂直线，用于直观地标识新内容或修订的内容。 更改栏显示在已插入、更改或删除的内容左侧。 <br> **注意**：如果您选择 **使用基线** 并选择要发布的基线，将在两个选定的基线版本之间进行比较。 例如，如果您选择基线下的版本1.3 **使用基线**&#x200B;和版本1.1，位于 **以前版本的基线**，将在基线版本1.1与基线版本1.3之间进行比较。 <br><li> **显示添加的文本** 选择以绿色和带下划线的形式显示插入的文本。 默认情况下，该选项处于选中状态。 <br> <li> **显示已删除的文本** 选择以红色显示删除的文本并标记删除线。 默认情况下，该选项处于选中状态。 <br>**注意** 您还可以使用样式表自定义更改栏、插入的内容或删除内容的样式。<br></ul> |
 | **后期生成工作流** | 选择以显示一个下拉列表，其中包含在AEM中配置的所有工作流。 您可以选择在PDF生成工作流完成后要执行的工作流。 |
 
@@ -167,7 +167,7 @@ ht-degree: 0%
 | **启用MathML公式** | 选择此选项以呈现内容中存在的MathML公式。 否则将默认忽略公式。 |
 | **下载临时文件** | 如果要下载在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 |
 | **PDF符合性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请参阅 [关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
-| **文件属性** | 选择要作为元数据处理的属性。 该下拉列表会同时列出自定义属性和默认属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 设置后，这些属性也会复制到映射中的主题中。 所选的元数据属性将传递到使用本机PDF生成的输出。 |
+
 
 ## 生成PDF输出 {#generate-pdf-output}
 

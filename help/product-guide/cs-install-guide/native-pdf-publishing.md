@@ -2,9 +2,9 @@
 title: 自定义和配置本机PDF发布功能
 description: 了解如何自定义和配置本机PDF功能的各种组件。
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 0%
 * [PDF模板的组件](../native-pdf/components-pdf-template.md)
 * [设计页面布局](../native-pdf/design-page-layout.md)
 * [支持语言变量](../native-pdf/native-pdf-language-variables.md)
+* [PDF输出中的变量](../native-pdf/native-pdf-variables.md)
 * 常见内容样式 {#content-styles}
    * [使用常见的内容样式](../native-pdf/stylesheet.md)
    * [使用自定义更改条样式](../native-pdf/change-bar-style.md)

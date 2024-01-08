@@ -2,9 +2,9 @@
 title: 创建和自定义本机PDF模板
 description: 了解如何创建和自定义本机PDF模板。
 exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 0%
 选择此选项可在Assets UI中查看模板。 在打开模板的根位置时，您可以查看模板的所有资源。
 
 创建自定义模板后，您可以从PDF输出预设的“页面布局”中选择它。
-了解如何 [发布PDF输出](/help/product-guide/web-editor/native-pdf-web-editor.md).
+了解如何 [发布PDF输出](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/output-gen/web-editor/native-pdf-web-editor.html?lang=en).
 
 >[!NOTE]
 >
@@ -112,7 +112,6 @@ ht-degree: 0%
 可通过调整模板组件并使用样式表应用样式格式来自定义模板。
 
 要自定义PDF模板，请执行以下步骤：
-
 1. 在Web编辑器中，转到 **输出** 选项卡。
 1. 展开左侧边栏并选择 **模板**.
 

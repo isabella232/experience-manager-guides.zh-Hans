@@ -4,9 +4,9 @@ description: 了解如何使用Adobe Experience Manager Guides的氧气插件创
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
 workflow-type: tm+mt
-source-wordcount: '6101'
+source-wordcount: '6294'
 ht-degree: 0%
 
 ---
@@ -246,22 +246,21 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    ![文档类型关联](images/document_type_association.png){width="650" align="left"}
 
-1. 在 **类路径** 选项卡，选择com.adobe.o2.connector **使用插件中的ID为父类加载器** 下拉菜单。
+1. 在 **类路径** 选项卡，选择 `com.adobe.o2.connector` 在 **使用插件中的ID为父类加载器** 下拉菜单。
 
    ![“类路径”选项卡](images/dita-extension.png){width="650" align="left"}
 
 1. 在 **扩展** 选项卡中，进行以下更改：
-   - 单击 **选择** 旁边的 **作者扩展状态侦听器** 下 **单个扩展** 并选择CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
-   - 单击 **选择** 旁边的 **作者自定义属性值编辑器** 下 **单个扩展** 并选择CustomValueEditor - com.adobe.o2.framework.extn **类** 列表。 单击 **确定**.
-以下屏幕截图显示了配置的 **扩展名** DITA主题的选项卡：
 
-     ![为DITA主题配置的扩展](images/dita-topic-extension-tab.png){width="650" align="left"}
-
-   - 单击 **选择** 旁边的 **扩展包** 并选择LinkResolverExtensionBundle - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
-
+   - 单击 **选择** 旁边的 **扩展包** 并选择   `LinkResolverExtensionBundle - com.adobe.o2.framework.extn` 在 **类** 列表。 单击&#x200B;**确定**。
      ![为DITA主题配置的扩展](images/dita-map-extenstion-link-resolve.png) {width="650" align="left"}
+   - 单击 **选择** 旁边的 **作者扩展状态侦听器** 下 **单个扩展** 并选择 `CustomAuthorExtensionStateListener - com.adobe.o2.framework.extn` 在 **类** 列表。 单击&#x200B;**确定**。
+   - 单击 **选择** 旁边的 **作者自定义属性值编辑器** 下 **单个扩展** 并选择 `CustomValueEditor - com.adobe.o2.framework.extn` 在 **类** 列表。 单击&#x200B;**确定**。
+   - 单击 **选择** 旁边的 **创作外部对象插入处理程序** 下 **单个扩展** 并选择 `CustomURLInsertionHandler - com.adobe.o2.ui ` 在 **类** 列表。 单击&#x200B;**确定**。
 
 
+   以下屏幕截图显示了配置的 **扩展名** DITA主题的选项卡：
+   <img src="images/dita-topic-extension-tab.png" alt="为DITA主题配置的扩展" width="650" border="2px">
 1. 单击 **确定** ，以保存更改。
 
 ### 配置DITA映射扩展
@@ -270,20 +269,23 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 执行以下步骤来配置DITA map扩展：
 
-1. 在Oxygon XML Author中，单击&#x200B;**选项** \> **偏好设置**.
+1. 在Oxygon XML Author中，单击 **选项** \> **偏好设置**.
 1. 在 **文档类型关联** 选项卡，选择 **DITA映射**，然后单击 **扩展**.
 1. 在 **类路径** 选项卡，选择com.adobe.o2.connector **使用插件中的ID为父类加载器** 下拉菜单。
 1. 在 **扩展** 选项卡中，进行以下更改：
-1. 
-   - 单击 **选择** 旁边的 **作者扩展状态侦听器** 下 **单个扩展** 并选择CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
-- 单击 **选择** 旁边的 **作者自定义属性值编辑器** 下 **单个扩展** 并选择CustomValueEditor - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
-- *\（可选\）* 如果在打开映射文件时不想解析引用，则需要执行以下附加配置：
+   - 单击 **选择** 旁边的 **扩展包** 并选择   `com.adobe.o2.framework.extn.LinkResolverDITAMapExtensionBundle` 在 **类** 列表。 单击&#x200B;**确定**。
 
-  单击 **选择** 旁边的 **引用解析程序** 下 **单个扩展** 并选择CustomDITAMapReferenceResolver - com.adobe.o2.framework.extn **类** 列表。 单击&#x200B;**确定**。
+   - 单击 **选择** 旁边的 **作者扩展状态侦听器** 下 **单个扩展** 并选择 `CustomDITAMapAuthorExtensionStateListener - com.adobe.o2.framework.extn` 在 **类** 列表。 单击&#x200B;**确定**。
 
-  以下屏幕截图显示了配置的 **扩展名** 选项卡：
+   - 单击 **选择** 旁边的 **创作外部对象插入处理程序** 下 **单个扩展** 并选择 `CustomURLInsertionHandler - com.adobe.o2.ui ` 在 **类** 列表。 单击&#x200B;**确定**。
 
-  ![为DITA映射配置的扩展](images/dita-map-extension-tab.png){width="650" align="left"}
+   - 单击 **选择** 旁边的 **作者自定义属性值编辑器** 下 **单个扩展** 并选择 `CustomValueEditor - com.adobe.o2.framework.extn` 在 **类** 列表。 单击&#x200B;**确定**。
+
+   - 单击 **选择** 旁边的 **引用解析程序** 下 **单个扩展** 并选择 `CustomDITAMapReferenceResolver - com.adobe.o2` 在 **类** 列表。 单击&#x200B;**确定**。
+   - *\（可选\）* 如果在打开映射文件时不想解析引用，则需要执行以下附加配置：
+
+   以下屏幕截图显示了配置的 **扩展名** 选项卡：
+   <img src="images/dita-map-extension-tab.png" alt="为DITA映射配置的扩展" width="650" border="2px">
 
 1. 单击 **确定** ，以保存更改。
 
@@ -440,7 +442,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
    ![签入对话框](images/checkin-dropdown-labels.png){width="550" align="left"}
 
-   您可以向主题的同一版本添加多个标签（用逗号分隔）。  例如， *Adobe*， *AEM*，*指南*
+   您可以向主题的同一版本添加多个标签（用逗号分隔）。  例如， *Adobe*， *AEM*， *指南*.
 但是，不能向主题的不同版本添加相同的标签。 如果添加已经添加到早期版本的标签，则会将其添加到最新版本并从早期版本中删除。
 
    >[!NOTE]
@@ -511,7 +513,7 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
 
 - 当您从AEM存储库签出内容并在本地系统上做出更改时，请确保在上传文件时文件名未发生更改。
 
-- 在DITA映射管理器中插入引用时，将显示文件的标题而不是UUID。 如果标题不存在，则显示文件名。
+- 在DITA映射管理器或编辑器中插入引用时，将显示文件的标题而不是UUID。 如果标题不存在，则显示文件名。
 
 ### 添加或删除收藏夹 {#id195HC04405P}
 
@@ -607,6 +609,24 @@ JxBrowser通过氧气连接器插件用于SSO身份验证。 它是一个基于c
    >[!NOTE]
    >
    >确保使用AEM Guides的氧气插件签入主题，如果从AEM Web界面签入，则在氧气XML创作中所做的更改不会保存在主题的签入版本中。
+
+**插入对Experience Manager指南存储库中主题的引用**
+
+也可以拖放主题以将引用插入到主题或DITA映射中。
+>[!NOTE]
+>
+> 在添加对某个文件的任何引用之前，您需要签出该文件。
+
+根据参照类型添加以下元素：
+
+如果拖放到编辑器并打开主题，请执行以下操作：
+- 引用被添加了 `<image>` 图像的元素。
+- 为视频或音频添加对象元素。
+- 此 `<xref>`  为所有其他引用(如topic、map、DITAVAL、PDF、ZIP和XML)添加了元素。
+
+如果您使用打开的映射拖放到编辑器或DITA映射管理器：
+- 此 `<mapref>` 为映射引用（包括DITA映射、书签映射或主题方案）添加了元素。
+- 此 `<topicref>` 为所有其他引用(如topic、map、DITAVAL、PDF、ZIP和XML)添加了元素。
 
 
 ## 使用属性配置文件 {#id1827JA002YK}

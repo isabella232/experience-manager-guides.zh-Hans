@@ -2,9 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年2月版
 description: Adobe Experience Manager Guidesas a Cloud Service2月版
 exl-id: 090eaf94-fe3a-47e9-9937-f84f8434550d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -121,22 +121,22 @@ AEM Guides允许您在映射中搜索包含特定文本的文件。 搜索到的
 
 对于每个发布请求，AEM Guidesas a Cloud Service会运行一个单独的容器，该容器会根据用户请求水平缩放。 这使您能够运行多个发布请求并获得改进的性能。
 
-有关更多详细信息，请参阅 [为AEM Guidesas a Cloud Service配置新的基于微服务的发布](/help/product-guide/knowledge-base/publishing/configure-microservices.md).
+有关更多详细信息，请参阅 [为AEM Guidesas a Cloud Service配置新的基于微服务的发布](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/publishing/configure-microservices.md).
 
-## 本机PDF |在PDF输出中添加自定义书签
+## 本机PDF | 在PDF输出中添加自定义书签
 
 现在，您可以在最终PDF输出中为特定内容添加自定义书签以便轻松导航。 这将添加到从DITA映射中的主题或节标题创建的目录。
 
-## 本机PDF |对目录条目和主题内容应用自定义样式
+## 本机PDF | 对目录条目和主题内容应用自定义样式
 
 AEM Guides提供了对目录条目或PDF输出中的特定主题应用自定义样式的功能。 例如，您可以更改目录中的文本颜色和主题标题。 您还可以在主题的整个内容中应用样式。
 
 
-## 本机PDF |在脚注组件中设置页面标记的样式
+## 本机PDF | 设置脚注组件中页面标记的样式
 
 现在，您可以在脚注中设置页面标记的样式。 例如，您可以添加括号或更改其颜色。 这些样式可帮助用户轻松识别文档中的页面标记。
 
-## 本机PDF |更改栏以指示目录中已更改的主题
+## 本机PDF | 更改栏以指示目录中已更改的主题
 
 AEM Guides现在允许您快速识别PDF输出目录中的已更改主题。  它会在目录中已更改的主题左侧显示更改栏。 您可以单击目录中的主题并查看详细更改。
 

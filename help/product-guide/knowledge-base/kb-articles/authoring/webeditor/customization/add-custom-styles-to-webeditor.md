@@ -2,9 +2,9 @@
 title: 向“参考线”编辑器添加自定义样式
 description: 了解如何添加自定义样式以更改指南编辑器的外观。
 exl-id: 03143fb2-d05d-4103-b172-8b91880b7f9e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 0%
 [使用此链接可了解有关文件夹配置文件和配置CSS模板布局的更多信息](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/editor-configuration.html?lang=en#customize-the-css-template-layout)
 
 使用以下内容在编辑器中设置上述样式：
-
 - 使用 [css_layout.css](../../../assets/authoring/webeditor-customstyles-css_layout.css) 并将其上传到您选择的文件夹配置文件
 - 安装附加的包 [webeditor-styles-resources.zip](../../../assets/authoring/webeditor-styles-resources.zip) 使用AEM包管理器安装上述CSS文件中使用的资源
 
@@ -57,4 +56,4 @@ Please note this is compatible to AEM Guides version 4.2 and AEM Guides cloud ve
 
 ## 引用
 
-您还可能对中介绍的有关Web服务器配置和自定义的专家讲座感兴趣 [Webeditor专家会议](/help/product-guide/knowledge-base/expert-sessions/webbased-authoring-jan2023.md)
+您还可能对中介绍的有关Web服务器配置和自定义的专家讲座感兴趣 [Webeditor专家会议](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/knowledge-base/expert-session/webbased-authoring-jan2023.html?lang=en)

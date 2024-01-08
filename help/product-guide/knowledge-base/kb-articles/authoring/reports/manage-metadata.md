@@ -2,9 +2,9 @@
 title: 在AEM Guides中管理DITA文件的标记
 description: 关于在AEM Guides中管理cq：tags的简短文章
 exl-id: 2d805c26-df9b-405a-81ca-7aa84c6f86c8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '280'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 ### 在管理 — >元数据中的列表为空或不完整
 
-如果列表为空或不完整，则您可能需要在ditamap上运行索引，您可以参考 [升级说明（为您的内容编制索引）](/help/product-guide/install-guide/upgrade-xml-documentation.md#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
+`If list is empty or  incomplete then you may need to run the indexing on your ditamap, You can refer` [升级说明（为您的内容编制索引）](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/install-guide/on-prem-ig/download-install-upgrade-aemg/upgrade-xml-documentation.html?lang=en#steps-to-index-the-existing-content-to-use-the-new-find-and-replace%3A)
 
 ### 自定义元数据未在列表中显示
 
@@ -54,8 +54,8 @@ ht-degree: 1%
 
 ## 其他有用资源
 
-- [使用映射功能板批量标记（资产UI）](/help/product-guide/user-guide/map-editor-bulk-tagging.md)
-- [Web编辑器中的Ditamap报表](/help/product-guide/user-guide/reports-web-editor.md)
+- [使用映射功能板批量标记（资产UI）](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/manaege-metadata/map-editor-bulk-tagging.html?lang=en)
+- [Web编辑器中的Ditamap报表](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/tutorials/user-guide/reports-aem-guide/reports-web-editor.html?lang=en)
 - [在AEM中标记](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/configuring/tagging.html?lang=en)
 
 

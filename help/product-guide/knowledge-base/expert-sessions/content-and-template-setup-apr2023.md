@@ -2,9 +2,9 @@
 title: 内容和模板设置
 description: 了解在AEM Guides中设置内容和模板时应考虑哪些事项。
 exl-id: f125bad9-33a2-4de5-b43f-d6368d61879b
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 ## 会话概述
 
 在本届会议上，我们广泛讨论了以下问题：
-
 - 内容设置的不同方面（分类、分类、元数据）
 - 设置内容模板（主题模板、地图模板、代码片段）
+
 
 
 ## 会话录制
@@ -38,7 +38,6 @@ ht-degree: 1%
 ## 要点
 
 在本次研讨会中，您已了解以下内容：
-
 - 在导入/创建内容之前花费时间来分析和思考
 - 对内容进行分类和分类，以符合不同的用户区段（最终用户或作者）
 - 利用元数据功能提高用户工作效率
@@ -52,14 +51,13 @@ ht-degree: 1%
 
 - **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/folder-profiles.html)
 
-- **用户指南** - [创作内容](/help/product-guide/user-guide/reports-intro.md)
+- **用户指南** - [创作内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **社区论坛**  — 对于特定于Experience League会话的社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 此会话中显示的功能在以下版本的AEM Guides中可用：
->
 > - 内部部署：4.2或更高版本
 > - Cloud Service：2303或更高版本
 

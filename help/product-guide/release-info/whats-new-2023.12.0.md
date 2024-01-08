@@ -1,9 +1,9 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides（2023年12月版）的新增功能
 description: 在2023年12月版的Adobe Experience Manager Guidesas a Cloud Service中了解新增功能和增强功能。
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: a2605a7758f53fd877f28cad98a1ef17f9f87b50
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,15 @@ ht-degree: 0%
 有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请查看 [发行说明](release-notes-2023.12.0.md).
 
 
-## 在本机PDF输出中使用变量
+## 在PDF输出中使用变量
 
-您可以使用变量集动态插入和管理可能根据特定条件（如产品名称和版本）发生更改的信息。 此功能可帮助您使用相同的PDF布局并生成具有不同值的输出。 您不必为每一组值创建单独的布局。
+您可以使用变量动态插入和管理可重用信息。 Experience Manager参考线可帮助您在生成PDF输出时创建、编辑和预览变量。 您可以快速修改变量的值，使您的文档可移植且易于更新。
 
-例如，您可以为每个产品创建一个变量集。 此变量集可由用于不同产品详细信息（如ProductName、VersionNumber和ReleaseDate）的变量组成。 然后，您可以为这些变量添加不同的值。
+![原生pdf变量](assets/add-variable-default.png){width="800" align="left"}
+
+*在Web编辑器中创建和管理变量。*
+
+您还可以创建变量集，以覆盖默认值并为变量分配替代值。 在页面布局中插入这些变量并使用相同的PDF布局，则无需为每个值集创建单独的布局。 例如，您可以为每个产品版本创建一个变量集。 此变量集可以由适用于不同产品详细信息（如产品名称、版本号和发行日期）的变量组成。 然后，您可以为这些变量添加不同的值。
 
 **变量集1：Adobe集1**
 
@@ -27,30 +31,25 @@ ht-degree: 0%
 * 版本号：2311
 * 发行日期： 2023年11月2日
 
-**变量集1：Adobe集2**
+**变量集2：Adobe集2**
 
 * ProductName：Experience Manager指南
 * 版本号：2310
 * 发行日期： 2023年9月27日
 
 
-![原生pdf变量](assets/native-pdf-variables.png){width="800" align="left"}
-
-*从Web编辑器的“输出”选项卡中创建变量。*
-
-您还可以使用具有HTML标记的值创建变量。 例如，使用从内容DAM添加图像 `<img>` 标记之前。
-
-创建变量后，可以使用输出模板中的页面布局将变量添加到文档中的相应位置。 系统会根据您在输出预设中选择的PDF集，在变量输出中自动选取值。
-
-
 
 <img src="./assets/native-pdf-variable-output.png" alt="PDF输出中的页脚" width="500" border="2px">
 
-*使用PDF布局中的变量生成本机PDF输出。*
+*使用PDF布局中的变量生成PDF输出。*
 
-此功能有助于使用文档中的动态内容生成自定义输出并高效管理更改。 您还可以应用样式并使用HTML标记来设置变量的格式。
+您可以应用样式并使用HTML标记来设置变量的格式。  您还可以在需要时快速更新任何变量的值并重新生成输出。 例如，如果需要更新版本的详细信息，可以在VersionNumber变量中编辑版本值并重新生成输出。
 
-您还可以在需要时快速更新任何变量集的值并重新生成输出。 例如，如果需要更新版本的详细信息，可以在VersionNumber中更新版本值并重新生成输出。
+
+详细了解如何使用 [PDF输出中的变量](../native-pdf/native-pdf-variables.md).
+
+
+
 
 
 ## 改进了编辑属性的体验
@@ -89,6 +88,7 @@ ht-degree: 0%
 
 *为ServiceNow知识库创建输出预设。*
 
+了解关于 [知识库](../user-guide/generate-output-knowledge-base.md) 输出预设。
 
 ## 增强地图收藏集仪表板
 
@@ -124,6 +124,8 @@ Experience Manager指南现在为从Web编辑器创建基线提供了增强的�
 ![复制基线 ](assets/duplicate-baseline.png) {width="300" align="left"}
 
 *复制基于标签的基线或创建精确副本。*
+
+详细了解如何 [通过Web编辑器创建和管理基线](../user-guide/web-editor-baseline.md).
 
 ## 改进了批量激活图集合的创建流程
 

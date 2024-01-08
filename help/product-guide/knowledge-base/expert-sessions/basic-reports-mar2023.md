@@ -2,9 +2,9 @@
 title: AEM Guides中的报表
 description: 了解AEM中提供了哪些所有报告以帮助用户改进内容质量。
 exl-id: f0d761ff-efea-452c-bb8e-865f34a182fc
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '263'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 1%
 ## 会话概述
 
 在本次研讨会中，我们向用户展示了现成的报告。 我们大致涵盖了以下内容：
-
 - 文档（地图）和主题报表
 - 元数据报表和批量元数据管理选项
 - 内容重用报表
@@ -41,7 +40,6 @@ ht-degree: 1%
 ## 要点
 
 在本次研讨会中，您已了解以下内容：
-
 - 报告在CCMS中的重要性
 - 现成可用的报告
 - 内容报表示例
@@ -53,14 +51,13 @@ ht-degree: 1%
 
 - **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/output-generation/working-with-reports.html?lang=en)
 
-- **用户指南** - [创作内容](/help/product-guide/user-guide/reports-intro.md)
+- **用户指南** - [创作内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map%2Freports-intro.html)
 
 - **社区论坛**  — 对于特定于Experience League会话的社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 此会话中显示的功能在以下版本的AEM Guides中可用：
->
 > - 内部部署：4.2或更高版本
 > - Cloud Service：2302或更高版本
 

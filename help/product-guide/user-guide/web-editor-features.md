@@ -2,9 +2,9 @@
 title: 了解Web编辑器功能
 description: 在AEM Guides中发现Web编辑器的功能。 了解Web编辑器的界面，包括主工具栏、辅助工具栏、左侧面板、内容编辑区域和右侧面板。
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: 9d9a1f270873869ce8261aae439f0ecd7d9fea94
 workflow-type: tm+mt
-source-wordcount: '17222'
+source-wordcount: '17364'
 ht-degree: 0%
 
 ---
@@ -147,9 +147,11 @@ ht-degree: 0%
 
   ![](images/editor-setting-add-attributes-list.png-to-element.PNG){width="300" align="left"}
 
-- **发布配置文件**：这包含可用于发布知识库输出的发布配置文件。 您可以为选定的使用者类型创建新配置文件。 例如，Salesforce。
+- **发布配置文件**：这包含可用于发布的发布配置文件 **知识库** 输出。 您可以为目标知识库创建新的用户档案。 例如，Salesforce或ServiceNow。
 
-   - **创建Salesforce发布配置文件的要求**
+   - **创建Salesforce发布配置文件**
+
+     **前提条件**
 
       - 为Salesforce创建连接的应用程序。 有关更多详细信息，请参阅 [为API集成启用OAuth设置](https://help.salesforce.com/s/articleView?id=sf.connected_app_create_api_integration.htm&amp;type=5).
 
@@ -157,7 +159,7 @@ ht-degree: 0%
 
          - 指定回调。
 
-           `URL: http://: <server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
+           `URL: http://<server name>:<port>/bin/dxml/thirdparty/callback/salesforce`
 
          - 选择以下OAuth范围：
             - 完全访问（完全）
@@ -166,18 +168,38 @@ ht-degree: 0%
   配置应用程序后，Salesforce会提供 **使用者密钥** 和 **使用者密码**.
 
   这些资源可用于创建Salesforce发布配置文件。
-  ![编辑器设置中的配置文件](./images/create-profile-editor-settings.png){width="300" align="left"}
 
 
+   - 要创建Salesforce发布配置文件，请选择 **Salesforce** 来自的知识库 **服务器类型** 下拉菜单。 输入配置文件名称。 在 **站点URL**，输入用于发布输出的使用者网站，然后添加 **使用者密钥** 和 **使用者密码** 由Salesforce消费者网站提供。 然后， **验证** 和 **保存** 新创建的配置文件。
+     ![编辑器设置中的salesforce发布配置文件](./images/salesforce-publish-profile.png){width="550" align="left"}
 
-- 要创建发布配置文件，您可以从中选择知识库，如Salesforce **服务器类型** 下拉菜单。 输入配置文件名称。 在 **站点URL** 输入用于发布输出的消费者网站，然后添加 **使用者密钥** 和 **使用者密码** 由Salesforce等消费者网站提供。 然后登录到新创建的配置文件。
-
-  >[!NOTE]
-  >
-  >要为《Experience Manager指南》中的Salesforce配置代理，请使用AEM中的Apache HTTP组件代理配置。 了解如何 [为AEM Link Checker配置代理](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
+     >[!NOTE]
+     >
+     >要为《Experience Manager指南》中的Salesforce配置代理，请使用AEM中的Apache HTTP组件代理配置。 了解如何 [为AEM Link Checker配置代理](https://helpx.adobe.com/experience-manager/kb/How-to-configure-proxy-for-the-AEM-Link-Checker-AEM.html).
 
 
-  登录后，可以在DITA Map的输出预设中选择发布配置文件，并使用生成所选文章的输出。 有关更多详细信息，请参阅 [从Web编辑器中基于文章的发布](../install-guide/configure-article-based-publishing.md) 在《安装和配置指南》中。
+   - **创建ServiceNow发布配置文件**
+
+     **前提条件**
+
+     配置ServiceNow服务器以上传资产。
+      - 连接到 **ServiceNow** 服务器。
+      - 导航到 **系统属性** > **安全性**.
+      - 取消选中以下选项：
+
+        **必须设置此属性以激活用于上传的MIME类型检查（所有版本Eureka及更高版本）。 启用(true)或禁用(false)文件附件的mime类型验证。 上传期间，将检查通过glide.attachment.extensions配置的文件扩展名是否具有MIME类型。**
+
+      - 单击&#x200B;**保存**。
+
+     配置应用程序后，创建 **ServiceNow** 发布配置文件。
+   - 要创建发布配置文件，请从中选择ServiceNow知识库 **服务器类型** 下拉菜单。 输入配置文件 **名称**. 在 **ServiceNow URL**，输入用于发布输出的消费者网站，然后添加 **用户名** 和 **密码** 由ServiceNow使用者站点提供。 然后， **验证** 和 **保存** 新创建的配置文件。
+
+     ![ServiceNow发布配置文件](./images/service-now-publish-profile.png){width="550" align="left"}
+
+  验证后，可以在DITA Map的输出预设中选择发布配置文件，并使用它生成输出到  **Salesforce** 或 **ServiceNow** 您选择的服务器。
+
+  了解关于 [知识库](../user-guide/generate-output-knowledge-base.md) 输出预设。
+
 
 - **验证**：此选项卡包含用于在Web编辑器中配置模式验证的选项。 您可以启用以下功能：
 
@@ -186,7 +208,7 @@ ht-degree: 0%
      >[!NOTE]
      >选定的架构文件将在选定的文件夹配置文件中保留。
 
-     ![在编辑器设置中进行验证](./images/editor-setting-validation.png){width="300" align="left"}
+     ![在编辑器设置中进行验证](./images/editor-setting-validation.png){width="550" align="left"}
 这会阻止用户保存任何违反选定架构文件中定义的规则的文件。 如果未选择此选项，则在保存更改之前不会验证文件。
 
    - **允许所有用户在验证面板中添加架构文件**：选择此项可允许用户在Web编辑器的验证面板中添加任何Schematron文件。 这允许用户添加Schematron文件，然后针对Schematron文件验证主题。 如果未选择此选项， **添加Schematron文件** 按钮不适用于 **验证面板** Web编辑器的。
@@ -232,9 +254,8 @@ ht-degree: 0%
 
 - **选择根映射**：选择一个DITA映射文件以解析键引用或术语表条目。 解析关键引用时，所选根映射的优先级最高。 有关更多详细信息，请参阅 [解析关键引用](map-editor-other-features.md#id176GD01H05Z).
 
-
 >[!NOTE]
->
+> 
 > 如果您不想使用任何根映射，请确保 **选择根映射** 字段为空。
 
 **“创作”、“源”和“预览”模式**
@@ -666,7 +687,7 @@ AEM Guides允许您以自由格式文本格式指定标签或使用一组预定�
 
 这些标签会以下拉列表形式显示给需要指定标签的作者。 这可确保在系统中仅使用预定义、一致的标签。
 
-您可以通过多种方法向主题应用标签。 [版本历史记录](web-editor-use-label.md#) 资产UI中的面板， [基线](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md#id184KD0T305Z) UI和Web编辑器。 利用Web编辑器中的版本标签功能，作者可以快速轻松地为其主题分配标签。
+您可以通过多种方法向主题应用标签。 [版本历史记录](web-editor-use-label.md) 资产UI中的面板， [基线](/help/product-guide/user-guide/generate-output-use-baseline-for-publishing.md) UI和Web编辑器。 利用Web编辑器中的版本标签功能，作者可以快速轻松地为其主题分配标签。
 
 要通过Web编辑器向主题添加标签，请执行以下步骤：
 

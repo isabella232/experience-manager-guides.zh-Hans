@@ -2,9 +2,9 @@
 title: 在编辑器工具栏中添加新的自定义可操作按钮
 description: 了解如何在编辑器工具栏中添加新的自定义按钮并调用javascript以自定义操作它。
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -60,10 +60,7 @@ ht-degree: 0%
 
 ### 处理新按钮的点击事件
 
->[!NOTE]
->
->下面提到的步骤作为此帖子中附加的包提供
-
+    注：下面提到的步骤作为此帖子中附加的包提供
 
 
 - 保存文件夹配置文件后，在项目目录(可能位于 */apps*)并添加属性，如下面的屏幕快照所示：

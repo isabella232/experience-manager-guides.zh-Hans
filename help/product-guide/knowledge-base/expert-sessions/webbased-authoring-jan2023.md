@@ -2,9 +2,9 @@
 title: 创作基于Web的内容
 description: 了解如何使用Web编辑器创作结构化内容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: 0afe8bf9b16b1d1367971462b0d44f1721b317c5
+source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '196'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ AEM Guides附带用于创作结构化内容的内置Web编辑器。 您可以使
 ## 要点
 
 在本课程中，您将学习以下内容：
-
 - 配置Web编辑器的设置
 - 使用Web编辑器功能提高作者的工作效率
 - 扩展和集成可用功能
@@ -41,14 +40,13 @@ AEM Guides附带用于创作结构化内容的内置Web编辑器。 您可以使
 
 - **功能视频** -  [Experience League](https://experienceleague.adobe.com/docs/experience-manager-guides-learn/videos/advanced-user-guide/overview.html?lang=en)
 
-- **用户指南** - [创作内容](/help/product-guide/user-guide/authoring-content.md)
+- **用户指南** - [创作内容](https://help.adobe.com/en_US/xml-documentation-for-adobe-experience-manager/index.html#t=DXML-master-map/authoring-content.html)
 
 - **社区论坛**  — 对于特定于Experience League会话的社区互动，请访问  [AEM Guides论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/bd-p/xml-documentation-discussions).
 
 >[!NOTE]
 >
 > 此会话中显示的功能在以下版本的AEM Guides中可用：
->
 > - 内部部署4.1.3或更高版本
 > - Cloud Service2211及更高版本
 
