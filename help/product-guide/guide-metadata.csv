@@ -1,0 +1,321 @@
+filename,title,feature,role,level
+./metadata.md,,,User,
+./help/product-guide/TOC.md,,,,
+help/product-guide/overview.md,Tutorials for Experience Manager Guides,Aem Guides Turotials,User,
+help/product-guide/./user-guide/rebranding-disclaimer.md,Disclaimer,Disclaimer,"User, Leader, Admin, Developer",
+help/product-guide/./release-info/latest-release-info.md,AEM Guides releases,Release Notes,Leader,
+help/product-guide/./release-info/deploy-xml-on-aemaacs.md,How to add [!DNL AEM Guides] to your [!DNL AEM as a Cloud Service] environment,Installation,Leader,
+help/product-guide/./release-info/whats-new-2023.12.0.md,"Release Notes | What's New in the Adobe Experience Manager Guides, December 2023 release",What's New,Leader,
+help/product-guide/./release-info/release-notes-2023.12.0.md,"Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, December 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/whats-new-2023.11.0.md,"Release Notes | What's New in the Adobe Experience Manager Guides, November 2023 release",What's New,Leader,
+help/product-guide/./release-info/release-notes-2023.11.0.md,"Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, November 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/whats-new-2023.10.0.md,"Release Notes | What's New in Adobe Experience Manager Guides, October 2023 release",What's New,Leader,
+help/product-guide/./release-info/release-notes-2023.10.0.md,"Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, October 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/whats-new-2023.9.0.md,"Release Notes | What's New in Adobe Experience Manager Guides, September 2023 release",What's New,Leader,
+help/product-guide/./release-info/release-notes-2023.9.0.md,"Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, September 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/whats-new-2023.7.0.md,"Release Notes | What's New in Adobe Experience Manager Guides, July 2023 release",What's New,Leader,
+help/product-guide/./release-info/release-notes-2023.7.0.md,"Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, July 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/whats-new-2023.6.0.md,"Release Notes | What's New in Adobe Experience Manager Guides, June 2023 release",What's New,Leader,
+help/product-guide/./release-info/release-notes-2023.6.0.md,"Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides, June 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/whats-new-2023.4.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, April 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2023.4.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, April 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/whats-new-2023.3.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, March 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2023.3.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, March 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/whats-new-2023.2.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, February 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2023.2.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, February 2023 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2022.11.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, November 2022 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2022.10.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, October 2022 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2022.9.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, September 2022 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2022.8.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, August 2022 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2022.5.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, May 2022 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2022.4.0.md,"Release Notes | Adobe Experience Manager Guides as a Cloud Service, April 2022 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2022.3.0.md,"Release Notes for [!DNL AEM Guides], March 2022 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2022.2.0.md,"Release Notes for [!DNL AEM Guides], February 2022 release",Release Notes,Leader,
+help/product-guide/./release-info/release-notes-2022.1.0.md,"Release Notes for [!DNL AEM Guides], January 2022 release",Release Notes,Leader,
+help/product-guide/./release-info/whats-new-4.3.1-release.md,Release Notes | What's New in Adobe Experience Manager Guides 4.3.1 release,What's New,Leader,
+help/product-guide/./release-info/whats-new-4.3-release.md,Release Notes | What's New in Adobe Experience Manager Guides 4.3.0 release,What's New,Leader,
+help/product-guide/./release-info/release-notes-4.3.1.md,Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides 4.3.1 release,Release Notes,Leader,
+help/product-guide/./release-info/release-notes-4.3.md,Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides 4.3.0 release,Release Notes,Leader,
+help/product-guide/./release-info/whats-new-4.2.1-release.md,Release Notes | What's New in Adobe Experience Manager Guides 4.2.1 release,What's New,Leader,
+help/product-guide/./release-info/whats-new-4.2-release.md,Release Notes | What's New in Adobe Experience Manager Guides 4.2 release,What's New,Leader,
+help/product-guide/./release-info/release-notes-4.2.1.md,Release Notes | Upgrade instructions and fixed issues in Adobe Experience Manager Guides 4.2.1 release,Release Notes,Leader,
+help/product-guide/./release-info/release-notes-4.2.md,Release Notes | Adobe Experience Manager Guides 4.2 release,Release Notes,Leader,
+help/product-guide/./release-info/release-notes-4.1.md,Release Notes | Adobe Experience Manager Guides 4.1 release,Release Notes,Leader,
+help/product-guide/./user-guide/intro.md,About Adobe Experience Manager Guides,Introduction,User,
+help/product-guide/./user-guide/intro-how-dxml-works.md,How AEM Guides works,Introduction,User,
+help/product-guide/./user-guide/intro-dxml-features.md,Key AEM Guides features,Introduction,User,
+help/product-guide/./user-guide/authoring.md,Manage content,Content Management,User,
+help/product-guide/./user-guide/authoring-upload-existing-files.md,Upload files,Content Management,User,
+help/product-guide/./user-guide/authoring-file-management.md,Manage files and folders,Content Management,User,
+help/product-guide/./user-guide/authoring-download-assets.md,Download files,Content Management,User,
+help/product-guide/./user-guide/authoring-content.md,Author content,Authoring,User,
+help/product-guide/./user-guide/create-preview-topics.md,Create and preview topics,Authoring,User,
+help/product-guide/./user-guide/web-editor-create-topics.md,Create topics,Authoring,User,
+help/product-guide/./user-guide/web-editor-preview-topics.md,Preview a topic,Authoring,User,
+help/product-guide/./user-guide/authoring-content-xml-doc.md,Author content using AEM Guides,Authoring,User,
+help/product-guide/./user-guide/web-editor.md,Work with the Web Editor,"Authoring, Web Editor",User,
+help/product-guide/./user-guide/web-editor-launch-editor.md,Launch the Web Editor,"Authoring, Web Editor",User,
+help/product-guide/./user-guide/web-editor-edit-topics.md,Edit topics in the Web Editor,"Authoring, Web Editor",User,
+help/product-guide/./user-guide/web-editor-features.md,Know the Web Editor features,"Authoring, Features of Web Editor",User,
+help/product-guide/./user-guide/web-editor-keyboard-shortcuts.md,Keyboard shortcuts in the Web Editor,"Authoring, Features of Web Editor",User,
+help/product-guide/./user-guide/web-editor-other-features.md,Other features in the Web Editor,"Authoring, Web Editor",User,
+help/product-guide/./user-guide/web-editor-views.md,Web Editor views,"Authoring, Features of Web Editor",User,
+help/product-guide/./user-guide/support-schematron-file.md,Support for Schematron files,"Authoring, Features of Web Editor",User,
+help/product-guide/./user-guide/web-editor-markdown-topic.md,Author Markdown documents,"Authoring, Features of Web Editor",User,
+help/product-guide/./user-guide/web-editor-apply-citations.md,Add and manage citations in your content,"Authoring, Features of Web Editor",User,
+help/product-guide/./user-guide/web-editor-content-snippet.md,Insert a content snippet from your data source,"Authoring, Features of Web Editor",User,
+help/product-guide/./user-guide/web-editor-manage-output-presets.md,Manage Global and Folder Profile output presets,"Authoring, Features of Web Editor, Publishing",User,
+help/product-guide/./user-guide/web-editor-article-publishing.md,Article-based publishing from the Web Editor,"Authoring, Features of Web Editor, Publishing",User,
+help/product-guide/./user-guide/web-editor-article-publishing-presets.md,Create output presets from the Web Editor,"Authoring, Features of Web Editor, Publishing",User,
+help/product-guide/./user-guide/web-editor-article-publishing-output.md,Generate output from the Repository panel,"Authoring, Features of Web Editor, Publishing",User,
+help/product-guide/./user-guide/web-editor-quick-generate-panel.md,Use Quick Generate panel,"Authoring, Features of Web Editor, Publishing",User,
+help/product-guide/./user-guide/translate-documents-web-editor.md,Translate documents from the Web Editor,"Authoring, Features of Web Editor, Translation",User,
+help/product-guide/./user-guide/web-editor-baseline.md,Create and manage baselines from the Web Editor,"Authoring, Features of Web Editor, Publishing",User,
+help/product-guide/./user-guide/web-editor-document-states.md,Document state,"Authoring, Features of Web Editor, Document State",User,
+help/product-guide/./user-guide/web-editor-use-label.md,Use labels,"Authoring, Features of Web Editor, Publishing",User,
+help/product-guide/./user-guide/map-editor.md,Work with the Map Editor,"Authoring, Map Editor",User,
+help/product-guide/./user-guide/map-editor-create-map.md,Create a map,"Authoring, Map Editor",User,
+help/product-guide/./user-guide/create-maps-customized-templates.md,Create maps based on customized templates,"Authoring, Map Editor",User,
+help/product-guide/./user-guide/map-editor-advanced-map-editor.md,Work with the Advanced Map Editor,"Authoring, Map Editor",User,
+help/product-guide/./user-guide/map-editor-basic-map-editor.md,Work with the Basic Map Editor,"Authoring, Map Editor",User,
+help/product-guide/./user-guide/map-editor-other-features.md,Other features in the map editors,"Authoring, Map Editor",User,
+help/product-guide/./user-guide/ditaval-editor.md,Use DITAVAL editor,"Authoring, DITAVAL Editor",User,
+help/product-guide/./user-guide/author-desktop-tools.md,Author content using desktop tools,"Authoring, Desktop Tools",User,
+help/product-guide/./user-guide/author-desktop-framemaker.md,Work with FrameMaker,"Authoring, Desktop Tools",User,
+help/product-guide/./user-guide/author-desktop-oxygen.md,Work with Oxygen,"Authoring, Desktop Tools",User,
+help/product-guide/./user-guide/review.md,Review topics or maps,Reviewing ,User,
+help/product-guide/./user-guide/authoring-create-dita-project.md,Create a DITA project,Reviewing ,User,
+help/product-guide/./user-guide/review-send-topics-for-review.md,Send topics for review,Reviewing ,User,
+help/product-guide/./user-guide/reassign-review-using-notification.md,Reassign review task using notification,Reviewing ,User,
+help/product-guide/./user-guide/review-topics.md,Review topics,Reviewing ,User,
+help/product-guide/./user-guide/review-address-review-comments.md,Address review comments,Reviewing ,User,
+help/product-guide/./user-guide/review-manage-tasks-review-dashboard.md,Manage review tasks using the Review Dashboard,Reviewing ,User,
+help/product-guide/./user-guide/review-view-completed-task.md,View a completed review task,Reviewing ,User,
+help/product-guide/./user-guide/manage-metadata.md,Manage metadata,Metadata Management,User,
+help/product-guide/./user-guide/metadata-dita.md,Work with metadata in AEM,Metadata Management,User,
+help/product-guide/./user-guide/web-editor-smart-tagging.md,Smart Tagging,Metadata Management,User,
+help/product-guide/./user-guide/map-editor-bulk-tagging.md,Bulk tagging of DITA content,Metadata Management,User,
+help/product-guide/./user-guide/translation.md,Learn how to translate content,Translation,User,
+help/product-guide/./user-guide/translation-first-time.md,Best practices for content translation,Translation,User,
+help/product-guide/./user-guide/translation-view-trans-state-6234.md,View translation status,Translation,User,
+help/product-guide/./user-guide/translation-modified-topics-6234.md,Translate modified topics,Translation,User,
+help/product-guide/./user-guide/generate-output.md,Output generation,Publishing,User,
+help/product-guide/./user-guide/generate-output-understand-presets.md,Understanding the output presets,Publishing,User,
+help/product-guide/./user-guide/generate-output-aem-site.md,AEM Site,Publishing,User,
+help/product-guide/./user-guide/generate-output-pdf.md,Generate PDF,Publishing,User,
+help/product-guide/./user-guide/generate-output-knowledge-base.md,Knowledge Base,Publishing,User,
+help/product-guide/./user-guide/generate-output-html5.md,Use HTML5,Publishing,User,
+help/product-guide/./user-guide/generate-output-epub.md,EPUB Preset,Publishing,User,
+help/product-guide/./user-guide/generate-output-custom.md,Custom,Publishing,User,
+help/product-guide/./user-guide/generate-output-json.md,JSON,Publishing,User,
+help/product-guide/./user-guide/generate-output-use-variables.md,"Use variables for setting the Destination Path, Site Name, or File Name options",Publishing,User,
+help/product-guide/./user-guide/generate-output-create-edit-preset.md,"Create, edit, duplicate, or remove an output preset",Publishing,User,
+help/product-guide/./user-guide/pass-metadata-dita-ot.md,Pass on the metadata to the output using DITA-OT,"Publishing, Metadata Management",User,
+help/product-guide/./user-guide/generate-output-conditional-attribute-profiling.md,Conditional attribute profiling,Publishing,User,
+help/product-guide/./user-guide/generate-output-use-condition-presets.md,Use condition presets,Publishing,User,
+help/product-guide/./user-guide/generate-output-use-baseline-for-publishing.md,Work with Baseline,Publishing,User,
+help/product-guide/./user-guide/generate-output-for-a-dita-map.md,Generate output for a DITA map from the map console,Publishing,User,
+help/product-guide/./user-guide/generate-output-use-map-collection-output-generation.md,Use Map Collection for output generation,Publishing,User,
+help/product-guide/./web-editor/native-pdf-web-editor.md,Native PDF | PDF output generation,"Publishing, Web Editor, Native PDF Output",User,
+help/product-guide/./web-editor/configure-additional-special-characters.md,Configure additional special characters in Web Editor toolbar,Web Editor,User,
+help/product-guide/./user-guide/generate-output-publish-dashboard.md,Manage publish tasks using the Publish Dashboard,Publishing,User,
+help/product-guide/./user-guide/generate-output-basic-troubleshooting.md,Basic troubleshooting,"Publishing, Troubleshooting",User,
+help/product-guide/./user-guide/publish-content-fragment.md,Publish a topic to a content fragment,Publishing,User,
+help/product-guide/./user-guide/conf-bulk-activation.md,Bulk Activation of published content,"Publishing, Bulk Activation",User,
+help/product-guide/./user-guide/conf-bulk-activation-create-map-collection.md,Create a bulk activation map collection,"Publishing, Bulk Activation",User,
+help/product-guide/./user-guide/conf-bulk-activation-publish-map-collection.md,Activate output,"Publishing, Bulk Activation",User,
+help/product-guide/./user-guide/conf-bulk-activation-edit-map-collection.md,Edit a bulk activation map collection,"Publishing, Bulk Activation",User,
+help/product-guide/./user-guide/conf-bulk-activation-delete-map-collection.md,Delete a bulk activation map collection,"Publishing, Bulk Activation",User,
+help/product-guide/./user-guide/fm-output-generatation.md,Generate output of FrameMaker documents,Publishing Framemaker Documents,User,
+help/product-guide/./user-guide/fm-output-understand-presets.md,Introduction to the output presets,Publishing Framemaker Documents,User,
+help/product-guide/./user-guide/fm-output-pdf-preset.md,PDF,Publishing Framemaker Documents,User,
+help/product-guide/./user-guide/fm-output-html5-preset.md,HTML5,Publishing Framemaker Documents,User,
+help/product-guide/./user-guide/fm-output-epub-preset.md,EPUB,Publishing Framemaker Documents,User,
+help/product-guide/./user-guide/fm-output-generate.md,Generate output of .book or .fm files,Publishing Framemaker Documents,User,
+help/product-guide/./user-guide/fm-output-view-status.md,View the status of the output generation task,Publishing Framemaker Documents,User,
+help/product-guide/./user-guide/reports-intro.md,Reports,Report Generation,User,
+help/product-guide/./user-guide/reports-web-editor.md,DITA map report from the Web Editor,Report Generation,User,
+help/product-guide/./user-guide/reports-ditamap.md,DITA map report from the map dashboard,Report Generation,User,
+help/product-guide/./user-guide/reports-content-reuse.md,Content Reuse Report,Report Generation,User,
+help/product-guide/./user-guide/reports-convertion-status.md,Conversion Status Report,Report Generation,User,
+help/product-guide/./user-guide/reports-reverted-file-version-history.md,Reverted files version history report,Report Generation,User,
+help/product-guide/./install-guide/introduction.md,About this guide,Introduction,Admin,Experienced
+help/product-guide/./install-guide/download-install.md,Download and install,"Introduction, Installation",Admin,Experienced
+help/product-guide/./install-guide/download-install-technical-requirements.md,Technical requirements,"Introduction, Installation",Admin,Experienced
+help/product-guide/./install-guide/download-install-aem.md,Install Adobe Experience Manager,"Introduction, Installation",Admin,Experienced
+help/product-guide/./install-guide/download-install-aemg-first-time.md,Download and install AEM Guides for the first time,"Introduction, Installation",Admin,Experienced
+help/product-guide/./install-guide/download-install-configure-dispatcher.md,Configure Dispatcher,Installation,Admin,Experienced
+help/product-guide/./install-guide/download-install-verify-aemg-installation.md,Verify AEM Guides installation,Installation,Admin,Experienced
+help/product-guide/./install-guide/upgrade-xml-documentation.md,Upgrade Adobe Experience Manager Guides,Installation,Admin,Experienced
+help/product-guide/./install-guide/download-install-unistall-aemg.md,Uninstall AEM Guides,Installation,Admin,Experienced
+help/product-guide/./install-guide/download-install-recommend-perf-optimiz.md,Recommendations for performance optimization,Performance Optimization,Admin,Experienced
+help/product-guide/./install-guide/user-admin-sec.md,User administration and security,Manage Users,Admin,Experienced
+help/product-guide/./install-guide/migrate-uuid-non-uuid.md,Non-UUID to UUID content migration,Migration,Admin,Experienced
+help/product-guide/./install-guide/migrate-non-uuid-uuid-with-versions.md,Convert non-UUID content with versions to UUID content,Migration,Admin,Experienced
+help/product-guide/./install-guide/migrate-non-uuid-uuid-without-versions.md,Convert non-UUID  content without versions to UUID content,Migration,Admin,Experienced
+help/product-guide/./install-guide/migrate-content.md,Migrate existing content,Migration,Admin,Experienced
+help/product-guide/./install-guide/migrate-content-upload-existing-dita-content.md,Upload existing DITA content,Migration,Admin,Experienced
+help/product-guide/./install-guide/migrate-content-non-dita.md,Migrate non-DITA content,Migration,Admin,Experienced
+help/product-guide/./install-guide/dita-ot-specialization.md,Use custom DITA-OT and DITA specialization,DITA-OT Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-file-names.md,Configure filenames,Filename Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-auto-uuid-filenames.md,Configure auto-filenames based on UUID,Filename Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-file-names-valid-regx.md,Configure Regx for valid file name characters,Filename Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-file-names-valid-regx-aem-site-output.md,Configure valid file names for AEM Site output,Filename Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-template-tags.md,Configure topic and map templates,Template Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-template-tags-custom-dita-topic-template.md,Configure custom DITA topic template,Template Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-template-tags-custom-dita-map-templates.md,Configure custom DITA map template,Template Configuration,Admin,Experienced
+help/product-guide/./install-guide/customize-doc-state.md,Configure document states,Document State,Admin,Experienced
+help/product-guide/./install-guide/conf-web-editor.md,Customize Web Editor,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-web-editor-customize-toolbar.md,Customize toolbar,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/configure-default-value-tags-view.md,Configure default value for the Tags View,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-checkin-checkout-title.md,Configure title for Cehck in and Check out icons,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-uuid-based-links.md,Configure display of UUID-based links,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/open-dita-files-same-tab.md,Open DITA topic or map files in same tab,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/configure-custom-panel.md,Configure a custom panel in the left panel,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/auto-save-in-editor.md,Configure file auto-save in the Web Editor,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-custom-file-filters.md,Configure filters for file browse dialog,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-save-as-new-version-close.md,Configure prompt to save as a new version on close,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-checkin-file-close.md,Configure prompt to check in a file on close,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-special-chars.md,Configure allowed special characters,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/auto-generate-ids.md,Auto-generate element IDs,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/customize-aem-custom-dictionary.md,Customize AEM's default dictionary,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/config-text-filters.md,Configure text filters,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-query-limitreads.md,Configure the number of LimitReads for a query,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/configure-article-based-publishing.md,Install packages for Article-based publishing,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-data-source-connector.md,Configure a data source connector,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-data-source-connector-tools.md,Configure a data source connector using tools,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-map-editor.md,Set the Advanced Map Editor as default,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/auto-add-navtitle.md,Include @navtitle attribute by default,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-edit-in-oxygen.md,Configure the option to edit in Oxygen,Web Editor Configuration,Admin,Experienced
+help/product-guide/./install-guide/conf-folder-level.md,Configure global or folder-level profiles,Profiles,Admin,Experienced
+help/product-guide/./install-guide/version-management.md,Version management,Version Management,Admin,Experienced
+help/product-guide/./install-guide/integrate-desktop-editors.md,Integrate desktop-based XML editors,Framemaker Integration,Admin,Experienced
+help/product-guide/./install-guide/conf-output-generation.md,Configure output generation settings,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/pdf-template.md,Create and customize Native PDF templates,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/components-pdf-template.md,Native PDF Publish Feature | Components of a PDF template,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/design-page-layout.md,Native PDF Publish Feature | Design a page layout,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/native-pdf-variables.md,Native PDF | Use variables in the PDF output,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/native-pdf-language-variables.md,Native PDF | Support for language variables,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/stylesheet.md,Native PDF Publish Feature | Work with the common content styles,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/change-bar-style.md,Native PDF Publish Feature | Work with custom change bars styles,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/custom-style-toc.md,Native PDF Publish Feature | Apply custom style on TOC entries and topic content,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/add-custom-bookmark.md,Native PDF Publish Feature | Add a custom bookmark in PDF output,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/use-javascript-content-style.md,Native PDF Publish Feature | Use JavaScript to work with content or style,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/footnote-number-style.md,Native PDF Publish Feature | Use custom styles in footnotes,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/configure-jvm-flags.md,Native PDF | Configure JVM flags for Native PDF Publishing,Output Generation,Admin,Experienced
+help/product-guide/./install-guide/conf-content-fragment-mapping.md,Configure the JSON-based mapping between a topic and a content fragment model.,Output Generation,Admin,Experienced
+help/product-guide/./install-guide/customize-workflows.md,Configure and customize workflows,Workflow Configuration,Admin,Experienced
+help/product-guide/./install-guide/translation.md,Translate content in AEM Guides,Translation,Admin,Experienced
+help/product-guide/./install-guide/conf-dita-search.md,Configure search for AEM Assets UI,Search Configuration,Admin,Experienced
+help/product-guide/./install-guide/appendix.md,Appendix,InDesign File Conversion,Admin,Experienced
+help/product-guide/./cs-install-guide/introduction.md,About this guide,Introduction,Admin,Experienced
+help/product-guide/./cs-install-guide/download-install.md,Download and install,"Introduction, Installation",Admin,Experienced
+help/product-guide/./cs-install-guide/download-install-dxml-first-time.md,Deploy AEM Guides module,Installation,Admin,Experienced
+help/product-guide/./cs-install-guide/download-install-configure-dispatcher.md,Configure Dispatcher,Installation,Admin,Experienced
+help/product-guide/./cs-install-guide/download-install-verify-dxml-installation.md,Verify AEM Guides installation,Installation,Admin,Experienced
+help/product-guide/./cs-install-guide/download-install-upgrade-dxml.md,Upgrade AEM Guides,Installation,Admin,Experienced
+help/product-guide/./cs-install-guide/download-install-additional-config-override.md,Configuration overrides,Installation,Admin,Experienced
+help/product-guide/./cs-install-guide/download-install-recommend-perf-optimiz.md,Recommendations for performance optimization,Performance Optimization,Admin,Experienced
+help/product-guide/./cs-install-guide/user-admin-sec.md,User administration and security,Manage Users,Admin,Experienced
+help/product-guide/./cs-install-guide/migrate-content.md,Migrate existing content,Migration,Admin,Experienced
+help/product-guide/./cs-install-guide/migrate-content-upload-existing-dita-content.md,Upload existing DITA content,Migration,Admin,Experienced
+help/product-guide/./cs-install-guide/migrate-content-non-dita.md,Migrate non-DITA content,Migration,Admin,Experienced
+help/product-guide/./cs-install-guide/dita-ot-specialization.md,Use custom DITA-OT and DITA specialization,DITA-OT Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-file-names.md,Configure filenames,Filename Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-auto-uuid-filenames.md,Configure auto-filenames based on UUID,Filename Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-file-names-valid-regx.md,Configure Regx for valid file name characters,Filename Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-file-names-valid-regx-aem-site-output.md,Configure valid file names for AEM Site output,Filename Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-template-tags.md,Configure topic and map templates,Template Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-template-tags-custom-dita-topic-template.md,Configure custom DITA topic template,Template Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-template-tags-custom-dita-map-templates.md,Configure custom DITA map template,Template Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/customize-doc-state.md,Configure document states,Document State,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-web-editor.md,Customize Web Editor,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-web-editor-customize-toolbar.md,Customize toolbar,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/configure-default-value-tags-view.md,Configure default value for the Tags View,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-uuid-based-links.md,Configure display of UUID-based links,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/open-dita-files-same-tab.md,Open DITA topic or map files in same tab,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/configure-custom-panel.md,Configure a custom panel in the left panel,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/auto-save-in-editor.md,Configure file auto-save in the Web Editor,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-save-as-new-version-close.md,Configure prompt to save as a new version on close,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-checkin-file-close.md,Configure prompt to check in a file on close,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-special-chars.md,Configure allowed special characters,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/auto-generate-ids.md,Auto-generate element IDs,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/customize-aem-custom-dictionary.md,Customize AEM's default dictionary,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/config-text-filters.md,Configure text filters,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-custom-file-filters.md,Configure filters for file browse dialog,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/configure-article-based-publishing.md,Install packages for Article-based publishing,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-pdf-generation-dita-ot.md,Configure single topic PDF generation,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-translation-web-editor.md,Configure Translation feature in the Web Editor,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-data-source-connector.md,Configure a data source connector,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-data-source-connector-tools.md,Configure a data source connector using tools,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-map-editor.md,Set the Advanced Map Editor as default,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/auto-add-navtitle.md,Include @navtitle attribute by default,Web Editor Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-folder-level.md,Configure global or folder-level profiles,Profiles,Admin,Experienced
+help/product-guide/./cs-install-guide/version-management.md,Version management,Version Management,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-output-generation.md,Configure output generation settings,Output Generation,Admin,Experienced
+help/product-guide/./cs-install-guide/native-pdf-publishing.md,Customize and configure the Native PDF publishing feature,Output Generation,Admin,Experienced
+help/product-guide/./native-pdf/configure-node-options.md,Native PDF | Configure Node process for Native PDF Publishing,Output Generation,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-content-fragment-mapping-cs.md,Configure the JSON-based mapping between a topic and a content fragment model.,Output Generation,Admin,Experienced
+help/product-guide/./cs-install-guide/customize-workflows.md,Configure and customize workflows,Workflow Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/translation.md,Translate content,Translation,Admin,Experienced
+help/product-guide/./cs-install-guide/conf-dita-search.md,Configure search for AEM Assets UI,Search Configuration,Admin,Experienced
+help/product-guide/./cs-install-guide/appendix.md,Appendix,"InDesign File Conversion, Troubleshooting",Admin,Experienced
+help/product-guide/./api-reference/introduction.md,Introduction,API Introduction,Developer,Experienced
+help/product-guide/./api-reference/output-management.md,REST APIs for Output management,Rest API Output Management,Developer,Experienced
+help/product-guide/./api-reference/dita-map-management.md,REST API to work with DITA maps,Rest API DITA Map,Developer,Experienced
+help/product-guide/./api-reference/data-source-connector.md,REST API to register a data source connector,Rest API Data Source,Developer,Experienced
+help/product-guide/./api-reference/conditional-attribute.md,REST API to work with conditional attributes,Rest API Conditional Attributes,Developer,Experienced
+help/product-guide/./api-reference/convert-to-dita.md,REST APIs for conversion workflow,Rest API Conversion Workflow,Developer,Experienced
+help/product-guide/./api-reference/create-activate-package.md,REST API for creating and activating packages,Rest API Packages,Developer,Experienced
+help/product-guide/./api-reference/generate-output.md,Java-based API to work with output generation,Java-Based API Publishing,Developer,Experienced
+help/product-guide/./api-reference/dita-map-management-java.md,Java-based APIs to work with DITA maps,Java-Based API Dita Map,Developer,Experienced
+help/product-guide/./api-reference/convert-to-dita-java.md,Java-based APIs for conversion workflow,Java-Based API Conversion Workflow,Developer,Experienced
+help/product-guide/./api-reference/create-baseline-label-java.md,Java-based APIs to work with baseline and labels,Java-Based API Baseline,Developer,Experienced
+help/product-guide/./api-reference/folder-profile-java.md,Java-based API to work with folder profiles,Java-Based API Folder Profiles,Developer,Experienced
+help/product-guide/./api-reference/create-activate-package-java.md,Java-based API for creating and activating packages,Java-Based API Packages,Developer,Experienced
+help/product-guide/./api-reference/post-process-event.md,Post-processing event handler,Post-Processing Event Handler,Developer,Experienced
+help/product-guide/./api-reference/bulk-activation-complete-event.md,Bulk activation complete event handler,Bulk Activation Event Handler,Developer,Experienced
+help/product-guide/./api-reference/conversion-complete-event.md,Conversion process event handler,Conversion Process Event Handler,Developer,Experienced
+help/product-guide/./knowledge-base/expert-sessions/expert-session.md,Expert Session Overview,Expert Sessions,"User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/translating-content-using-aem-guides-oct22.md,Translate content,"Translation, KB","User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/baselines-dec22.md,Manage content using baselines,"Manage Content, Publishing, KB","User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/webbased-authoring-jan2023.md,Author web-based content,"Web Editor, KB","User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/native-pdf-publishing-essentials-feb23.md,Native PDF publishing essentials,Native PDF Output,"User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/basic-reports-mar2023.md,Reports in AEM Guides,Report Generation,"User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/content-and-template-setup-apr2023.md,Content and Template setup,Template Configuration,"User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/native-pdf-publishing-eamples-part1-june2023.md,Native PDF Publishing - Learning by examples (part 1),Native PDF Output,"User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/native-pdf-publishing-hands-on-lab-sep2023.md,Native PDF publishing “Hands on lab - BYOS” – Interactive learning,Native PDF Output,"User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md,Extension Framework of AEM Guides - Customize Web-Editor and Review UI,"Web Editor, KB","User, Admin",
+help/product-guide/./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md,External Datasource Integration for AEM Guides,,"User, Admin",
+help/product-guide/./knowledge-base/kb-articles/authoring/reports/manage-metadata.md,Manage tags for DITA files in AEM Guides,Metadata Management,"User, Admin",
+help/product-guide/./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-button-to-webeditor-toolbar.md,Add new custom actionable button in webeditor toolbar,Web Editor,"User, Admin",
+help/product-guide/./knowledge-base/kb-articles/authoring/webeditor/customization/add-custom-styles-to-webeditor.md,Add custom styles to Guides webeditor,Web Editor,"User, Admin",
+help/product-guide/./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md,Schematron support in webeditor,Web Editor,"User, Admin",
+help/product-guide/./guides-ui-extensions/aem_guides_framework/basic-customisation.md,Customising the app,,"User, Admin",
+help/product-guide/./guides-ui-extensions/aem_guides_framework/jui-framework.md,Jui Framework,,"User, Admin",
+help/product-guide/./guides-ui-extensions/aem_guides_framework/components/button.md,Button,,"User, Admin",
+help/product-guide/./guides-ui-extensions/aem_guides_framework/components/icon.md,Icon,,"User, Admin",
+help/product-guide/./guides-ui-extensions/aem_guides_framework/components/label.md,Label,,"User, Admin",
+help/product-guide/./guides-ui-extensions/aem_guides_framework/components/list.md,List,,"User, Admin",
+help/product-guide/./guides-ui-extensions/aem_guides_framework/components/textArea.md,Textarea,,"User, Admin",
+help/product-guide/./guides-ui-extensions/aem_guides_framework/Widgets/rendering-widget.md,Rendering widgets,,"User, Admin",
+help/product-guide/./guides-ui-extensions/aem_guides_framework/Widgets/basic-widget.md,Widgets,,"User, Admin",
+help/product-guide/./guides-ui-extensions/getting-started/Introduction.md,Introduction ,,"User, Admin",
+help/product-guide/./guides-ui-extensions/getting-started/integrating-customisations.md,Installation and set up ,,"User, Admin",
+help/product-guide/./guides-ui-extensions/getting-started/extension-repo-intro.md,Extension Repository Intoduction,,"User, Admin",
+help/product-guide/./guides-ui-extensions/customisations/add-button.md,Simple customisation,,"User, Admin",
+help/product-guide/./guides-ui-extensions/customisations/context-menus.md,Context Menus,,"User, Admin",
+help/product-guide/./guides-ui-extensions/customisations/toolbar-topbar.md,Topbar and Toolbar,,"User, Admin",
+help/product-guide/./guides-ui-extensions/customisations/ReviewApp/components.md,Components,,"User, Admin",
+help/product-guide/./guides-ui-extensions/customisations/ReviewApp/customisation.md,Customising,,"User, Admin",
+help/product-guide/./knowledge-base/kb-articles/publishing/configuring-aem-environment-for-native-pdf-publishing.md,Configuring AEM environment for Native PDF publishing,Native PDF Output,"User, Admin",
+help/product-guide/./knowledge-base/kb-articles/publishing/fmpsandguides.md,Publishing using FrameMaker Publishing Server(FMPS) in AEM Guides,AEM Guides Framemaker Publishing Server,"User, Admin",
+help/product-guide/./knowledge-base/publishing/publish-microservice-architecture-and-performance.md,Cloud Publishing Microservice Architecture and Performance,Microservice In AEM Guides,"User, Admin",
+help/product-guide/./knowledge-base/publishing/configure-microservices.md,Configure new microservice-based publishing for AEM Guides as a Cloud Service,Microservice In AEM Guides,"User, Admin",
+help/product-guide/./knowledge-base/publishing/publishing-benchmarks-on-cloud.md,Guides Publishing Benchmarks on AEMaaCS,Publishing,"User, Admin",
+help/product-guide/./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md,Set up custom DITA-OT in [!DNL AEM Guides],DITA-OT Configuration,Admin,
+help/product-guide/./knowledge-base/kb-articles/workflows/using-post-generation-workflow.md,Post Generation Workflow,Workflow Configuration,"User, Admin",
+help/product-guide/./knowledge-base/kb-articles/translation/exclude-paragraphs-from-translation.md,Exclude paragraphs within a topic from translation,Translation,User,
+help/product-guide/./knowledge-base/kb-articles/content-architecture/working-with-conditional-content.md,Working with conditional content,Publishing,User,
+help/product-guide/./knowledge-base/kb-articles/content-architecture/working-with-keys.md,Working with keys,Use Keys In Aem Guides,Admin,
+help/product-guide/./oxygen-connector/use-aem-connector.md,Oxygen Plugin for Adobe Experience Manager Guides,"Oxygen Plugin, Authoring, Web Editor","User, Admin",
