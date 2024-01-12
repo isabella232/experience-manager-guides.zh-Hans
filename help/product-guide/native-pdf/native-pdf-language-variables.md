@@ -1,8 +1,11 @@
 ---
-title: 本机PDF |支持语言变量
+title: 本机PDF | 支持语言变量
 description: 在PDF输出和输出模板中使用语言变量
 exl-id: 2335a7d5-251b-4266-8bba-9c9935e7bbf4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1589'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年3月版
 description: Adobe Experience Manager Guidesas a Cloud Service3月版
 exl-id: b3fe7cc8-1654-467a-ab18-6e6912855ecc
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%

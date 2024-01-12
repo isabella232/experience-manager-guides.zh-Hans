@@ -2,7 +2,9 @@
 title: Experience Manager指南的Tutorials
 description: 查找有关《Experience Manager指南》(以前称为XML Documentation for Adobe Experience Manager)的教程视频。 了解Experience Manager中的本机DITA支持和结构化创作。
 exl-id: 06dd1b77-1a98-430f-8322-475d4fa4947b
-source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
+feature: AEM Guides Tutorials
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%

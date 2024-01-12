@@ -2,7 +2,9 @@
 title: AEM站点
 description: 在AEM Guides中创建和配置AEM站点预设。 使用AEM站点支持可生成基于文章的输出、输出链接主题、发布conref并在内容中搜索字符串。
 exl-id: 019d9fbf-2f23-4669-8022-d693be75c1c3
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2577'
 ht-degree: 0%

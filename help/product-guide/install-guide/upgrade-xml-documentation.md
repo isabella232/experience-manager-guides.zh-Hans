@@ -2,7 +2,10 @@
 title: 升级Adobe Experience Manager指南
 description: 了解如何升级Adobe Experience Manager Guides
 exl-id: f058b39f-7408-4874-942b-693e133886cf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '4470'
 ht-degree: 0%
@@ -239,7 +242,7 @@ ht-degree: 0%
 
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. \(可选：您可以传递映射的特定路径来进行索引，默认情况下，所有映射都将进行索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. \(可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`\)
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 — 
 
@@ -455,7 +458,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 - 确保 `damAssetLucene` 索引已完成。 这可能需要几个小时，具体取决于服务器上存在的数据量。 您可以通过检查中的重新索引字段是否设置为false来确认重新索引已完成
   `http://<server:port>/oak:index/damAssetLucene`.  此外，如果您已在以下位置添加了任何自定义项： `damAssetLucene`中，您可能需要再次应用它们。
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 - 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
@@ -684,7 +687,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
 
-- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+- 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 
 - 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port\>/bin/guides/map-find/indexing?jobId=\{jobId\}`\(例如： `http://localhost:8080/bin/guides/map-find/indexing?jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42`\)

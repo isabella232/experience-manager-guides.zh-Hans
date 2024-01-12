@@ -1,7 +1,8 @@
 ---
 title: 渲染构件
 description: 呈现如何在JUI小组件中工作
-source-git-commit: f9a72e44fe1a3d90180ff728189a24ea9c7b1b1a
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%

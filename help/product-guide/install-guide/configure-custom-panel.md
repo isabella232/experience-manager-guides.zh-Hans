@@ -2,7 +2,10 @@
 title: 在左侧面板中配置自定义面板
 description: 了解如何在左侧面板中配置自定义面板
 exl-id: 6cfa64aa-46f3-4235-a4a7-f21e658f0a5a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%

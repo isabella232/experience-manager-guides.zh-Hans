@@ -2,7 +2,10 @@
 title: 用于基线和标签的基于Java的API
 description: 了解用于基线和标签的基于Java的API
 exl-id: 0e2ba1bb-f5bf-44da-848a-a55385460c83
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Java-Based API Baseline
+role: Developer
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '890'
 ht-degree: 0%

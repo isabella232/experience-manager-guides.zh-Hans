@@ -2,7 +2,9 @@
 title: 管理内容
 description: 在AEM Guides中管理内容并确定您的角色和权限。 了解内容管理以及使用全局或文件夹级别配置文件的主要概念。
 exl-id: 84926dc2-1180-48ef-85d0-50e3478bf26a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '717'
 ht-degree: 9%

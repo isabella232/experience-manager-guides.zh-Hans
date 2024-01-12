@@ -2,7 +2,10 @@
 title: 用于处理DITA映射的基于Java的API
 description: 了解用于处理DITA映射的基于Java的API
 exl-id: bd91fc90-75f8-487c-99d1-2637e9cf9924
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Java-Based API Dita Map
+role: Developer
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%

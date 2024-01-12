@@ -2,7 +2,10 @@
 title: 部署AEM Guides模块
 description: 了解如何部署AEM Guides模块
 exl-id: 3bb28304-d8e2-45eb-8297-546eed428b8c
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%

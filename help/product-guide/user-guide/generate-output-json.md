@@ -2,7 +2,9 @@
 title: JSON
 description: 了解如何从Web编辑器和地图仪表板创建JSON预设。 在AEM Guides中配置JSON输出预设。
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 1%

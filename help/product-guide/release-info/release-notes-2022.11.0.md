@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年11月版
 description: Adobe Experience Manager Guidesas a Cloud Service11月版
 exl-id: 9f329ec1-dd74-47cc-8567-3fadd962584a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1384'
 ht-degree: 0%
@@ -23,7 +25,7 @@ as a Cloud Service升级您当前的Adobe Experience Manager Guides(以后称为
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
 * 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>/bin/guides/map-find/indexing`.
-(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 ||示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如：http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -100,7 +102,7 @@ AEM Guides为您提供了创建和管理“全局配置文件”和“文件夹�
 <img src="assets/send-translation.png" alt="发送以供翻译" width="600">
 
 
-### 本机PDF |带有更改条的PDF，显示文档版本之间的差异
+### 本机PDF | 带有显示文档版本之间差异的更改条的PDF
 
 现在，您可以使用更改栏创建一个PDF，以显示两个版本之间的内容差异。 您可以选择将当前版本与先前版本的基线进行比较，或者将两个选定的基线版本进行比较。
 
@@ -110,7 +112,7 @@ PDF中将显示一个更改栏，以指示已修改、已插入或删除的内�
 * 以绿色和带下划线的形式显示插入的内容
 * 以红色显示删除的内容并标记删除线
 
-### 本机PDF |对输出路径和PDF文件名的变量支持
+### 本机PDF | 对输出路径和PDF文件名的变量支持
 
 现在，您还可以使用以下现成的变量来定义输出路径和PDF文件。 您可以使用单个变量或变量组合来定义以下选项：
 * `${map_filename}`
@@ -121,7 +123,7 @@ PDF中将显示一个更改栏，以指示已修改、已插入或删除的内�
 * `${path_after_langfolder}` （仅适用于输出路径）
 
 
-### 本机PDF |为DITA映射生成目录并重新排序页面布局
+### 本机PDF | 为DITA映射生成目录并重新排序页面布局
 
 现在还可以使用模板的高级PDF设置在DITA映射中生成目录。 您可以选择启用或禁用各种页面布局的显示，也可以重新排列它们的位置。
 
@@ -130,8 +132,8 @@ PDF中将显示一个更改栏，以指示已修改、已插入或删除的内�
 修复了多个区域中的错误如下：
 
 * 本机PDF | `conkeyref` 不会在生成的PDF输出中解析。 (10564)
-* 本机PDF |在PDF输出中访问映射的元数据时出现问题。 (10556)
-* 本机PDF |使用内联样式而不是类名生成标记。  (10498)
+* 本机PDF | 访问PDF输出中的映射元数据时出现问题。 (10556)
+* 本机PDF | 使用内联样式而不是类名生成标记。  (10498)
 * Web编辑器间歇性地加载空白页。 (10678)
 * 如果我们通过复制现有预设来创建预设，则PDF发布失败。 (10584)
 * **查看日志** 预设的PDF生成失败时，按钮无法正常工作。 (10576)

@@ -2,7 +2,9 @@
 title: 查看主题或映射
 description: 在AEM Guides中高效地查看主题或地图，以实现顺利的内容评估。 了解AEM Guides中适用于作者和审阅人的功能。
 exl-id: 81ea0b52-52b0-4764-a6d8-a96d5c7693bf
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 0%

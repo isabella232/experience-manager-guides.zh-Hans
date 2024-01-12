@@ -2,7 +2,10 @@
 title: 使用工具配置数据源连接器
 description: 了解如何使用工具配置数据源连接器。
 exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 0%

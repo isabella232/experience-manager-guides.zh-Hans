@@ -1,8 +1,11 @@
 ---
-title: 本机PDF |为本机PDF发布配置JVM标记
+title: 本机PDF | 为本机PDF发布配置JVM标记
 description: 为本机PDF发布配置JVM标记
 exl-id: d5432913-4b5a-48e7-9467-7f6c6e0adbe4
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 1%

@@ -2,7 +2,9 @@
 title: 批量激活已发布的内容
 description: 了解批量激活已发布内容的情况。 了解AEM guides中批量激活功能的好处。
 exl-id: 3643ecab-b5c1-41ea-8b7b-1470ead63aec
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Bulk Activation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%

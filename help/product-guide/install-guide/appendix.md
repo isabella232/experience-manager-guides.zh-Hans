@@ -2,7 +2,10 @@
 title: 附录
 description: 了解如何准备InDesign文件以进行转换
 exl-id: 02da0e61-7a73-4c4c-9bd7-2664d90fa728
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: InDesign File Conversion
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2851'
 ht-degree: 0%

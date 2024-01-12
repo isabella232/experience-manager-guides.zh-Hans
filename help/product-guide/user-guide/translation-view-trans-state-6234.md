@@ -2,7 +2,9 @@
 title: 查看翻译状态
 description: 了解如何在AEM Guides的DITA映射中查看每个主题的翻译状态和翻译的语言副本。
 exl-id: 6ed30bc6-3030-40fd-987a-928fd5b06ee6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Translation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%

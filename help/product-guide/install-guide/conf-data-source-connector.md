@@ -2,7 +2,10 @@
 title: 配置数据源连接器
 description: 了解如何配置数据源连接器
 exl-id: bd1188e1-0e1d-4e70-928a-10251c3d529d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%

@@ -2,7 +2,10 @@
 title: 配置选项以在氧气中进行编辑
 description: 了解如何配置在氧气连接器插件中编辑的选项。
 exl-id: 96081a6d-39cf-4697-8b43-6494543ea187
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%

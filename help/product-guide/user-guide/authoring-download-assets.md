@@ -2,7 +2,9 @@
 title: 下载文件
 description: 了解如何从AEM Guides中的DITA映射控制台下载文件，以及导出AEM存储库中的DITA映射文件。
 exl-id: ae9eb355-d3ac-446a-958b-5f2da43f5533
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 0%

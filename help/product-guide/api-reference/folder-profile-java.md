@@ -2,7 +2,10 @@
 title: 用于处理文件夹配置文件的基于Java的API
 description: 了解用于处理文件夹配置文件的基于Java的API
 exl-id: 388ae654-c4f9-4bb7-ba98-370b8919e3a6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Java-Based API Folder Profiles
+role: Developer
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%

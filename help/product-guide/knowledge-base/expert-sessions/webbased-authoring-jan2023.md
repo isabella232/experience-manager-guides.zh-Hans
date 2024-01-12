@@ -2,7 +2,9 @@
 title: 创作基于Web的内容
 description: 了解如何使用Web编辑器创作结构化内容。
 exl-id: ab051c14-5c1e-4685-89e8-3c90dff9ea5e
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Web Editor, Troubleshooting
+role: User, Admin
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 1%

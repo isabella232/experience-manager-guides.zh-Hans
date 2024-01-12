@@ -2,7 +2,9 @@
 title: 将主题发布到内容片段
 description: 在AEM Guides中将主题或主题中的元素发布到内容片段。  了解如何查看呈现给某个主题的内容片段并重新发布它们。
 exl-id: b1769e48-d721-4e93-b10f-04b385272be7
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 0%

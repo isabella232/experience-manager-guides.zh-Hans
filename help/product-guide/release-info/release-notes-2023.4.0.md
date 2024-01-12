@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年4月版
 description: Adobe Experience Manager Guidesas a Cloud Service2023年4月版
 exl-id: fa339eab-d3d0-4763-adbf-6411e39aa213
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 0%
@@ -28,7 +30,7 @@ ht-degree: 0%
 执行以下步骤来索引现有内容并在映射级别使用新的查找和替换文本：
 
 * 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>/bin/guides/map-find/indexing`.
-(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 ||示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如：http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -60,7 +62,7 @@ ht-degree: 0%
 
 修复了多个区域中的错误如下：
 
-* 本机PDF |发布包含带有brackets()的输出类的内容会导致发布冻结。 (11596)
+* 本机PDF | 如果发布的内容具有带brackets()的输出类，则会导致发布冻结。 (11596)
 * 在移动（拖放）到启用了跟踪更改的现有列表项的位置时，出现问题。 (11570)
 * 作为启用了跟踪更改的新列表项移动（拖放）时出现问题。 (11569)
 * 在启用跟踪更改时，缩进或减少缩进列表项无法按预期工作。 (11568)
@@ -74,4 +76,4 @@ ht-degree: 0%
 
 Adobe已发现AEM Guides 2023年4月as a Cloud Service版的以下已知问题。
 
-* 本机PDF |在显式打开输出预设之前，不会填充旧元数据。
+* 本机PDF | 在显式打开输出预设之前，不会填充旧元数据。

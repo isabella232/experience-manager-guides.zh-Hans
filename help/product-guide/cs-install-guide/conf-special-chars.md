@@ -2,7 +2,10 @@
 title: 配置允许的特殊字符
 description: 了解如何配置允许的特殊字符
 exl-id: 7ff4305f-71bb-4155-b8e5-911cea6f0ad9
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 0%

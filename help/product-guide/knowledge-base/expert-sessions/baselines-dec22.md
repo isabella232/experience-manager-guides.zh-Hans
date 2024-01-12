@@ -2,7 +2,9 @@
 title: 使用基线管理内容
 description: 了解如何使用基线有效地管理您的内容。
 exl-id: 3fc2e889-b255-4e8d-9750-ab61337107ae
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Content Management, Publishing, Troubleshooting
+role: User, Admin
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 1%

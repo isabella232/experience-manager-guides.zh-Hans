@@ -2,7 +2,10 @@
 title: 用于生成输出的基于Java的API
 description: 了解用于生成输出的基于Java的API
 exl-id: e19439df-39ec-47fd-9da5-24f51750a7e5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Java-Based API Publishing
+role: Developer
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%

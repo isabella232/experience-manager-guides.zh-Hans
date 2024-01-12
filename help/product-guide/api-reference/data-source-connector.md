@@ -2,7 +2,10 @@
 title: 用于注册数据源连接器的REST API
 description: 了解用于注册数据源连接器的REST API
 exl-id: e2811892-c3cf-41f5-94d8-c2b37823a53a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Rest API Data Source
+role: Developer
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '81'
 ht-degree: 0%

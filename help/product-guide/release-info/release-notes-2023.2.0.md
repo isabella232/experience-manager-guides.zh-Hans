@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年2月版
 description: Adobe Experience Manager Guidesas a Cloud Service2月版
 exl-id: c639b136-11ed-4a8b-a595-4bb5da879747
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '870'
 ht-degree: 0%
@@ -27,7 +29,7 @@ ht-degree: 0%
 执行以下步骤来索引现有内容，并在映射级别使用新的查找和替换文本：
 
 * 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>/bin/guides/map-find/indexing`.
-(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 ||示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如：http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -78,10 +80,10 @@ ht-degree: 0%
 
 * 复制DITA映射资产（从资产UI ）会导致复制的资产中出现错误的基线。 (11218)
 * 对于大于AEM所允许限制（默认为2 GB）的文件，上传时不会显示警告消息。 (10817)
-* Web编辑器 — 基线 | Latest列的行为在Web编辑器的新基线仪表板中是不同的。 (10808)
-* 翻译 |由于/libs/fmdita/i18n/ja.json无效，翻译作业未开始。 (10543)
-* 翻译 |从翻译仪表板（人工翻译）创建的范围翻译项目发生错误。 (10526)
-* 翻译 |对于资产位于活动翻译项目中的整个语言文件夹，后处理将被阻止。 (10332)
+* Web编辑器 — 基线 | 在Web编辑器中的新基线仪表板中，“最新”列的行为不同。 (10808)
+* 翻译 | 由于/libs/fmdita/i18n/ja.json无效，翻译作业未开始。 (10543)
+* 翻译 | 从翻译仪表板（人工翻译）创建的范围设定翻译项目出错。 (10526)
+* 翻译 | 对于资产位于活动翻译项目中的整个语言文件夹，后处理将被阻止。 (10332)
 * 如果在基线编辑器中更改并保存了版本，则会为任何资产显示多个弹出窗口。 (10399)
 * 会话泄露发生在 `com.day.cq.search.impl.builder.QueryBuilderImpl.createResourceResolver(QueryBuilderImpl.java:210)`. (10279)
 
@@ -89,12 +91,12 @@ ht-degree: 0%
 
 * 主题重新生成不适用于某些场景。 (10635)
 * Publishlistener不在信息日志中显示请求的数据，并且还包含一些垃圾日志。( 10567)
-* 本机PDF |使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败，出现空指针异常。 (10950)
-* 本机PDF |旋转表标题时出现问题。 (10555)
-* 本机PDF |嵌套 `<indexterm>` 未嵌套在本机PDF导出中。 (10521)
-* 本机PDF |附录中的嵌套topicref全部转换为临时HTML中的h1。 (10454)
+* 本机PDF | 使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败，出现空指针异常。 (10950)
+* 本机PDF | 旋转表标题时出现问题。 (10555)
+* 本机PDF | 嵌套 `<indexterm>` 未嵌套在本机PDF导出中。 (10521)
+* 本机PDF | 附录中嵌套的topicref全部转换为临时HTML中的h1。 (10454)
 * 对于使用FrameMaker Publishing Server2020生成的PDF，基线发布失败。 (10551)
-* 本机PDF |添加 `xref` 对于图像，不会在生成的PDF上渲染图像。 (11346)
-* 本机PDF |图像标记向所有图像添加display-inline属性。 (10653)
-* 本机PDF |缺省情况下，在生成的输出中隐藏草稿注释。 (10560)
-* 本机PDF |不对topichead授予navtitle。 (10509)
+* 本机PDF | 正在添加 `xref` 对于图像，不会在生成的PDF上渲染图像。 (11346)
+* 本机PDF | 图像标记向所有图像添加display-inline属性。 (10653)
+* 本机PDF | 缺省情况下，在生成的输出中隐藏草稿注释。 (10560)
+* 本机PDF | navtitle不用于表示主题标题。 (10509)

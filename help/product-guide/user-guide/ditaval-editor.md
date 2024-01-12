@@ -2,7 +2,9 @@
 title: 使用DITAVAL编辑器
 description: 了解如何使用AEM Guides中的DIVATAL编辑器创建和编辑DITAVAL文件。 了解DITAVAL编辑器如何在创作视图和源视图中支持DITAVAL文件。
 exl-id: f3901a4f-1925-42aa-b773-0d6f18175ce8
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, DITAVAL Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 0%

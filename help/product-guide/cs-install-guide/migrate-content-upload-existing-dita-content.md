@@ -2,7 +2,10 @@
 title: 上载现有DITA内容
 description: 了解如何上传现有DITA内容
 exl-id: 2b385eef-00a7-4c25-9e78-367a0c9e44ba
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Migration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%

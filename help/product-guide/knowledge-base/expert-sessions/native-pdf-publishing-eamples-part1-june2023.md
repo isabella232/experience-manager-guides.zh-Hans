@@ -2,7 +2,9 @@
 title: 本机PDF发布 — 按示例学习（第1部分）
 description: 通过本机PDF发布引擎，您可以控制文档的内容布局，同时根据需要使用易于更新的CSS、HTML和JavaScript处理所需部分。
 exl-id: ddaf4e83-9958-42c5-b172-4c9f8e923910
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Native PDF Output
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%

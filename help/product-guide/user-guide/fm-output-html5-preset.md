@@ -2,7 +2,9 @@
 title: HTML5
 description: 在AEM Guides中为FrameMaker文档生成并配置HTML5输出。
 exl-id: 0889e394-cfb1-4006-ae57-2dfa81123bc2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing FrameMaker Documents
+role: User
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 5%

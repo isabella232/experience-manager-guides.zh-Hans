@@ -2,7 +2,9 @@
 title: 基本疑难解答
 description: 解决AEM Guides中的基本故障诊断问题。 了解如何在文本编辑器中查看、复制和检查日志文件并解决JSP编译错误。
 exl-id: 57b88291-b5a3-4931-b3ed-f2b2ce7a463c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing, Troubleshooting
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%

@@ -2,7 +2,10 @@
 title: 关于本指南
 description: 了解本指南
 exl-id: cdd40267-3f0c-40d2-acbc-2ebe43633c2f
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 2%

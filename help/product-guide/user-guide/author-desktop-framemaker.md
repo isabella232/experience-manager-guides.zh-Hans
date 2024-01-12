@@ -2,7 +2,9 @@
 title: 使用FrameMaker
 description: 了解AEM Guides中FrameMaker对内容创作和发布的支持。
 exl-id: 6797912b-3325-413c-ac88-877599b94678
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Desktop Tools
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

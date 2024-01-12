@@ -2,7 +2,10 @@
 title: 后处理事件处理程序
 description: 了解后处理事件处理程序
 exl-id: 3b105ff5-02d4-40e3-a713-206a7fcf18b2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Post-Processing Event Handler
+role: Developer
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%

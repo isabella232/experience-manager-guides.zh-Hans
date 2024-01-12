@@ -2,7 +2,9 @@
 title: 使用标签
 description: 了解AEM Guides中针对不同版本的文件使用标签的情况。 了解如何在主题版本中添加或删除标签。
 exl-id: d116906d-b469-4a97-b0af-4fadbe15222b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%

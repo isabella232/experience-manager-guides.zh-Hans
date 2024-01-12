@@ -2,7 +2,9 @@
 title: 使用Web编辑器
 description: 使用Web编辑器创建和编辑结构化文档。 了解如何按照AEM Guides中的DITA标准使用Web编辑器。
 exl-id: 285d3ad3-fb4e-4cdd-ab83-493ffce891d6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Web Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%

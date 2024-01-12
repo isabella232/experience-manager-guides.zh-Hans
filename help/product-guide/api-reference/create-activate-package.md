@@ -2,7 +2,10 @@
 title: 用于创建和激活包的REST API
 description: 了解用于创建和激活包的REST API
 exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Rest API Packages
+role: Developer
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%

@@ -1,8 +1,10 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides 4.1版
+title: 发行说明 | Adobe Experience Manager Guides 4.1版本
 description: 最新版本的Adobe Experience Manager Guides
 exl-id: c70b3bbc-3332-4626-bc30-641034f8fd06
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '3644'
 ht-degree: 1%
@@ -23,7 +25,7 @@ ht-degree: 1%
 
 有关详细信息，请参阅 [升级说明](assets/Adobe-Experience-Manager-Guides-Upgrade-Instructions-EN.pdf).
 
-## 4.1.3 |发行说明
+## 4.1.3 | 发行说明
 
 ## 兼容性矩阵
 
@@ -66,7 +68,7 @@ ht-degree: 1%
 * Web编辑器间歇性地加载空白页。 (10678)
 
 
-## 4.1.2 |发行说明
+## 4.1.2 | 发行说明
 
 ## 兼容性矩阵
 
@@ -119,7 +121,7 @@ ht-degree: 1%
 
   **解决方法**：使用DITA映射仪表板的基线选项卡。
 
-## 4.1 |发行说明
+## 4.1 | 发行说明
 
 此发行说明涵盖了Adobe Experience Manager Guides版本4.1.x中的升级说明、新增功能和增强功能(以下简称 *AEM指南*)。
 
@@ -354,7 +356,7 @@ AEM Guides不再支持为FrameMaker文档生成DITA输出格式。 此DITA选项
 * 复制并粘贴资产时，AEM Guides不会复制资产的非唯一属性。 (8241)
 * DITA映射文件名在创建时未转换为小写。 (8383)
 * 分配新的审阅任务时，审阅任务描述未出现在正在发送的电子邮件通知中。 (8507)
-* 下载地图API |如果下载过程出错，不会清理临时文件夹。 (8523)
+* 下载地图API | 如果下载过程出错，不会清理临时文件夹。 (8523)
 * `columnpreview.jsp` 依赖于SP。  (8543)
 * 在发布功能板中，不会清理状态为“等待”或“正在执行”的输出作业。  (8569)
 * 在使用“生成”按钮生成报告时选择的默认图标，即使定义了图标属性也是如此。 (8573)

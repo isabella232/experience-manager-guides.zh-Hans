@@ -2,7 +2,9 @@
 title: 还原文件版本历史记录报告
 description: 在AEM Guides中查看还原文件版本历史记录报告。 了解如何从Assets UI、主题预览和AEM工具选择访问还原版本日志。
 exl-id: 74bef625-acd6-49a6-b983-881a782f68d6
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Report Generation
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 从Web编辑器翻译文档
 description: 从Web编辑器将内容翻译成多种语言。 了解如何在AEM Guides中创建翻译项目、添加规则、查看版本和关闭不同步的文件。
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Translation
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '1907'
 ht-degree: 0%

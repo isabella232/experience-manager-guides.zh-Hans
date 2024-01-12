@@ -2,7 +2,9 @@
 title: Webeditor中的Schematron支持
 description: 在编辑器中使用Schematron
 exl-id: 3e61432f-d81e-446e-b0ad-560f5b9fa91a
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%

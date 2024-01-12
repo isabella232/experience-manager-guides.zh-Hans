@@ -2,7 +2,10 @@
 title: 简介
 description: AEM Guides的API参考指南简介
 exl-id: d8ee9cf7-1d67-4b4a-aa80-64e893a99463
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: API Introduction
+role: Developer
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 0%

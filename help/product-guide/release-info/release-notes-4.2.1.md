@@ -1,8 +1,10 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides 4.2.1版中的升级说明和修复的问题
+title: 发行说明 | Adobe Experience Manager Guides 4.2.1版本中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides的4.2.1版本
 exl-id: a75ec83f-564b-4243-b5c5-341049521adb
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 1%
@@ -78,11 +80,11 @@ ht-degree: 1%
 * 无法拖放列表项，文本将移动以代替列表项。 (11566)
 * 在创作以绿色显示的元素（跟踪更改）时，即使禁用跟踪更改，新内容也会显示为跟踪更改。 (7021)
 * 使用自定义架构加载内容时，浏览器（Web编辑器）冻结。 (11211)
-* 本机PDF |使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败，出现空指针异常。 (10950)
-* 本机PDF |图像标记向所有图像添加display-inline属性。 (10653)
+* 本机PDF | 使用“添加到文件夹配置文件”选项创建输出预设时，PDF生成失败，出现空指针异常。 (10950)
+* 本机PDF | 图像标记向所有图像添加display-inline属性。 (10653)
 * 在YouTube格式下，插入音频和视频多媒体文件失败 **插入多媒体** 图标。 (11320)
 * 使用具有专门化标题元素的模板创建映射时，会发生验证错误。 (11212)
-* Web编辑器 |编辑主题时，在XML编辑器中添加了不间断空格。 (11786)
+* Web编辑器 | 编辑主题时，会在XML编辑器中添加不间断的空间。 (11786)
 
 ### 管理
 
@@ -93,16 +95,16 @@ ht-degree: 1%
 
 ### 发布
 
-* 本机PDF |发布包含带有brackets()的输出类的内容会导致发布冻结。 (11936)
-* JSON输出 |将属性值映射为的元数据 `"value in spaces and double quotes"` 会导致发布错误。 (11933)
+* 本机PDF | 如果发布的内容具有带brackets()的输出类，则会导致发布冻结。 (11936)
+* JSON输出 | 将属性值映射为的元数据 `"value in spaces and double quotes"` 会导致发布错误。 (11933)
 * AEM站点搜索中出现问题（在2-3级节点之外不起作用）。 (11352)
-* Web编辑器 |无法在AEM预设中选择输出路径和模板。 (11530)
+* Web编辑器 | 无法在AEM预设中选择输出路径和模板。 (11530)
 * 从4.1.x版本升级到4.2版本时，本机PDF引擎不起作用，并且会引发NullPointerException，即使对于支持的操作系统也是如此。(11526)
 * 下载PDF过程在Web编辑器中无法正常工作。 (11496)
-* 本机PDF |缺省情况下，在生成的输出中隐藏草稿注释。 (10560)
-* 本机PDF |不对topichead授予navtitle。 (10509)
-* 本机PDF |添加 `xref` 对于图像，不会在生成的PDF上渲染图像。 (11346)
-* 本机PDF |表标题中的脚注导致PDF输出中对应的页脚中出现粗体和居中对齐文本。 (10610)
+* 本机PDF | 缺省情况下，在生成的输出中隐藏草稿注释。 (10560)
+* 本机PDF | navtitle不用于表示主题标题。 (10509)
+* 本机PDF | 正在添加 `xref` 对于图像，不会在生成的PDF上渲染图像。 (11346)
+* 本机PDF | 表标题中的脚注导致PDF输出中相应页脚中的粗体和居中对齐文本。 (10610)
 
 ### 翻译
 

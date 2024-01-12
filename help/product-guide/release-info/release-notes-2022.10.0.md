@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年10月版
 description: Adobe Experience Manager Guidesas a Cloud Service10月版
 exl-id: 38638080-625c-49c3-9e54-56cc23831546
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 1%
@@ -61,12 +63,12 @@ AEM Guidesas a Cloud Service在10月版本中提供了增强功能和新增功�
 
 修复了多个区域中的错误如下：
 
-* 本机PDF |从PDF输出中删除仅资源主题时出错。 (10554)
-* 本机PDF |PDF输出中显示空的键参照。 (10553)
+* 本机PDF | 从PDF输出中删除仅资源主题时出错。 (10554)
+* 本机PDF | PDF输出中显示空的键参照。 (10553)
 * 本机PDF | `navtitle` 对象 `topichead` 不被尊敬。 (10509)
-* 本机PDF |支持amd64 JDK风格。 (10465)
-* 本机PDF |无法从目录隐藏主题主题。 (10355)
-* 本机PDF |重新启动章节布局中的页码会从上一章的结尾开始随机编号。 (10154)
-* Chrome浏览器 |从UI拖放任何元素时，屏幕变为空白。 例如，从“条件”面板拖动条件时。 (10524)
+* 本机PDF | 支持amd64 JDK风格。 (10465)
+* 本机PDF | 无法从目录隐藏主题标题。 (10355)
+* 本机PDF | 重新启动章节布局中的页码会从上一章的结尾开始随机进行编号。 (10154)
+* Chrome浏览器 | 从UI拖放任何元素时，屏幕变为空白。 例如，从“条件”面板拖动条件时。 (10524)
 * 对资产执行复制粘贴操作后，将删除节点属性。 (10053)
 * 单击  **关闭** 用户被重定向到资源 — 已更正体验，可将用户转到AEM主页。 (9654)

@@ -2,7 +2,9 @@
 title: 云发布微服务架构和性能
 description: 了解新的微服务如何在AEMaaCS上实现可扩展发布。
 exl-id: 948fce3f-b989-48f0-9a85-e921717e2986
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Microservice in AEM Guides
+role: User, Admin
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 0%

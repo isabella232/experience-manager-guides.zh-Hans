@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2023年3月版
 description: Adobe Experience Manager Guidesas a Cloud Service3月版
 exl-id: 6a0bba92-7d7d-4b20-ad46-0eacc91268da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -27,7 +29,7 @@ ht-degree: 0%
 执行以下步骤来索引现有内容并在映射级别使用新的查找和替换文本：
 
 * 对服务器运行POST请求（使用正确的身份验证） —  `http://<server:port>/bin/guides/map-find/indexing`.
-(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 ||示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
+(可选：您可以传递映射的特定路径来对其进行索引，默认情况下，所有映射都将进行索引 || 示例： `https://<Server:port>/bin/guides/map-find/indexing?paths=<map_path_in_repository>`)
 
 * 该API将返回作业ID。 要检查作业的状态，可以将带有作业ID的GET请求发送到同一端点 —  `http://<server:port>/bin/guides/map-find/indexing?jobId={jobId}`
 (例如：http://&lt;_localhost：8080_>/bin/guides/map-find/indexing？jobId=2022/9/15/7/27/7dfa1271-981e-4617-b5a4-c18379f11c42_678)
@@ -58,10 +60,10 @@ ht-degree: 0%
 修复了多个区域中的错误如下：
 
 * 下载PDF过程在Web编辑器中无法正常工作。 (11496)
-* JSON输出 |将属性值映射为的元数据 `"value in spaces and double quotes"` 会导致发布错误。 (11438)
+* JSON输出 | 将属性值映射为的元数据 `"value in spaces and double quotes"` 会导致发布错误。 (11438)
 * 在YouTube格式下，插入音频和视频多媒体文件失败 **插入多媒体** 图标。 (11320)
 * 使用具有专门化标题元素的模板创建映射时，会发生验证错误。 (11212)
-* 本机PDF |表标题中的脚注导致PDF输出中对应的页脚中出现粗体和居中对齐文本。 (10610)
+* 本机PDF | 表标题中的脚注导致PDF输出中相应页脚中的粗体和居中对齐文本。 (10610)
 >[!NOTE]
 >
 >要反映本机PDF更改，请删除位于/content/dam/dita-templates的PDF文件夹，然后升级到最新内部版本。 (10610)

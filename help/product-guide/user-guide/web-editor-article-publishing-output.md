@@ -2,7 +2,9 @@
 title: 从存储库面板生成输出
 description: 从AEM Guides中的存储库面板或地图视图面板生成输出。 了解如何发布一个或多个DITA映射中使用的主题，或为多个主题生成输出。
 exl-id: f7a4be54-9c51-44e6-96bb-f25e3a6155da
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Features of Web Editor, Publishing
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '540'
 ht-degree: 0%

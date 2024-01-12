@@ -2,7 +2,10 @@
 title: 非UUID到UUID内容迁移
 description: 了解如何将非UUID迁移到UUID内容
 exl-id: f8b723bf-84c0-4fe6-936e-63970fb3e417
-source-git-commit: 0c45b3bee77d04f031dea157e7d3671b2cc11b45
+feature: Migration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 0%

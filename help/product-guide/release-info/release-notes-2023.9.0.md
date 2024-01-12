@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides（2023年9月版）中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2023年9月版
 exl-id: 795b86a0-e763-404a-a4bb-35d3d2a42672
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 0%
@@ -88,7 +90,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
 
-1. 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
@@ -159,16 +161,16 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 - 重命名本机PDF预设时，发布失败。 (12564)
 - 复制本机PDF模板会复制到默认模板位置，而不是提供的自定义模板位置。 (12563)
 
-- 本机PDF |包含多个Xref可将文本扩展到列宽之外。 (13004)
-- 本机PDF |当主题和标题具有相同的ID时，会导致生成的PDF输出格式不正确。 (12644)
-- 本机PDF |向父级添加输出类时 `<topicref>` dita映射中的元素并将自定义样式应用于outputclass时，该样式将应用于主题正文中的元素，包括节标题。(12166)
+- 本机PDF | 包含多个Xref可将文本扩展至超出列宽的位置。 (13004)
+- 本机PDF | 当主题和标题具有相同的ID时，会导致生成的PDF输出格式不正确。 (12644)
+- 本机PDF | 在将outputclass添加到父级时 `<topicref>` dita映射中的元素并将自定义样式应用于outputclass时，该样式将应用于主题正文中的元素，包括节标题。(12166)
 - 如果DITA映射具有多个ditavalref，则增量发布不起作用。 (12117)
-- AEM站点 |在创建映射时，使用keydef指向作为变量的主题并添加processing-role=resource-only会创建一些意外页面。 (12099)
+- AEM站点 | 在创建映射时，使用keydef指向作为变量的主题并添加processing-role=resource-only会创建一些意外页面。 (12099)
 - 如果在AEM站点以外的任何输出中使用来自AEM DAM的任何资源，则元数据“jcr：createdBy”不会反映发布者的名称或上次修改DITA映射或主题的用户的名称。 (12090)
-- AEM Sites | DITA映射的navtitle中带有主题头（包含不受支持的字符）会导致页面URL无效。 (11978)
-- 本机PDF |在Frontmatter和Backmatter中支持topichead / topicmeta / navtitle时出现问题。 (11969)
-- 本机PDF |为大型文档生成PDF非常耗时。 (11955)
-- 本机PDF |在生成PDF输出时，重命名预设会引发NullPointerException。 (11889)
+- AEM Sites | DITA映射的navtitle中带有主题头（包含不受支持的字符）会导致页面URL损坏。 (11978)
+- 本机PDF | 在Frontmatter和Backmatter中支持topichead / topicmeta / navtitle时出现问题。 (11969)
+- 本机PDF | 为大型文档生成PDF非常耗时。 (11955)
+- 本机PDF | 在生成PDF输出时，重命名预设会引发NullPointerException。 (11889)
 - 此 `<conref>` 内容未显示在PDF输出中。 (11131)
 - 在中添加额外的空间 `<div>` 在页面布局编辑器中的创作视图和源视图之间切换的元素。 (10750)
 - 在AEM Cloud Manager上复制的内容在发布实例上不可见。 (9564)

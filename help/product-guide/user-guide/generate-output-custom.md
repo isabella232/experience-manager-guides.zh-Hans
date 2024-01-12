@@ -2,7 +2,9 @@
 title: 自定义
 description: 了解如何从Web编辑器和地图仪表板创建自定义预设。 在AEM Guides中配置自定义输出预设。
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 2%

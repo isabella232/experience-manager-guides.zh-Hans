@@ -2,7 +2,9 @@
 title: 使用高级映射编辑器
 description: 了解如何在AEM Guides中使用高级映射编辑器。 了解高级映射编辑器的功能。 通过DITA映射编辑主题，并使用布局视图、作者视图和预览模式。
 exl-id: e58e3705-2c3b-48cc-b2c8-2596e9751c85
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '3695'
 ht-degree: 0%

@@ -1,8 +1,11 @@
 ---
-title: 本机PDF发布功能 |设计页面布局
+title: 本机PDF发布功能 | 设计页面布局
 description: 了解如何设计页面布局以在PDF输出的各个部分展示信息。
 exl-id: b4d3bdc4-0d01-46eb-b182-540380220485
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '4825'
 ht-degree: 0%

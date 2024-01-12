@@ -2,7 +2,9 @@
 title: 生成FrameMaker单据的输出
 description: 了解如何在AEM Guides中生成FrameMaker文档的输出，以便以PDF、HTML5和EPUB格式发布。
 exl-id: c19564c2-90f7-411d-835e-b2d1b0ada9c5
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing FrameMaker Documents
+role: User
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%

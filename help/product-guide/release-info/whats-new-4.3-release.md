@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides 4.3.0版的新增功能
 description: 了解Adobe Experience Manager Guides 4.3.0版本中的新增功能和增强功能
 exl-id: 36decbf0-ec9d-43e2-99b7-85b0f9a87bc1
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2655'
 ht-degree: 0%

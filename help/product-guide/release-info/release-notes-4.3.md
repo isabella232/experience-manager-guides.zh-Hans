@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides 4.3.0版本中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guides的4.3.0版本
 exl-id: 7fb568a0-0b88-4ea0-9b79-2625336348ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 1%
@@ -87,10 +89,10 @@ ht-degree: 1%
 - 安装AEM Guides后无法在列视图中编辑内容片段。 (7342)
 - 当未包装的xref位于子元素标记下时，内容丢失。 (12532)
 - 当docstate从右侧面板的“文件”属性更改为“结束状态”时，审批工作流不起作用。 (11026)
-- 资产UI |在“列表”视图中，叠加的可用列不可合并。 (11528)
+- 资产UI | 在“列表”视图中，叠加的可用列不可合并。 (11528)
 - 未在映射视图中解析Keyref。 (11490)
 - 通过XML编辑器导航时，顶部菜单不显示。 (10868)
-- `conref` 在ph标记中 |显示的浏览对话框不正确。 (9481)
+- `conref` 在ph标记中 | 显示的浏览对话框不正确。 (9481)
 - 在Web编辑器中不会解析指向其他元素的本地链接。 (8790)
 - Matches()函数在架构功能中不起作用。 (11224)
 
@@ -104,22 +106,22 @@ ht-degree: 1%
 
 ### 审核
 
-- 新建审核UI |条件高亮显示，并且显示隐藏的工作方式与在Web编辑器中工作的方式有所不同。 (11628)
+- 新建审核UI | 这些条件会高亮显示，并且显示隐藏的工作方式与它们在Web编辑器中的工作方式有所不同。 (11628)
 
 ### 发布
 
 - 重命名本机PDF预设时，发布失败。 (12564)
 - 复制本机PDF模板会复制到默认模板位置，而不是提供的自定义模板位置。 (12563)
-- 本机PDF |无法在生成的PDF中设置语言元数据以符合WCAG 2.0。 (12407)
+- 本机PDF | 无法将生成的PDF中的语言元数据设置为符合WCAG 2.0。 (12407)
 - 从可能刷新或重新启动的面板中读取临时文件时，发布到AEM站点失败。 (12113)
-- 本机PDF |自定义属性不会传播到临时HTML或PDF引擎。 (DXML-12005)
-- 本机PDF |发布大型内容时出现Java OutOfMemoryError。 (11789)
+- 本机PDF | 自定义属性不会传播到临时HTML或PDF引擎。 (DXML-12005)
+- 本机PDF | 发布大型内容时出现Java OutOfMemoryError。 (11789)
 - 本机PDF | Xref正在打印href主题标题的内容而不是Xref标签。 (11322)
-- 本机PDF |无法保存PDF模板设置。 (10751)
-- 本机PDF |文本在包含多个xref时超出列宽。 (10876)
+- 本机PDF | 无法保存PDF模板设置。 (10751)
+- 本机PDF | 文本在包含多个xref时超出列宽。 (10876)
 - 本机PDF | `<note>``</note>` 元素不会生成其类型的额外范围标题。 (10549)
-- JSON输出 |此 `fmUuid` JSON的jcr：content节点上的属性不同于JSON中的“id”。 (11564)
-- JSON输出 |如果存在具有相同文件名的映射和主题，则将删除映射的JSON。 (11524)
+- JSON输出 | 此 `fmUuid` JSON的jcr：content节点上的属性不同于JSON中的“id”。 (11564)
+- JSON输出 | 如果存在具有相同文件名的映射和主题，则将删除映射的JSON。 (11524)
 
 ## 已知问题
 

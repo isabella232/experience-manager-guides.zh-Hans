@@ -2,7 +2,9 @@
 title: 使用基线
 description: 了解AEM Guides中“基线”的使用。 了解如何创建、查看内容、编辑、复制、删除、添加标签和导出已翻译基线。
 exl-id: 0554947f-3038-4fd2-8a62-ac0d4b858e94
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1960'
 ht-degree: 0%

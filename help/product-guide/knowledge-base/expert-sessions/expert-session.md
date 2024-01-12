@@ -2,7 +2,9 @@
 title: 专家讲座概述
 description: 专家会话部分的登陆页面。
 exl-id: 8a4bac35-95c0-4348-90c0-3e6e5ca9de59
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Expert Sessions
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides（2023年6月版）中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2023年6月版
 exl-id: df17ee33-9f50-4223-ab9f-a57a31097d22
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 1%
@@ -86,7 +88,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
 
-1. 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
@@ -123,11 +125,11 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 - 从布局视图切换到创作视图或源视图时，Navtitle将从content33中删除。 (12174)
 - 有时，单击DITA映射时出现应用程序错误。 (11842)
-- Web编辑器 |编辑主题时，在XML编辑器中添加了不间断空格。 (11786)
-- 资产UI |在“列表”视图中，叠加的可用列不可合并。 (11528)
+- Web编辑器 | 编辑主题时，会在XML编辑器中添加不间断的空间。 (11786)
+- 资产UI | 在“列表”视图中，叠加的可用列不可合并。 (11528)
 - 未在映射视图中解析Keyref。 (11490)
 - 通过XML编辑器导航时，顶部菜单不显示。 (10868)
-- `conref` 在ph标记中 |显示的浏览对话框不正确。 (9481)
+- `conref` 在ph标记中 | 显示的浏览对话框不正确。 (9481)
 - 在Web编辑器中不会解析指向其他元素的本地链接。 (8790)
 - Matches()函数在架构功能中不起作用。 (11224)
 
@@ -141,18 +143,18 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 ### 发布
 
 - 从可能刷新或重新启动的面板中读取临时文件时，发布到AEM站点失败。 (12113)
-- 本机PDF |发布包含带有brackets()的输出类的内容会导致发布冻结。 (11936)
-- JSON输出 |将属性值映射为的元数据 `"value in spaces and double quotes"` 会导致发布错误。 (11933)
-- Web编辑器 |无法在AEM预设中选择输出路径和模板。 (11530)
-- 本机PDF |自定义属性不会传播到临时HTML或PDF引擎。 (DXML-12005)
-- 本机PDF |发布大型内容时出现Java OutOfMemoryError。 (11789)
-- JSON输出 |此 `fmUuid` JSON的jcr：content节点上的属性不同于JSON中的“id”。 (11564)
-- JSON输出 |如果存在具有相同文件名的映射和主题，则将删除映射的JSON。 (11524)
+- 本机PDF | 如果发布的内容具有带brackets()的输出类，则会导致发布冻结。 (11936)
+- JSON输出 | 将属性值映射为的元数据 `"value in spaces and double quotes"` 会导致发布错误。 (11933)
+- Web编辑器 | 无法在AEM预设中选择输出路径和模板。 (11530)
+- 本机PDF | 自定义属性不会传播到临时HTML或PDF引擎。 (DXML-12005)
+- 本机PDF | 发布大型内容时出现Java OutOfMemoryError。 (11789)
+- JSON输出 | 此 `fmUuid` JSON的jcr：content节点上的属性不同于JSON中的“id”。 (11564)
+- JSON输出 | 如果存在具有相同文件名的映射和主题，则将删除映射的JSON。 (11524)
 - 本机PDF | Xref正在打印href主题标题的内容而不是Xref标签。 (11322)
-- 本机PDF |无法保存PDF模板设置。 (10751)
-- 本机PDF |文本在包含多个xref时超出列宽。 (10876)
+- 本机PDF | 无法保存PDF模板设置。 (10751)
+- 本机PDF | 文本在包含多个xref时超出列宽。 (10876)
 - 本机PDF | `<note>``</note>` 元素不会生成其类型的额外范围标题。 (10549)
-- 本机PDF |无法在生成的PDF中设置语言元数据以符合WCAG 2.0。 (12296)
+- 本机PDF | 无法将生成的PDF中的语言元数据设置为符合WCAG 2.0。 (12296)
 
 
 
@@ -162,4 +164,4 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 审核
 
-- 新建审核UI |条件高亮显示，并且显示隐藏的工作方式与在Web编辑器中工作的方式有所不同。 (11628)
+- 新建审核UI | 这些条件会高亮显示，并且显示隐藏的工作方式与它们在Web编辑器中的工作方式有所不同。 (11628)

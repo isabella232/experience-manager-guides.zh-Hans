@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年8月版
 description: Adobe Experience Manager Guidesas a Cloud Service8月版
 exl-id: a01bfe8a-4715-438c-bb94-aa1d31f6662d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -95,9 +97,9 @@ AEM Guides现在允许配置 **内联属性** 由您的管理员从 **编辑器�
 * 更新后的Node.js不用于发布。 (9835)
 * 对所做的更改不会自动更新DITA主题 **属性** 页面。 (8745)
 * 添加到DITA书签时，Frontmatter元素无法正常工作。 (9507)
-* 本机PDF |使用时生成空白PDF **快速生成** 选择空元素时用于多个文件。 (9822)
-* 本机PDF |附录作为PDF输出中的一章发布。 (9829)
-* 本机PDF |编辑SVG图像时，不会在页面布局中显示更新后的图像。 (9069)
+* 本机PDF | 使用时生成空白PDF **快速生成** 选择空元素时用于多个文件。 (9822)
+* 本机PDF | 附录作为PDF输出中的一章发布。 (9829)
+* 本机PDF | 编辑SVG图像时，不会在页面布局中显示更新后的图像。 (9069)
 * 当出现以下情况时，插入常规连字符号： `Nonbreaking Hyphen` 使用插入字符 **插入特殊字符** 对话框。 (8919)
 * 如果更新图像已编辑，则XML编辑器不会在主题中显示更新图像。 (9500)
 * 通过编辑器发布输出时，无法从删除预设 **输出** 选项卡。 (9100)

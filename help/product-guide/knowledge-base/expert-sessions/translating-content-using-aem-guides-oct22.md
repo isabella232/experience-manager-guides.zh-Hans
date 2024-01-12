@@ -2,7 +2,9 @@
 title: 翻译内容
 description: 了解如何将您的内容翻译成多种语言。
 exl-id: c8dacbdc-4b0b-44ca-82d4-889cd83741ff
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Translation, Troubleshooting
+role: User, Admin
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 4%

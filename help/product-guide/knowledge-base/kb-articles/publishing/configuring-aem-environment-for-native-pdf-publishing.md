@@ -2,7 +2,9 @@
 title: 为本机PDF发布配置AEM环境
 description: 为本机PDF发布配置AEM环境
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Native PDF Output
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 1%

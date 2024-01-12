@@ -2,7 +2,10 @@
 title: 安装Adobe Experience Manager
 description: 了解如何安装Adobe Experience Manager
 exl-id: 4693b102-b75a-4904-b2d5-914e774305f3
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Introduction, Installation
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%

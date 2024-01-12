@@ -1,7 +1,8 @@
 ---
 title: 顶部栏和工具栏
 description: 自定义标题栏和工具栏
-source-git-commit: 5962414dfc065543b946cac1468a5f62013073cf
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 0%

@@ -1,7 +1,8 @@
 ---
 title: 简单的自定义
 description: 简单自定义示例
-source-git-commit: 8ee7782e3ac0f7797216f542a6db53f7053d5c69
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%

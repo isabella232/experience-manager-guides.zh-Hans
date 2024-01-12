@@ -2,7 +2,9 @@
 title: 创建DITA项目
 description: 使用AEM Guides中的模板创建DITA项目。 了解如何使用DITA项目启动审阅。
 exl-id: 0cd83fe3-1764-4f04-ae11-0b71b6ac576c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Reviewing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%

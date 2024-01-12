@@ -2,7 +2,9 @@
 title: 生成.book或.fm文件的输出
 description: 了解如何在AEM Guides中生成.book或.fm文件的输出。
 exl-id: 24132198-52da-4c0b-bee3-5c728ec96995
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing FrameMaker Documents
+role: User
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '128'
 ht-degree: 0%

@@ -2,7 +2,10 @@
 title: 自动生成元素ID
 description: 了解如何自动生成元素ID
 exl-id: 8d09ab89-4be5-49f1-9831-9f01c92dc472
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%

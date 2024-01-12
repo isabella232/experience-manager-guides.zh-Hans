@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guides 4.2.1版的新增功能
 description: 了解Adobe Experience Manager Guides 4.2.1版本中的新增功能和增强功能
 exl-id: 441aa7ec-d88c-42cb-83f0-d0f6e58bfa41
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: What's New
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -61,7 +63,7 @@ AEM Guides提供了为技术文档生成报表的功能。  您可以使用此�
 
 有关更多详细信息，请参阅 [Web编辑器中的DITA映射报表](../user-guide/reports-web-editor.md) 部分。
 
-## 本机PDF |更改栏以指示目录中已更改的主题
+## 本机PDF | 更改栏以指示目录中已更改的主题
 
 AEM Guides现在允许您快速识别PDF输出目录中的已更改主题。  它会在目录中已更改的主题左侧显示更改栏。 您可以单击目录中的主题并查看详细更改。
 
@@ -71,7 +73,7 @@ AEM Guides现在允许您快速识别PDF输出目录中的已更改主题。  �
 
 
 
-## 本机PDF |在脚注组件中设置页面标记的样式
+## 本机PDF | 设置脚注组件中页面标记的样式
 
 现在，您可以在脚注中设置页面标记的样式。 例如，您可以添加括号或更改其颜色。 这些样式可帮助用户轻松识别文档中的页面标记。
 

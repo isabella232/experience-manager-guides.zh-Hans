@@ -4,7 +4,9 @@ description: 了解如何使用Adobe Experience Manager Guides的氧气插件创
 hide: true
 hidefromtoc: true
 exl-id: 9a140564-27eb-404e-93a5-f5c81364e7f7
-source-git-commit: 0e19b870541e8e65dc371eb01fc3256f172c1a91
+feature: Oxygen Plugin, Authoring, Web Editor
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '6294'
 ht-degree: 0%

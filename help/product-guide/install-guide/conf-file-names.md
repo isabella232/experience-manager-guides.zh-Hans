@@ -2,7 +2,10 @@
 title: 配置文件名
 description: 了解如何配置文件名
 exl-id: e5e50cb8-45a9-4045-abac-88a3de62803d
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Filename Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '70'
 ht-degree: 0%

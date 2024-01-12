@@ -2,7 +2,9 @@
 title: 生成PDF
 description: 了解如何从Web编辑器和地图仪表板创建PDF预设。 在AEM Guides中配置PDF输出预设。
 exl-id: f12c91fd-3f95-478e-a9cd-68d037206ee8
-source-git-commit: b8c90eb8d1acfe6777a615bd71367027cd8d1c3b
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 1%

@@ -1,7 +1,8 @@
 ---
 title: 列表
 description: 列表
-source-git-commit: dfd4c898d3c093bfee1a8a6efff4e395efd20c60
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 5%

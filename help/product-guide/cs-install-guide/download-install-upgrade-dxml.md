@@ -2,7 +2,10 @@
 title: 升级AEM指南
 description: 了解如何升级AEM Guides
 exl-id: 57ae906f-69e3-4319-89f6-0fa9ddb7a3ff
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 0%

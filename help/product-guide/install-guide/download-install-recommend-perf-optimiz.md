@@ -2,7 +2,10 @@
 title: Recommendations优化性能
 description: 了解Recommendations以实现性能优化
 exl-id: b2a836a0-de82-4d89-aae3-43276997da74
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Performance Optimization
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 0%

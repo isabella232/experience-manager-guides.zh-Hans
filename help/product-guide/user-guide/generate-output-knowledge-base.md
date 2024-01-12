@@ -1,7 +1,9 @@
 ---
 title: 知识库
 description: 了解如何从Web编辑器和地图仪表板创建知识库预设。 在AEM Guides中配置知识库输出预设。
-source-git-commit: 899b493709ee7f1fb31789e4afc3e985fa2505f7
+feature: Publishing
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%

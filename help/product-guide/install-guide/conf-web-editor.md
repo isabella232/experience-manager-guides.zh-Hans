@@ -2,7 +2,10 @@
 title: 自定义Web编辑器
 description: 了解如何自定义Web编辑器
 exl-id: 6579812b-caa7-420f-a6e4-36fef7d63d34
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Web Editor Configuration
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%

@@ -2,7 +2,9 @@
 title: 发行说明 | Adobe Experience Manager Guidesas a Cloud Service，2022年4月版
 description: Adobe Experience Manager Guidesas a Cloud Service于4月发布
 exl-id: c735ba24-a803-454b-8723-57dacf90061b
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 0%

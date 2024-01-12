@@ -2,7 +2,9 @@
 title: 在AEM中使用元数据
 description: 了解如何使用Adobe Experience Manager Assets创建资源和添加元数据。 从AEM Guides管理元数据。
 exl-id: 51e4fcab-7d76-4070-af32-96626e12ef82
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Metadata Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 0%

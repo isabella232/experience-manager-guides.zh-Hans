@@ -3,7 +3,8 @@ title: 使用条件内容
 description: 了解如何在中创建条件，然后设置条件内容生成 [!DNL AEM Guides]
 role: User
 exl-id: a86007e3-48d1-458b-84a7-b683e113e5b2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Publishing
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%

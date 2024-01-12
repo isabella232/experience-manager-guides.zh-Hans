@@ -2,7 +2,9 @@
 title: 的发行说明 [!DNL AEM Guides]， 2022年1月版
 description: 1月版的 [!DNL Adobe Experience Manager Guides] as a Cloud Service
 exl-id: b2da77fa-f17c-440b-be59-acaafcd9a57c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 0%
@@ -195,7 +197,7 @@ Web编辑器中引入了新的翻译功能板，该功能板具有以下功能�
 ### 映射仪表板
 
 * 在地图仪表板的主题或报表选项卡的主题标题中无法查看conref内容。 (8263)
-* AEM Sites输出 | jcr：更新DITA主题标题时，生成的网站页面的标题不会更新。 (8131)
+* AEM Sites输出 | 更新DITA主题标题时，生成的网站页面的标题未更新。 (8131)
 * 下载MAP不下载主题中使用的视频文件。 (8070)
 * 通过下载书图API使用对象标记时，不会下载媒体文件。 (8057)
 * 如果有任何主题的conref文件标题以conref开头，则“报告”选项卡中显示不正确的报告。 (4698)
@@ -234,9 +236,9 @@ Web编辑器中引入了新的翻译功能板，该功能板具有以下功能�
 
 ### 内容导入
 
-* HTML到DITA的转换 |如果表中的“tr”具有空的“td”条目，则会在输出中导致额外的行。 (8132)
-* HTML到DITA的转换 |HTML具有一个带多个表体的表时失败，出现异常。 (7940)
-* HTML到DITA的转换 |如果源HTML有注释，则出现错误。 (7937)
+* HTML到DITA的转换 | 包含空“td”条目的“tr”表会导致输出中出现更多行。 (8132)
+* HTML到DITA的转换 | HTML具有一个带有多个表体的表时失败，出现异常。 (7940)
+* HTML到DITA的转换 | 如果源HTML有注释，则会出错。 (7937)
 * 导入DITA 1.3 DITA文件会导致某些href转换为格式错误的链接。 (8019)
 
 ## 已知问题

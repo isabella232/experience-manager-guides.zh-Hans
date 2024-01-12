@@ -2,7 +2,9 @@
 title: 上载文件
 description: 了解如何将文件上传到AEM存储库并处理错误。 了解资源控制台用户界面、AEM桌面应用程序、资源批量提取器，并使用FrameMaker进行批量上传。
 exl-id: b5430242-1122-43df-a0b2-275b1dea33f2
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Content Management
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%

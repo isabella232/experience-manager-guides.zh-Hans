@@ -2,7 +2,10 @@
 title: 附录
 description: 了解如何准备InDesign文档以进行迁移
 exl-id: 71b09039-b220-45f3-b334-c23f5b09dadc
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: InDesign File Conversion, Troubleshooting
+role: Admin
+level: Experienced
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '2852'
 ht-degree: 0%

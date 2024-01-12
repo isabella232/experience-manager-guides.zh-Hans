@@ -2,7 +2,9 @@
 title: 在编辑器工具栏中添加新的自定义可操作按钮
 description: 了解如何在编辑器工具栏中添加新的自定义按钮并调用javascript以自定义操作它。
 exl-id: 34999db6-027a-4d93-944f-b285b4a44288
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Web Editor
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 0%

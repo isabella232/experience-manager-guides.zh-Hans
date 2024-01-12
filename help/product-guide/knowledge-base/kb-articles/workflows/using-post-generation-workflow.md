@@ -2,7 +2,9 @@
 title: 后期生成工作流
 description: 后处理工作流概述及示例
 exl-id: e19fdc0b-0ec6-46ce-81ed-e9490d12c029
-source-git-commit: eb3fe92d36bc58a11e47f786a10d5938e2ed0184
+feature: Workflow Configuration
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%

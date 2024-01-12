@@ -1,7 +1,8 @@
 ---
 title: Jui框架
 description: 了解Jui框架
-source-git-commit: a61abc0d2b480e276991db916ba0cbf630ca7996
+role: User, Admin
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%

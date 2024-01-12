@@ -1,8 +1,10 @@
 ---
-title: 发行说明 | Adobe Experience Manager Guides（2023年10月版）中的升级说明和修复问题
+title: 发行说明 | Adobe Experience Manager Guides（2023年10月版）中的升级说明和修复的问题
 description: 了解错误修复以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2023年10月版
 exl-id: 536d2ec2-31a0-4533-9c29-16a27525acca
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Release Notes
+role: Leader
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 1%
@@ -88,7 +90,7 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 执行以下步骤来索引现有内容，并在报表选项卡下的映射级别和主题列表中使用新的查找和替换文本：
 
-1. 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径来索引它们，默认情况下，所有映射都将索引\|\|例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
+1. 对服务器运行POST请求\（使用正确的身份验证\） - `http://<server:port\>/bin/guides/map-find/indexing`. (可选：您可以传递映射的特定路径以对其进行索引，默认情况下，所有映射都将进行索引\|\| 例如： `https://<Server:port\>/bin/guides/map-find/indexing?paths=<map\_path\_in\_repository\>`)
 
 1. 您还可以传递根文件夹来索引特定文件夹（及其子文件夹）的DITA映射。 例如，`http://<server:port\>/bin/guides/map-find/indexing?root=/content/dam/test`。请注意，如果同时传递了路径参数和根参数，则只考虑路径参数。
 
@@ -137,9 +139,9 @@ http://<aem_domain>/var/dxml/executor-locks/translation-map-upgrade/168319003288
 
 ### 发布
 
-- 本机PDF |在生成PDF输出时，主题的顺序未固定。 (13157)
-- 本机PDF|没有默认样式标记可用于 `<p>`元素。 (12559)
-- 本机PDF |应用于内容区域的内联样式不会应用于前件和后件主题。 (13510)
+- 本机PDF | 生成PDF输出时，主题的顺序未固定。 (13157)
+- 本机PDF| 没有默认样式标记可用于 `<p>`元素。 (12559)
+- 本机PDF | 应用于内容区域的内联样式不会应用于前件和后件主题。 (13510)
 - 此 `DeliveryTarget` 在生成AEM Site输出时，属性不会传播。  (13132)
 - 此 **Publish** 为存在特定错误的内容生成AEM站点输出时，工作流卡住。 (12000)
 

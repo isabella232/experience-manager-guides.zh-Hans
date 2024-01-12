@@ -2,7 +2,9 @@
 title: 创建映射
 description: 使用AEM Guides中的映射编辑器创建映射。 查找基于映射模板创建映射文件的步骤。
 exl-id: b9cda118-ab6f-4d6b-9616-a083180ba069
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring, Map Editor
+role: User
+source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%

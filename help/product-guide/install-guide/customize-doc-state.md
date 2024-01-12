@@ -2,7 +2,10 @@
 title: 配置文档状态
 description: 了解如何配置文档状态
 exl-id: d7603b4e-aae4-48ca-be84-8edb51626405
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Document State
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '1131'
 ht-degree: 0%

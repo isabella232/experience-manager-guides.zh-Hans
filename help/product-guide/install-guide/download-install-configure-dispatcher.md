@@ -2,7 +2,10 @@
 title: 配置Dispatch
 description: 了解如何配置调度程序
 exl-id: 525de1c3-5a79-4d65-89b4-ca05ae660c2c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Installation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 5%

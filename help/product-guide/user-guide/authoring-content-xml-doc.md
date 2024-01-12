@@ -2,7 +2,9 @@
 title: 使用AEM Guides创作内容
 description: 使用AEM Guides高效地创作内容。 了解如何在AEM Guides中创建、编辑和发布文档。
 exl-id: 9e29dde4-a9de-41e0-86c8-ca949bd3669c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Authoring
+role: User
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 0%

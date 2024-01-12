@@ -2,7 +2,10 @@
 title: 自定义和配置本机PDF发布功能
 description: 了解如何自定义和配置本机PDF功能的各种组件。
 exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
-source-git-commit: c79f1d114d8a708cd088f2846243bbcfeed6e620
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%

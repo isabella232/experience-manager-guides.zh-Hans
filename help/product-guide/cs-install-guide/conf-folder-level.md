@@ -2,7 +2,10 @@
 title: 配置全局或文件夹级别的配置文件
 description: 了解如何配置全局或文件夹级别的配置文件
 exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Profiles
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '3967'
 ht-degree: 0%

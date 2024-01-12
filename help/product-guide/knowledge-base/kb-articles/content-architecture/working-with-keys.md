@@ -3,7 +3,8 @@ title: 使用键
 description: 如何创建要在组织内容中使用的键
 role: Admin
 exl-id: b8e3a6d2-ea82-4fdb-bd16-3f4b6594af52
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Use Keys in AEM Guides
+source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%

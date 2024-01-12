@@ -2,7 +2,10 @@
 title: 配置主题和内容片段模型之间的基于JSON的映射。
 description: 了解如何配置主题和内容片段模型之间的基于JSON的映射。
 exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
-source-git-commit: 5e0584f1bf0216b8b00f00b9fe46fa682c244e08
+feature: Output Generation
+role: Admin
+level: Experienced
+source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
