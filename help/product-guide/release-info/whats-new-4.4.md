@@ -1,9 +1,9 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.4.0版的新增功能
 description: 了解Adobe Experience Manager Guides 4.4.0版本中的新增功能和增强功能
-source-git-commit: ca86700d033ad8eb7cdba917f010f3aa71113a19
+source-git-commit: 027e8e6a6119145a5b2255449514a76488c90463
 workflow-type: tm+mt
-source-wordcount: '2293'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -177,6 +177,7 @@ Experience Manager指南允许您作为管理员配置AEM Site输出的URL。 �
 
 “Experience Manager”提供的功能通过根据应用于主题的主题标签自动选择主题来创建基线。 现在，您还可以使用同一DITA映射的自动基线无缝发布多个输出预设。 您不必一次只发布一个预设，但可以轻松地同时发布多个输出预设。
 
+详细了解如何 [通过Web编辑器创建和管理基线](../user-guide/web-editor-baseline.md).
 
 ## 本机PDF增强功能
 
@@ -219,7 +220,7 @@ Experience Manager指南允许您作为管理员配置AEM Site输出的URL。 �
 ### 将资源元数据传播到PDF输出
 
 Experience Manager现在提供将资源的元数据属性从DITA映射传输到PDF输出的功能。
-从本机PDF输出预设中，您可以选择要传播到PDF发布过程的元数据。 您可以选择自定义属性和默认属性。  选定的元数据属性将传输到使用本机PDF生成的PDF文件。
+从本机PDF输出预设中，可以选择要传播到PDF发布过程的元数据。 您可以选择自定义属性和默认属性。  选定的元数据属性将传输到使用本机PDF生成的PDF文件。
 
 此功能非常方便，因为它有助于保持资源属性（如作者、创建日期或文档标题）的一致性。 这样可以更轻松地组织、搜索和分类您的文档。
 
