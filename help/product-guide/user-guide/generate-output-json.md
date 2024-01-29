@@ -4,9 +4,9 @@ description: 了解如何从Web编辑器和地图仪表板创建JSON预设。 �
 exl-id: 9eb426fc-ca0a-4932-8a55-fea731281a0a
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '626'
 ht-degree: 1%
 
 ---
@@ -28,9 +28,6 @@ ht-degree: 1%
 
 有关详细信息，请参阅 [JSON配置](#id231KJA00REJ).
 
-**从地图仪表板**
-
-要打开PDF的输出预设，请单击Assets UI中的DITA映射文件，单击输出预设，然后单击HTML5选项。 在“地图”仪表板中，单击 **编辑** 以更新各种配置，然后单击 **保存**.
 
 **JSON配置**
 

@@ -4,10 +4,10 @@ description: 了解如何从Web编辑器和地图仪表板创建自定义预设�
 exl-id: 1bb14411-ec94-4960-92ba-3b2ff7a29932
 feature: Publishing
 role: User
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 2%
+source-wordcount: '937'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 “高级”选项卡包含以下配置：
 
 - 清理DITA-OT临时文件
-- 属性
+- 文件属性
 
 有关详细信息，请参阅 [自定义配置](#id231KJA00REJ).
 
@@ -62,6 +62,6 @@ ht-degree: 2%
 | 清理DITA-OT临时文件 | 选择此选项可清除DITA-OT生成的临时文件。 可以在输出生成日志中找到DITA-OT存储临时文件的位置。<br><br>如果在通过DITA-OT生成输出时遇到错误，可以取消选择此选项以保留临时文件。 然后，您可以使用这些文件排除输出生成错误。 |
 | 运行后期生成工作流 | 选择此选项时，将显示一个新的后期生成工作流下拉列表，其中包含在AEM中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。<br><br>**注意**：有关创建自定义输出后生成工作流的更多信息，请参阅 _自定义输出后生成工作流_ 在as a Cloud Service安装和配置Adobe Experience Manager Guides中。 |
 | 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br>请参阅 [使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) 了解更多详细信息。 |
-| 属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性将显示在 **属性** 字段。 选择资产旁边的交叉图标以将其删除。 <br><br>**注意**：您还可以使用DITA-OT发布将元数据传递到输出。 有关详细信息，请参阅， [使用DITA-OT将元数据传递到输出](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
+| 文件属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性将显示在 **文件属性** 字段。 选择资产旁边的交叉图标以将其删除。 <br><br>**注意**：您还可以使用DITA-OT发布将元数据传递到输出。 有关详细信息，请参阅， [使用DITA-OT将元数据传递到输出](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 
 **父主题：**[&#x200B;了解输出预设](generate-output-understand-presets.md)

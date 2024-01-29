@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 4bb3a064a44b0b0c638ef22d0d7c219c77a20b20
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1699'
 ht-degree: 4%
 
 ---
@@ -58,23 +58,28 @@ ht-degree: 4%
             + [2月发行说明](./release-info/release-notes-2022.2.0.md)
             + [1月发行说明](./release-info/release-notes-2022.1.0.md)
       + 内部部署/Managed Services {#on-prem-release-notes}
-         + 4.3.0发行版 {#43-release}
-            + 新增功能 {#43-whats-new}
-               + [4.3.1新增功能](./release-info/whats-new-4.3.1-release.md)
-               + [4.3.0新增功能](./release-info/whats-new-4.3-release.md)
-            + 发行说明 {#43-release-notes}
-               + [4.3.1发行说明](./release-info/release-notes-4.3.1.md)
-               + [4.3.0发行说明](./release-info/release-notes-4.3.md)
-         + 4.2版本 {#42-release}
-            + 新增功能 {#42-whats-new}
-               + [4.2.1新增功能](./release-info/whats-new-4.2.1-release.md)
-               + [4.2新增功能](./release-info/whats-new-4.2-release.md)
-            + 发行说明 {#42-release-notes}
-               + [4.2.1发行说明](./release-info/release-notes-4.2.1.md)
-               + [4.2发行说明](./release-info/release-notes-4.2.md)
-         + [4.1.x发行说明](./release-info/release-notes-4.1.md)
-         + [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
-         + [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
+      + 4.4.0发行版 {#44-release}
+         + 新增功能 {#44-whats-new}
+            + [4.4新增功能](./release-info/whats-new-4.4.md)
+         + 发行说明 {#43-release-notes}
+            + [4.4发行说明](./release-info/release-notes-4.4.md)
+      + 4.3.0发行版 {#43-release}
+         + 新增功能 {#43-whats-new}
+            + [4.3.1新增功能](./release-info/whats-new-4.3.1-release.md)
+            + [4.3.0新增功能](./release-info/whats-new-4.3-release.md)
+         + 发行说明 {#43-release-notes}
+            + [4.3.1发行说明](./release-info/release-notes-4.3.1.md)
+            + [4.3.0发行说明](./release-info/release-notes-4.3.md)
+      + 4.2版本 {#42-release}
+         + 新增功能 {#42-whats-new}
+            + [4.2.1新增功能](./release-info/whats-new-4.2.1-release.md)
+            + [4.2新增功能](./release-info/whats-new-4.2-release.md)
+         + 发行说明 {#42-release-notes}
+            + [4.2.1发行说明](./release-info/release-notes-4.2.1.md)
+            + [4.2发行说明](./release-info/release-notes-4.2.md)
+      + [4.1.x发行说明](./release-info/release-notes-4.1.md)
+      + [4.0.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-4-0.html)
+      + [3.8.x发行说明](https://helpx.adobe.com/xml-documentation-for-experience-manager/release-note/release-notes-xml-documentation-solution-3-8.html)
 + 用户指南 {#user-guide}
    + 简介 {#about-aem-guide}
       + [关于 [!DNL Adobe Experience Manager Guides]](./user-guide/intro.md)

@@ -4,9 +4,9 @@ description: 从Web编辑器将内容翻译成多种语言。 了解如何在AEM
 exl-id: 321c5442-92eb-4662-ab61-d4d4f05eeb39
 feature: Authoring, Features of Web Editor, Translation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1925'
 ht-degree: 0%
 
 ---
@@ -37,8 +37,8 @@ AEM Guides在Web编辑器中提供了强大的功能，使您能够把内容翻�
 ## 创建翻译项目
 
 1. 在存储库面板中，在映射视图中打开DITA映射文件。
-1. 单击 **管理** 选项卡。 “翻译”面板显示DITA映射的超链接标题以及 **语言** 列表。
-1. 从 **语言** 列表，选择要将项目翻译到的区域设置。 您可以选择 **全部** 将您的项目翻译为所有可用的语言。
+1. 单击 **管理** 选项卡。 “翻译”面板显示 **可用语言** 列表。
+1. 从 **可用语言** 列表，选择要将项目翻译到的区域设置。 您可以选择 **全选** 将您的项目翻译为所有可用的语言。
 
    >[!NOTE]
    >
@@ -46,11 +46,13 @@ AEM Guides在Web编辑器中提供了强大的功能，使您能够把内容翻�
 
    >[!IMPORTANT]
    >
-   > 语言仅显示其语言文件夹与源语言并行创建的语言。 在任何其他级别（例如从源语言文件夹往下一个级别）创建的语言文件夹也不显示。 请确保创建的所有目标语言文件夹与源语言文件夹处于同一级别。
+   > 该列表仅显示其语言文件夹平行于源语言创建的语言。 在任何其他级别（例如从源语言文件夹往下一个级别）创建的语言文件夹也不显示。 请确保创建的所有目标语言文件夹与源语言文件夹处于同一级别。
 
-   ![](images/translation-languages.png){width="350" align="left"}
+   ![](images/translation-languages.png){width="300" align="left"}
 
-1. 您还可以使用以下选项：
+1. 您还可以选择以下选项之一来翻译项目：
+
+   **无** 选择此选项可翻译文件的默认版本。 默认情况下，该选项处于选中状态。
 
    **使用基线：** 您可以选择基线来翻译项目。 单击使用基线，然后选择在映射中创建的基线。 属于所选基线的所有文件都会显示在翻译页面中。 翻译内容后，即可导出已翻译的基线。 有关导出转换后的基线的详细信息，请参见 [导出已翻译基线](generate-output-use-baseline-for-publishing.md#id196SE600GHS).
 
@@ -146,7 +148,7 @@ AEM Guides允许您将源文件的标签传递到目标文件。 这将帮助您
 
 AEM Guides提供了用于检查主题的选定版本与上次翻译的源版本之间的差异的功能。 您可以选择翻译 **不同步** 基于所做更改的文件。
 
-![](images/translation-version-diff.png){width="800" align="left"}
+![](images/translation-version-diff.png){width="650" align="left"}
 
 选择 **显示差异**&#x200B;图标\(![](images/show-difference-icon.svg)\)查看所选文件上次翻译版本与当前版本之间的差异。
 

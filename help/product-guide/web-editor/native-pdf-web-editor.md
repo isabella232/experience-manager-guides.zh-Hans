@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中使用本机PDF发布、创建和生成
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '3196'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -87,16 +87,20 @@ ht-degree: 0%
 
 使用“元数据”选项卡设置元数据字段，如作者姓名、文档标题、关键字、版权信息以及PDF输出的其他数据字段。 您还可以为PDF输出添加自定义元数据。
 
-此元数据映射到输出PDF的“文档属性”中“描述”选项卡内的元数据。
+此元数据在中映射到元数据 **描述** 选项卡 **文档属性** 输出PDF的ID。
 
-**注意**：此元数据将覆盖在帐簿级别定义的元数据。
+
 
 <img src="assets/pdf-metadata.png" alt="“元数据”选项卡" width="600">
 
-在输出预设中， **选择PDF** > **元数据** 添加和自定义元数据选项。
+从输出预设中，选择  **PDF** > **本机PDF** > **元数据** 添加和自定义元数据选项。
+* **使用在topicmeta中添加的元数据**
+
+  默认情况下，该选项处于选中状态。 您可以使用在DITA映射的topicmeta元素中添加的元数据来填充PDF输出的元数据字段。
+
 * **提供XMP文件**
 
-  可以通过导入直接填充元数据字段 [XMP](https://www.adobe.com/products/xmp.html) （可扩展元数据平台）文件。 您可以从此处下载示例XMP文件。
+  您还可以通过导入直接填充元数据字段 [XMP](https://www.adobe.com/products/xmp.html) （可扩展元数据平台）文件。 您可以从此处下载示例XMP文件。
 
 [下载](assets/SampleXMP.xmp)
 
@@ -169,6 +173,7 @@ ht-degree: 0%
 | **启用MathML公式** | 选择此选项以呈现内容中存在的MathML公式。 否则将默认忽略公式。 |
 | **下载临时文件** | 如果要下载在生成本机HTML输出时创建的临时PDF文件，请选择此选项。 生成输出后，您可以稍后下载临时文件。 |
 | **PDF符合性** | 这是您打算保存PDF以确保其合规性的标准。 从下拉列表中选择，以从可用PDF标准列表中进行选择。 有关支持的标准的更多详细信息，请参阅 [关于PDF标准](https://helpx.adobe.com/acrobat/using/pdf-conversion-settings.html#about_pdf_x_pdf_e_and_pdf_a_standards). |
+| **文件属性** | 选择要传递给本机PDF发布的元数据。 该下拉列表会同时列出自定义属性和默认属性。 例如， `dc:description`， `dc:language`， `dc:title`、和 `docstate` 是默认属性，但您可以 `author` 作为自定义属性。 所选元数据属性将传递到使用本机PDF生成的PDF文件。 <br> 这些属性是从 `metadataList` 文件位于：`/libs/fmdita/config/metadataList`. <br>此文件可以覆盖在： `/apps/fmdita/config/metadataList`. |
 
 
 ## 生成PDF输出 {#generate-pdf-output}

@@ -3,9 +3,9 @@ title: 发行说明 | Adobe Experience Manager Guides（2023年12月版）的新
 description: 在2023年12月版的Adobe Experience Manager Guidesas a Cloud Service中了解新增功能和增强功能。
 feature: What's New
 role: Leader
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -128,13 +128,6 @@ Experience Manager指南现在为从Web编辑器创建基线提供了增强的�
 *复制基于标签的基线或创建精确副本。*
 
 详细了解如何 [通过Web编辑器创建和管理基线](../user-guide/web-editor-baseline.md).
-
-## 改进了批量激活图集合的创建流程
-
-现在，创建批量激活地图集合的过程更加协调。 现在，当显示“激活结果”页面时，您可以查看激活结果和日志。
-有关更多详细信息，请参阅 [创建批量激活映射集合](../user-guide/conf-bulk-activation-create-map-collection.md).
-
-
 
 ## 解析AEM网站输出中的交叉映射链接
 
