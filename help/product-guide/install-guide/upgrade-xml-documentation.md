@@ -5,7 +5,7 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
 workflow-type: tm+mt
 source-wordcount: '5744'
 ht-degree: 0%
@@ -237,7 +237,7 @@ ht-degree: 0%
    - ui\_config.json\（可能已在文件夹配置文件中设置\）
    - 已修改 `com.adobe.fmdita.config.ConfigManager`
    - 检查是否有任何自定义代码使用任何旧路径\(如 [迁移映射](#id2244LE040XA) 部分\) — 应更新为新路径，以便自定义项也能按预期工作。
-1. 阅读有关当前版本中引入的任何新配置\(请选中 [发行说明](../release-info/release-notes-4.3.md)\)查看是否有任何功能受到影响，然后采取适当措施。 例如，可以使用4.0版中引入的“改进的文件和版本处理”，您需要启用该版本的配置。
+1. 阅读有关当前版本中引入的任何新配置\(请选中 [发行说明](../release-info/release-notes-4-3.md)\)查看是否有任何功能受到影响，然后采取适当措施。 例如，可以使用4.0版中引入的“改进的文件和版本处理”，您需要启用该版本的配置。
 
 ## 为现有内容编制索引以使用新的查找和替换的步骤：
 
@@ -452,7 +452,7 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
    - ui\_config.json\（可能已在文件夹配置文件中设置\）
    - 已修改 `com.adobe.fmdita.config.ConfigManager`
    - 检查是否有任何自定义代码使用任何旧路径\(如 [迁移映射](#id2244LE040XA) 部分\) — 应更新为新路径，以便自定义项也能按预期工作。
-1. 阅读有关当前版本中引入的任何新配置\(请选中 [发行说明](../release-info/release-notes-4.2.1.md)\)查看是否有任何功能受到影响，然后采取适当措施。 例如，可以使用4.0版中引入的“改进的文件和版本处理”，您需要启用该版本的配置。
+1. 阅读有关当前版本中引入的任何新配置\(请选中 [发行说明](../release-info/release-notes-4-2-1.md)\)查看是否有任何功能受到影响，然后采取适当措施。 例如，可以使用4.0版中引入的“改进的文件和版本处理”，您需要启用该版本的配置。
 
 ## 为现有内容编制索引以使用新的查找和替换的步骤：
 
