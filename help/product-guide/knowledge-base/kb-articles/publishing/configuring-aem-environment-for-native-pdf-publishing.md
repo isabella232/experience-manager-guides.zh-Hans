@@ -4,9 +4,9 @@ description: 为本机PDF发布配置AEM环境
 exl-id: 40266ca0-0b0b-4418-b606-f70270addbaa
 feature: Native PDF Output
 role: User, Admin
-source-git-commit: a41fed965ed9fe33994478d51030eefdad1037de
+source-git-commit: 1baed01b2e573d79d4baaa6a551966ce59449136
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '902'
 ht-degree: 1%
 
 ---
@@ -181,12 +181,6 @@ AEM Guides中配置此本机PDF的步骤因操作系统而异。 根据安装AEM
 
 验证CRX存储库中/var/dxml/profiles/b1aad0a7-9079-e56c-1ed8-6fcababe8166/nodejs中nodejs节点的超时属性值。 默认值为 300。
 
-### 提取依赖性异常时出错（字符串太长）
-![字符串过长异常](..//assets/publishing/string-too-long-error.png)
-
-要解决此例外，请执行以下操作：
-1. 删除一些不需要使其变小的样式。
-2. 创建多个样式表，而不是单个大型css。
 
 
 如果您在执行上述任何步骤时遇到任何问题，请在AEM Guides社区中发布您的问题 [论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以寻求帮助。
