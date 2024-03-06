@@ -4,9 +4,9 @@ description: 了解错误修复以及如何升级到Adobe Experience Manager Gui
 exl-id: 3fb6dc31-ec6e-40f5-ab3f-a6e591da315e
 feature: Release Notes
 role: Leader
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 ## 升级到《Experience Manager指南》的4.3.1版本
 
 
-您可以轻松地将指南的当前版本升级到4.3.1版。在继续升级到版本4.3.1的Experience Manager指南之前，您必须考虑以下几点：您可以将当前版本的Experience Manager指南升级到版本4.3.1
+您可以轻松将《Experience Manager指南》的当前版本升级到4.3.1版。在继续升级到版本4.3.1的Experience Manager指南之前，您必须考虑以下几点：您可以将当前版本的Experience Manager指南升级到版本4.3.1
 
 
 - 如果您使用的是版本4.3.0、4.2或4.2.1，则可以直接升级到版本4.3.1。

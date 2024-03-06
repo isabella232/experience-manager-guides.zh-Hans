@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 8fc1a5232bcc9049b16def8d629ab45a278a2c8f
+source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: '1740'
 ht-degree: 5%
 
 ---
@@ -15,10 +15,16 @@ ht-degree: 5%
 - [[!DNL AEM Guides]概述](overview.md)
 - [免责声明](./user-guide/rebranding-disclaimer.md)
 - 发行信息 {#release-info}
+
    - [[!DNL AEM Guides] 版本](./release-info/latest-release-info.md)
    - 发行说明 {#release-notes}
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
+         - 2024版 {#2024-releases}
+            - 2024.2.0发行版 {#2402-release}
+               - [新增功能](./release-info/whats-new-2024-2-0.md)
+               - [修复的问题](./release-info/fixed-issues-2024-2-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2024-2-0.md)
          - 2023版 {#2023-releases}
             - 12月版 {#2312-release}
                - [新增功能](./release-info/whats-new-2023-12-0.md)
@@ -108,6 +114,7 @@ ht-degree: 5%
                - [Web编辑器中的其他功能](./user-guide/web-editor-other-features.md)
                - [Web编辑器视图](./user-guide/web-editor-views.md)
                - [支持Schematron文件](./user-guide/support-schematron-file.md)
+               - [用于创作内容的AI支持的智能建议（测试版）](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [从Web编辑器创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
                - [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
                - [使用来自您的数据源的数据](./user-guide/web-editor-content-snippet.md)
@@ -219,8 +226,8 @@ ht-degree: 5%
       - 内容迁移 {#content-migration}
          - [非UUID到UUID内容迁移](./install-guide/migrate-uuid-non-uuid.md)
          - 迁移过程 {#migration-process}
-            - [迁移受版本控制的内容](./install-guide/migrate-non-uuid-uuid-with-versions.md)
-            - [迁移不带版本的内容](./install-guide/migrate-non-uuid-uuid-without-versions.md)
+            - [使用版本迁移非UUID内容](./install-guide/migrate-non-uuid-uuid-with-versions.md)
+            - [迁移不带版本的非UUID内容](./install-guide/migrate-non-uuid-uuid-without-versions.md)
          - [迁移现有内容](./install-guide/migrate-content.md)
          - [上载现有DITA内容](./install-guide/migrate-content-upload-existing-dita-content.md)
          - [迁移非DITA内容](./install-guide/migrate-content-non-dita.md)
@@ -322,6 +329,7 @@ ht-degree: 5%
       - 使用Web编辑器配置 {#web-editor-configs-cs}
          - [自定义Web编辑器](./cs-install-guide/conf-web-editor.md)
          - [自定义工具栏](./cs-install-guide/conf-web-editor-customize-toolbar.md)
+         - [为创作配置AI支持的智能建议](./cs-install-guide/conf-smart-suggestions.md)
          - [配置标记视图的默认值](./cs-install-guide/configure-default-value-tags-view.md)
          - [配置基于UUID的链接的显示](./cs-install-guide/conf-uuid-based-links.md)
          - [在同一选项卡中打开DITA主题或映射文件](./cs-install-guide/open-dita-files-same-tab.md)

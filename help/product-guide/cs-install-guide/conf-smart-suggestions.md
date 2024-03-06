@@ -1,16 +1,16 @@
 ---
 title: 配置用于创作的智能建议
 description: 了解如何为创作配置智能建议
-source-git-commit: f0bb8e29748ab6820d772225d1689bd5ce6f4c09
+source-git-commit: 1cdad275651b78d794ebc3f4ad9ead266ebeb0bd
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 1%
 
 ---
 
-# 配置用于创作的智能建议
+# 为创作配置AI支持的智能建议
 
-作为管理员，您可以为作者配置智能建议功能。 由于智能建议服务受Adobe IMS基于身份验证的身份验证保护，因此请将您的环境与Adobe的安全基于令牌的身份验证工作流集成，并开始使用新的智能建议解决方案。 以下配置可帮助您将AI配置选项卡添加到文件夹配置文件。 添加后，您可以在Web编辑器中使用智能建议功能。
+作为管理员，您可以为作者配置智能建议功能。 智能建议服务由基于Adobe IMS身份验证的身份验证来保护。 将您的环境与Adobe基于令牌的安全身份验证工作流集成，并开始使用新的智能建议功能。 以下配置可帮助您添加 **人工智能配置** 选项卡到文件夹配置文件。 添加后，您可以在Web编辑器中使用智能建议功能。
 
 ## 在Adobe Developer控制台中创建IMS配置
 
@@ -21,22 +21,23 @@ ht-degree: 0%
    ![快速入门链接](assets/conf-ss-quick-start.png) {width="550" align="left"}
    *创建新项目。*
 
-1. 选择  **添加API**  从  **项目** 屏幕。  此 **添加API** 屏幕显示。 此屏幕显示了可用于开发应用程序的Adobe产品和技术的所有可用API、事件和服务。
+1. 选择  **添加API**  从  **项目** 屏幕。  此 **添加API** 屏幕。 此屏幕显示了可用于开发应用程序的Adobe产品和技术的所有可用API、事件和服务。
 
-1. 选择 **IO管理API** 以将其添加到您的项目。
+1. 选择 **I/O管理API** 以将其添加到您的项目。
    ![IO管理API](assets/confi-ss-io-management.png)
-   *将IO管理API添加到您的项目中。*
+   *将I/O管理API添加到您的项目中。*
 
 1. 新建 **OAuth凭据** 并保存它。
    ![配置API中的OAuth凭据拼贴](assets/conf-ss-OAuth-credential.png) {width="3000" align="left"}
    *为API配置OAuth凭据。*
 
-1. 在  **项目** 选项卡，选择新创建的凭据。
+1. 在  **项目** 选项卡，选择 **OAuth服务器到服务器** 选项，然后选择新创建的凭据。
 
 1. 选择 **OAuth服务器到服务器** 查看项目凭据详细信息的链接。
 
-![连接的凭据](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
-*连接到项目以查看凭据详细信息。*
+   ![连接的凭据](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
+
+   *连接到项目以查看凭据详细信息。*
 1. 复制CLIENT_ID和CLIENT_SECRET密钥。
 
 您现在已配置OAuth身份验证详细信息。 请随时使用这两个键，因为下一节需要用到它们。
@@ -58,7 +59,7 @@ ht-degree: 0%
 
 将IMS配置添加到环境后，执行以下步骤以使用OSGi将这些属性与AEM Guides链接：
 
-1. 在您的Cloud Manager Git项目代码中，添加以下两个给定的文件(对于文件内容，请查看 [附录](#appendix).
+1. 在您的Cloud Manager Git项目代码中，添加以下两个给定的文件(对于文件内容，请查看 [附录](#appendix))。
 
    * `com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
    * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
@@ -66,7 +67,7 @@ ht-degree: 0%
 1. 提交并推送您的Git更改。
 1. 运行管道以在环境中应用更改。
 
-完成此操作后，您应该能够使用新的基于微服务的云发布。
+完成此操作后，您应该能够使用智能建议功能。
 
 
 
@@ -101,12 +102,12 @@ ht-degree: 0%
 
 ## 智能建议配置详细信息
 
-| 关键值 | 描述 | 允许的值 |
-|---|---|---|
-| smart.suggestion.flag | 控制是否启用智能建议 | true/false |
-| conref.inline.threshold | 控制为用户当前键入的标记获取的建议的精确度/回调度的阈值。 | -1.0 &lt;= x &lt;= 1.0 |
-| conref.block.threshold | 控制在整个文件中为标记获取的建议精确度/回调度的阈值。 | -1.0 &lt;= x &lt;= 1.0 |
-| emerald.url | 翡翠矢量数据库的端点 | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
-| instance.type | AEM实例的类型。 请确保此名称对于在上配置的每个AEM实例都是唯一的。 用例是在暂存环境中使用“instance.type”=“stage”测试该功能，与此同时，该功能也在“prod”上配置。 | 标识环境“dev”/“stage”/“prod”/“test1”/“stage2”的任何唯一键值 |
+| 关键值 | 描述 | 允许的值 | 默认值 |
+|---|---|---|---|
+| smart.suggestion.flag | 控制是否启用智能建议 | true/false | false |
+| conref.inline.threshold | 控制为用户当前键入的标记获取的建议精确度/回调度的阈值。 | 从–1.0到1.0的任何值。 | 0.6 |
+| conref.block.threshold | 控制在整个文件中为标记获取的建议精确度/回调度的阈值。 | 从–1.0到1.0的任何值。 | 0.7 |
+| emerald.url | 翡翠矢量数据库的端点 | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) | [https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1](https://adobeioruntime.net/apis/543112-smartsuggest/emerald/v1) |
+| instance.type | AEM实例的类型。 请确保对于已配置智能建议的每个AEM实例而言，这是唯一的。 用例是在暂存环境中使用“instance.type”=“stage”测试该功能，与此同时，该功能也在“prod”上配置。 | 标识环境的任意唯一键。 仅 *字母数字* 值是允许的。 “dev”/“stage”/“prod”/“test1”/“stage2” | &quot;prod&quot; |
 
-配置完毕后，智能建议图标将显示在Web编辑器的右侧面板中。 编辑主题时，可以查看智能建议列表。 有关详细信息，请查看 [用于创作的基于AI的智能建议](../user-guide/web-editor-content-snippet.md).
+配置完毕后，智能建议图标将显示在Web编辑器的右侧面板中。 编辑主题时，可以查看智能建议列表。 有关详细信息，请查看 [用于创作的基于AI的智能建议](../user-guide/authoring-ai-based-smart-suggestions.md) Experience Manager部分。

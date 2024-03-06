@@ -5,9 +5,9 @@ exl-id: 19f63d67-89ef-4c5e-bc9a-cf40dd8d7979
 feature: Profiles
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 1b25f1df67fa2442ab79830dc2ac5a6eabd0394c
 workflow-type: tm+mt
-source-wordcount: '3967'
+source-wordcount: '4285'
 ht-degree: 0%
 
 ---
@@ -405,6 +405,43 @@ AEM Guides允许管理员使用特定设置创建输出预设，然后所有发�
 
 1. 单击 **确定** 将所选输出预设中的更改应用于所有现有DITA映射。
 
+
+
+## 在Web编辑器中配置AI支持的智能建议 {#conf-ai-smart-suggestions}
+
+对象 ![AEM cloud ](assets/aem-cloud-icon.svg) Experience Manager指南as a Cloud Service。
+
+您可以配置由AI提供支持的智能建议，并帮助作者重用现有内容并轻松创建正确且一致的内容引用。 此 **AI配置** 选项卡允许您控制Web编辑器中“智能建议”面板的设置。
+
+执行以下步骤以在全局或文件夹级别配置文件中配置标准AI配置：
+1. 以管理员或对文件夹级别配置文件具有管理权限的用户身份登录Adobe Experience Manager。
+1. 选择 **Adobe Experience Manager** 在顶部链接，然后选择 **工具**.
+1. 选择 **指南** 从工具列表中，选择 **文件夹配置文件** 磁贴。
+1. 选择要配置的配置文件拼贴。
+
+   >[!NOTE]
+   >
+   >您可以将基于AI的智能建议配置为全局或文件夹级别的配置文件。
+
+1. 在配置文件页面上，选择 **AI配置** 选项卡。
+   ![全局配置文件中的AI配置选项卡](assets/global-profile-AI-configuration-cs.png) {width="800" align="left"}
+
+1. 单击 **编辑**.
+1. 作为管理员，您可以配置以下设置：
+
+   **最小字符数**：输入作者需要键入的最小字符数以获取建议。 例如，如果此数字为7，作者必须至少添加7个字符才能查看智能建议。
+
+   **最大建议**：输入作者在创作内容时可获取的最大建议数。 例如，如果此数字为5，作者可以查看五个或更少的智能建议。
+
+   **文件和文件夹**：选择应从中显示智能建议的文件或文件夹。 *为保持内容一致性，建议列表中不要有两个条目之间有通用文件*. 选择文件和文件夹后，将列出它们。
+
+1. 单击&#x200B;**保存**。
+
+   >[!NOTE]
+   >
+   > 保存文件后，最后索引的状态详细信息将显示在顶部。
+
+详细了解如何查看和添加 [基于人工智能的智能建议](../user-guide/authoring-ai-based-smart-suggestions.md) 以在Web编辑器中创作时添加内容引用。
 
 ## 配置和自定义XML Web编辑器 {#id2065G300O5Z}
 
