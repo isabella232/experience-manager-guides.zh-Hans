@@ -1,28 +1,28 @@
 ---
 title: 技术要求
-description: 了解使用AEM Guides的技术要求
+description: 了解使用Adobe Experience Manager Guides的技术要求
 exl-id: d69245b0-bf20-43c1-b46e-b6c220319690
 feature: Introduction, Installation
 role: Admin
 level: Experienced
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 60e905bf4027ee6c0390bf067b95517ab770ed7b
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '91'
 ht-degree: 0%
 
 ---
 
 # 技术要求 {#id213BCG003XA}
 
-在安装AEM Guides 4.3之前，请确保您的系统满足以下技术要求：
+在安装AEM Guides 4.4之前，请确保您的系统满足以下技术要求：
 
 **Adobe Experience Manager**
 
-- 版本6.5 Service Pack 18、17、16、15或14
+- 版本6.5 Service Pack 19、18或17
 
 >[!IMPORTANT]
 >
-> 对于生成AEM站点输出，您的AEM发布实例必须具有Service Pack 18、17、16、15或14。
+> 对于生成AEM站点输出，您的AEM发布实例必须具有Service Pack 19、18或17 。
 
 **操作系统**
 

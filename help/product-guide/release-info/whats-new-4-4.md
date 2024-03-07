@@ -1,18 +1,23 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 4.4.0版的新增功能
 description: 了解Adobe Experience Manager Guides 4.4.0版本中的新增功能和增强功能
-source-git-commit: 6d8c01f20f7b59fed92c404561b647d9ebecb050
+role: Leader
+source-git-commit: 8f8075b205725a55b93286c804b879353b4d965d
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
 
 ---
 
-# Adobe Experience Manager Guides 4.4.0版的新增功能（2024年1月）
+# 4.4.0版本的新增功能（2024年1月）
 
-本文介绍4.4.0版本的Adobe Experience Manager Guides(以后称为 *Experience Manager指南*)。
+本文介绍4.4.0版本的Adobe Experience Manager Guides中的新增功能和增强功能。
 
-有关升级说明、兼容性矩阵以及此版本中修复的问题的更多详细信息，请参阅 [发行说明](./release-notes-4-4.md).
+有关此版本中已修复的问题的列表，请查看 [修复了4.4.0版本中的问题](../release-info/fixed-issues-4-4.md).
+
+了解 [4.4.0版本的升级说明](../release-info/upgrade-instructions-4-4.md).
+
+
 
 ## Web编辑器中改进的版本历史记录功能
 

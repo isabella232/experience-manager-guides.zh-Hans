@@ -5,9 +5,9 @@ exl-id: f058b39f-7408-4874-942b-693e133886cf
 feature: Installation
 role: Admin
 level: Experienced
-source-git-commit: 5a444e88b0adba7fa3d498437df39b729b10b5eb
+source-git-commit: 98fec02367c7e3f33f2511e51675d9e02e41170a
 workflow-type: tm+mt
-source-wordcount: '5744'
+source-wordcount: '5940'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 您可以将当前版本的《Experience Manager指南》升级到4.4.0版：
 
-- 如果您使用的是版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3），则可以直接升级到版本4.4.0。
+- 如果您使用的是版本4.3.1.5、4.3.1、4.3.0或4.2.1（修补程序4.2.1.3），则可以直接升级到版本4.4.0。
 - 如果您使用的是版本4.2、4.1或4.1.x，则在升级到版本4.4.0之前，需要升级到版本4.3.1、4.3.0或4.2.1（修补程序4.2.1.3）。
 - 如果您使用的是版本4.0，则需要先升级到版本4.2，然后再升级到版本4.3.x。
 - 如果您使用的是版本3.8.5，则在升级到版本4.2之前需要升级到版本4.0。
@@ -38,6 +38,7 @@ ht-degree: 0%
 - [升级到版本4.2.1](#upgrade-version-4-2-1)
 - [升级到版本4.3.0](#upgrade-version-4-3)
 - [升级到版本4.3.1](#upgrade-version-4-3-1)
+- [升级到版本4.3.1.5](#upgrade-version-4-3-1-5)
 - [升级到版本4.4.0](#upgrade-version-4-4-0)
 
 
@@ -53,7 +54,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅 *《升级Experience Manager指南》* 特定产品的安装指南中的部分，请参见 [“帮助存档”页](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+> 此升级过程仅适用于版本3.8.5到版本4.0。有关从版本3.4或更高版本升级到3.8.5的过程，请参阅 *《升级Experience Manager指南》* 特定产品的安装指南中的部分提供 [Adobe Experience Manager Guides帮助PDF存档](https://helpx.adobe.com/xml-documentation-for-experience-manager/archive.html).
+
+
 
 ****前提条件****
 
@@ -726,6 +729,48 @@ http://localhost:4503/bin/guides/script/start?jobType=translation-map-upgrade
 
 
 1. 恢复为默认或以前的现有值 `queryLimitReads` 如果您在步骤1中更改了它。
+
+
+
+## 升级到版本4.3.1.5 {#upgrade-version-4-3-1-5}
+
+升级到4.3.1.5版取决于当前版本的《Experience Manager指南》。 如果您使用的是版本4.3.1，则可以直接升级到版本4.3.1.5。
+
+
+
+## 安装版本4.3.1.5
+
+1. 从下载4.3.1.5版本包 [Adobe软件分发门户](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+1. 安装版本4.3.1.5包。
+
+1. 等待安装过程成功完成。
+1. 继续升级自定义项，如下一节所述。
+
+
+## 安装版本4.3.1.5之后
+
+
+>[!NOTE]
+>
+>如果要使用org.apache.velocity包，请在上传该包之前执行以下步骤：
+> 1. 转到 `<server>:<port>/system/console/bundles`.
+> 1. 搜索org.apache.velocity。
+> 1. 卸载搜索捆绑包。
+> 1. 安装所需的Velocity包。
+
+
+1. 升级完成后，请确保验证并更新任何自定义项/叠加图，以匹配新的应用程序代码。 下面给出了一些示例：
+   - 从覆盖的任何组件 `/libs/fmdita` 或` /libs` 应该与新的产品代码进行比较，并且更新应在下的叠加文件中完成 `/apps` .
+   - 应审查产品中使用的任何clientlib类别是否有更改。 任何覆盖的配置\（见以下示例\）应与最新的配置进行比较，以获取最新的功能：
+   - `elementmapping.xml`
+   - `ui\_config.json\` （可能已在文件夹配置文件中设置\）
+   - 已修改 `com.adobe.fmdita.config.ConfigManager`
+
+
+
+
+
+
 
 ## 升级到版本4.4.0 {#upgrade-version-4-4-0}
 

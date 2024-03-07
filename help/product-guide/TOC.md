@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 933d683ec970417d4aac739c3cae19c103170ae9
+source-git-commit: d886d25f90f95c01009c0a9586df6b32754223cb
 workflow-type: tm+mt
-source-wordcount: '1740'
-ht-degree: 5%
+source-wordcount: '1742'
+ht-degree: 6%
 
 ---
 
@@ -15,8 +15,6 @@ ht-degree: 5%
 - [[!DNL AEM Guides]概述](overview.md)
 - [免责声明](./user-guide/rebranding-disclaimer.md)
 - 发行信息 {#release-info}
-
-   - [[!DNL AEM Guides] 版本](./release-info/latest-release-info.md)
    - 发行说明 {#release-notes}
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
@@ -63,12 +61,15 @@ ht-degree: 5%
             - [3月发行说明](./release-info/release-notes-2022-3-0.md)
             - [2月发行说明](./release-info/release-notes-2022-2-0.md)
             - [1月发行说明](./release-info/release-notes-2022-1-0.md)
-      - 内部部署/Managed Services {#on-prem-release-notes}
-      - 4.4.0发行版 {#44-release}
-         - 新增功能 {#44-whats-new}
-            - [4.4新增功能](./release-info/whats-new-4-4.md)
-         - 发行说明 {#44-release-notes}
-            - [4.4发行说明](./release-info/release-notes-4-4.md)
+   - 内部部署/Managed Services {#on-prem-release-notes}
+      - [[!DNL AEM Guides] 版本](./release-info/latest-release-info.md)
+      - 4.4.0发行版 {#440-release}
+         - [新增功能](./release-info/whats-new-4-4.md)
+         - [修复的问题](./release-info/fixed-issues-4-4.md)
+         - [升级说明](./release-info/upgrade-instructions-4-4.md)
+      - 4.3.1.5版本 {#4315-release}
+         - [修复的问题](./release-info/fixed-issues-4-3-1-5.md)
+         - [升级说明](./release-info/upgrade-instructions-4-3-1-5.md)
       - 4.3.0发行版 {#43-release}
          - 新增功能 {#43-whats-new}
             - [4.3.1新增功能](./release-info/whats-new-4-3-1-release.md)
