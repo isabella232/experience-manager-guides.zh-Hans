@@ -5,7 +5,7 @@ exl-id: 7660da8e-8a1e-4493-b99b-9b5de9a7483f
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: e3fcfeb94c77ee9e499425608048fc882eaa293b
+source-git-commit: 7790aa9dce9a586b8b422dc6deeecab3d53aca8d
 workflow-type: tm+mt
 source-wordcount: '1151'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 要创建新的PDF模板，请执行以下步骤：
 
 1. 在Web编辑器中，转到 **输出** 选项卡。
-1. 选择 **模板** <img src="./assets/template.svg" alt= "“模板”图标" width="25"> 在左侧面板中。
+1. 选择 **模板** ![“模板”图标](./assets/template.svg) 在左侧面板中。
 
    <img src="assets/create-pdf-template.png" alt="创建PDF模板" width="400">
 
