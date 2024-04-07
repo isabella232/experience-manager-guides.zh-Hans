@@ -2,9 +2,9 @@
 title: AEM Guides中的DITA内容重用
 description: 这篇简短文章介绍AEM Guides和DITA如何帮助您在使用内容可重用性时节省时间和精力
 role: User, Admin
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: 8fceb5e76dcc946efc118b217e93088619c5c5c6
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,12 @@ ht-degree: 0%
 # AEM Guides中的内容可重复使用
 
 AdobeAEM Guides利用DITA的优势，为内容重用提供了用户友好的界面。
+
+在本文中，我们将讨论：
+
+1. 使用主题引用(`topicrefs`)
+2. 使用内容引用(`conref` 和 `conkeyref`)
+3. 通过在AEM Guides中执行拖放操作来重复使用内容的额外提示
 
 ## 使用主题引用的可重用性(topicref)
 
@@ -129,7 +135,7 @@ Key - &quot;Kyc_procedure&quot;将继续是唯一的单一信息源。 如果根
 此处已自动选择根映射，因为它已在映射视图中打开
 
 
-### 在AEM Guides中通过一次单击即可重用内容
+## 在AEM Guides中通过一次单击即可重用内容
 
 AEM Guides提供了“可重复使用的内容”功能，只需单击一下即可添加内容引用。
 
