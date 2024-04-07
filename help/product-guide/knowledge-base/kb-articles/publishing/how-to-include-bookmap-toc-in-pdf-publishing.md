@@ -2,10 +2,12 @@
 title: 使用NativePDF的TOC（目录）发布
 description: 使用NativePDF发布Dita书签的目录和其他书签
 feature: Native PDF Output
+author: Pulkit Nagpal(punagpal)
 role: User, Admin
-source-git-commit: 6ccaef5d35d492fe8dbe0f8b52af8d11258f3d2a
+exl-id: c551f0a8-f973-4c5a-bd34-f52890a91342
+source-git-commit: 7638f3634ad45bbadda64ec6e3f706cbb65d696c
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -36,6 +38,31 @@ DITA规范允许将TOC和书签放在 `<backmatter>` 部分。
       <indexlist/>
     </booklists>
   </backmatter>
+```
+
+书签的目录结构、前件图表和表表结构、后件索引表结构。
+
+```
+<bookmap>
+  <title>My Bookmap Title </title>
+  <frontmatter>
+    <booklists>
+      <toc/>
+      <figurelist/>
+      <tablelist/>
+    </booklists>
+  </frontmatter>
+
+  <chapter href="chapter1.ditamap">
+  <chapter href="chapter2.ditamap">
+  </chapter>
+
+  <backmatter>
+    <booklists>
+      <indexlist/>
+    </booklists>
+  </backmatter>
+</bookmap>
 ```
 
 目录和书签列表会根据书签映射中定义的结构自动生成。
@@ -71,6 +98,7 @@ Ditamap本身并不像书签那样直接具有目录(TOC)。 但是，在定义�
 <br>
 <br>
 
-在AEM Guides社区中发布您的问题 [论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以进行任何查询。
+在AEM Guides社区上发帖 [论坛](https://experienceleaguecommunities.adobe.com/t5/experience-manager-guides/ct-p/aem-xml-documentation) 以进行任何查询。
+
 
 
