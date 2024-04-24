@@ -1,18 +1,19 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 2024.2.0版中的新增功能
 description: as a Cloud Service了解Adobe Experience Manager Guides 2024.2.0版本中的新增功能和增强功能。
-source-git-commit: f5940d0ddf19733411532281fb614690075c02ee
+exl-id: 234d430a-d775-484a-aea8-6e422b0a01eb
+source-git-commit: b1bb2b9da71bf0551fe40c84ac382df0e78e007b
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # 2024.2.0版本中的新增功能
 
-本文介绍Adobe Experience Manager Guides 2024.2.0版本中的新增功能和增强功能。
+本文介绍Adobe Experience Manager Guides 2024.2.0版的新增功能和增强功能。
 
-有关此版本中已修复的问题的列表，请查看 [修复了2024.2.0版本中的问题](fixed-issues-2024-2-0.md).
+有关此版本中修复的问题列表，请查看 [修复了2024.2.0版本中的问题](fixed-issues-2024-2-0.md).
 
 
 了解 [2024.2.0版的升级说明](upgrade-instructions-2024-2-0.md).

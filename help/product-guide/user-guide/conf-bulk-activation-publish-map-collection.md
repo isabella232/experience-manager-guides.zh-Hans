@@ -4,10 +4,10 @@ description: 在AEM Guides中激活DITA映射的输出。 了解如何在发布�
 exl-id: 4da644b9-8c5f-4976-a212-960085b693b8
 feature: Publishing, Bulk Activation
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 66d22560d40012a7475026ed44cec7bf301c1a97
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 2%
+source-wordcount: '444'
+ht-degree: 1%
 
 ---
 
@@ -27,14 +27,62 @@ ht-degree: 2%
 
    ![](images/bulk-activation-collection-open.png){width="800" align="left"}
 
-1. \(*可选*\)从左边栏中应用所需的过滤器，以根据它们修改的\(status\)、输出预设或语言对映射进行过滤：
-1. 执行下列操作之一：
+1. \(*可选*\)从左边栏中应用所需的过滤器，以根据它们修改的\(status\)、输出预设或语言对映射进行过滤。
 
-   - 要激活选定映射的输出，请选择映射文件并单击 **快速发布**.
-   - 要激活所有DITA映射及其配置预设的输出，请选中“映射\（列\）”旁边的复选框，然后单击 **快速发布。**
-     ![](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+   >[!NOTE]
+   >
+   >在地图集合中激活输出预设之前，使用输出预设生成地图的输出。
 
 
-为所选映射文件激活输出后，“已发布”列将使用当前日期和时间更新。
+查看根据您的设置激活收藏集的不同方式。
 
-**父主题：**[&#x200B;批量激活已发布的内容](conf-bulk-activation.md)
+<details>
+<summary> Cloud Service </summary>
+
+![bulk-collection-publish on cloud service](images/bulk-activation-collection-quick-publish-CS.png){width="650" align="left"}
+
+您可以将输出激活到 **预览** 或 **Publish** 实例。
+
+**预览**
+
+* 要激活选定映射的输出，请选择预生成的映射输出，然后选择 **发布到** > **预览**.
+* 要激活所有DITA映射及其配置的预设的输出，请选中 **地图** 列，然后选择 **发布到** > **Publish**.
+
+
+**Publish**
+
+* 要激活选定映射的输出，请选择预生成的映射输出，然后选择 **发布到** > **Publish**.
+
+* 要激活所有DITA映射及其配置的预设的输出，请选中“映射”（列）旁边的复选框，然后选择 **发布到** > **Publish**.
+
+
+>[!NOTE]
+> 
+> 仅当已生成映射的输出时，才会启用映射输出的复选框。
+
+当映射输出排队等待发布时，会显示一条成功消息。
+
+为所选映射文件激活输出后，将更新审核历史记录选项卡，并且最新激活的输出将显示在顶部。 此 **已发布** 列将更新为发布日期和时间。
+
+</details>
+
+<details>    
+<summary>  内部部署软件 </summary>
+
+
+执行下列操作之一：
+
+* 要激活选定映射的输出，请选择预生成的映射输出，然后选择 **快速发布**.
+* 要激活所有DITA映射及其配置的预设的输出，请选中“映射”（列）旁边的复选框，然后选择 **快速发布。**
+  ![bulk-collection-publish](images/bulk-activation-collection-quick-publish.png){width="650" align="left"}
+
+  >[!NOTE]
+  > 
+  >仅当已生成映射的输出时，才会启用映射输出的复选框。
+
+
+当映射输出排队等待发布时，会显示一条成功消息。
+
+为所选映射文件激活输出后，将更新审核历史记录选项卡，并且最新激活的输出将显示在顶部。 此 **已发布** 列将更新为发布日期和时间。
+
+**父主题： **[批量激活已发布的内容](conf-bulk-activation.md)

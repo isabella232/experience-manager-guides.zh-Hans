@@ -4,9 +4,9 @@ description: 浏览AEM Guides中Web编辑器的其他功能。 了解如何在AE
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2532'
 ht-degree: 0%
 
 ---
@@ -159,15 +159,25 @@ ht-degree: 0%
 
 **插入MathML公式**
 
-- AEM Guides为您提供开箱即用的支持，以便通过与集成，插入MathML公式 [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) 应用程序。 要插入MathML公式，请单击 **插入元素** 图标并键入mathml。 从列表中选择数学元素时，将显示“插入MathML”对话框：
+- Experience Manager指南为您提供开箱即用的支持，以便通过与集成来插入MathML公式 [MathType Web](https://docs.wiris.com/en/mathtype/mathtype_web/intro) 应用程序。 要插入MathML公式，请选择 **插入元素** 图标并键入mathml。 从列表中选择数学元素时， **插入MathML** 对话框随即显示：
 
-![](images/insert-mathml-equation.png){width="550" align="left"}
+![在数学编辑器中插入数学公式](images/insert-mathml-equation.png){width="550" align="left"}
 
-使用MathML公式工具创建公式，然后单击插入将其添加到文档中。 该公式以浅灰色背景插入，如下所示：
+使用MathML方程式工具，创建方程式并单击 **插入** 以将其添加到您的文档。 该公式以浅灰色背景插入，如下所示：
 
-![](images/sample-mathml-equation.PNG){width="400" align="left"}
+![示例数学公式](images/sample-mathml-equation.PNG){width="400" align="left"}
 
 在任何时候，都可以通过右键单击现有公式并选择 **编辑MathML** 从上下文菜单中。
+
+- **在MathML编辑器中验证公式**
+
+  在保存包含MathML公式的主题时，“Experience Manager指南”会验证这些公式。
+使用MathML编辑器插入公式时，如果存在任何语法问题，“Experience Manager指南”会以红色突出显示公式。 您可以在插入之前更正它。 如果您未进行任何更改，但选择 **插入**，它会显示警告。
+
+  ![验证mathml公式](images/validate-mathml-equation.png){width="400" align="left"}
+
+  如果插入包含语法错误的MathML公式，则在尝试保存主题时会发生验证错误。
+
 
 **插入脚注**
 
@@ -203,11 +213,30 @@ ht-degree: 0%
 
 - 通过展开元素，可以从所选文本中删除元素标记并将其与其父元素合并。 例如，如果您拥有 `p` 中的元素 `note` 元素，您可以将 `p` 元素直接将文本合并到 `note` 元素。 此 **取消包住元素** 选项在主题痕迹导航的上下文菜单中可用。 要取消包裹某个元素，请右键单击该元素以打开上下文菜单，最后选择 **取消包住元素** 以移除该元素，并将该元素的文本与其父元素合并。
 
+**DITA元素的空格处理**
+
+- 在XML中，空格包括空格、制表符、回车符和空行。 “Experience Manager参考线”将多个后续空格转换为一个空格。 这有助于保留Web编辑器的WYSIWYG视图。
+
+  >[!NOTE]
+  >
+  >在某些根据DITA规则需要保留空格的元素中，将保留多个后续空格。 例如， `<pre>` 和 `<codeblock>` 元素。
+
+
 **保留换行符和缩进**
 
 - 根据在“创作”、“源”或“预览”模式以及最终发布的输出中的定义，支持并呈现包含换行符和空格的DITA元素。 以下屏幕截图显示了 `msgblock` 其中保留换行符和空格\(indentation\)的元素：
 
 ![](images/new-line-support_cs.png){width="500" align="left"}
+
+
+
+**在Web编辑器中处理不间断空格**
+
+- 可以使用在文档中插入不间断空格 **插入特殊字符**  ![“插入特殊字符”图标](images/insert-special-chars-icon.svg) 图标或 **Alt** + **空间** 快捷键。  在Web编辑器中编辑主题时，这些不间断的空格会显示为指示符。 您可以使用以下图标关闭不间断空格的显示 **在创作模式下显示不间断空间指示器** 选项来自 **外观** 选项卡 **用户首选项** ![“用户首选项”图标](images/user_preference_editor_icon.svg)..
+
+- 如果您将任何外部源中具有不间断空格的内容复制并粘贴到中 **作者** 视图，非中断空间将转换为空间。
+但是，如果您复制并粘贴内容时其中带有不间断空格， **作者** 视图，它保存了。
+
 
 **自动生成元素ID**
 

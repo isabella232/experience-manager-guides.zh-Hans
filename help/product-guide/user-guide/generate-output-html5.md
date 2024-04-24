@@ -4,9 +4,9 @@ description: 了解如何从Web编辑器和地图仪表板创建HTML5预设。 �
 exl-id: b54bf3a0-7a13-41a0-ae72-cdf2caf8d974
 feature: Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: b82f1f3b42f85cce8420d3962c69cd3bafc5728d
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ HTML5输出在平面文件夹层次结构中生成。 这意味着存储库中�
 “高级”选项卡包含以下配置：
 
 - 转换名称
-- 清理DITA-OT临时文件
+- 下载临时文件
 - 文件属性
 
 有关详细信息，请参阅 [HTML5配置](#id231KJA00REJ).
@@ -65,7 +65,7 @@ HTML5输出在平面文件夹层次结构中生成。 这意味着存储库中�
 | 文件名 | 指定要用于保存HTML5输出的文件名。<br><br>**注意**：如果未提供文件名，则使用DITA映射的标题来生成最终的HTML5输出文件名。 如果映射没有标题，则使用DITA映射的文件名命名最终HTML5输出。 使用系统中配置的规则清理文件名，以处理任何无效字符。 |
 | 运行后期生成工作流 | 选择此选项时，将显示一个新的后期生成工作流下拉列表，其中包含在AEM中配置的所有工作流。 必须选择要在输出生成工作流完成后执行的工作流。<br><br>**注意**：有关创建自定义输出后生成工作流的详细信息，请参阅 _自定义输出后生成工作流_ 在as a Cloud Service安装和配置Adobe Experience Manager Guides中。 |
 | 目标路径 | AEM存储库中存储HTML5输出的路径。 |
-| 清理DITA-OT临时文件 | 选择此选项可清除DITA-OT生成的临时文件。 可以在输出生成日志中找到DITA-OT存储临时文件的位置。<br><br>如果在通过DITA-OT生成输出时遇到错误，可以取消选择此选项以保留临时文件。 然后，您可以使用这些文件排除输出生成错误。 |
+| 下载临时文件 | 选择此选项可下载DITA-OT生成的临时文件。 可以在输出生成日志中找到DITA-OT存储临时文件的位置。 如果在通过DITA-OT生成输出时遇到错误，请选择此选项以保留临时文件。 然后，您可以使用这些文件排除输出生成错误。<br> <br>  生成输出后，选择 **下载临时文件** ![下载临时文件图标](images/download-temp-files-icon.png) 图标，用于下载包含临时文件的ZIP文件夹。 <br><br> **注意**：如果您选择某些文件属性，然后下载临时文件，您还将获得 *metadata.xml* 文件。 |
 | 使用基线 | 如果已为所选DITA映射创建了基线，请选择此选项以指定要发布的版本。<br><br>请参阅 [使用基线](generate-output-use-baseline-for-publishing.md#id1825FI0J0PF) 了解更多详细信息。 |
 | 文件属性 | 选择要作为元数据处理的属性。 这些属性是从DITA映射或书签文件的属性页面设置的。 您从下拉列表中选择的属性将显示在 **文件属性** 字段。 选择资产旁边的交叉图标以将其删除。 <br><br>**注意**：您还可以使用DITA-OT发布将元数据传递到输出。 有关详细信息，请参阅， [使用DITA-OT将元数据传递到输出](pass-metadata-dita-ot.md#id21BJ00QD0XA). |
 

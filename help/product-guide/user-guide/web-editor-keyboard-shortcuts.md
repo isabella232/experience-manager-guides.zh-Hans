@@ -4,9 +4,9 @@ description: 在AEM Guides的Web编辑器中发现省时的键盘快捷键。
 exl-id: d843c5a9-04f8-44f2-9bf5-60cb4ed7fa38
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+source-git-commit: 33da473cfa8c654a5413f9d8cbe9c43acaf65766
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -49,5 +49,6 @@ ht-degree: 0%
 | 打开打印对话框 | ***Ctrl***+**P** | ***命令***+**P** |
 | 撤消上一个操作 | ***Ctrl***+**Z** | ***命令***+**Z** |
 | 重做上一个操作 | ***Ctrl***+**Y** | ***命令***+**Y** |
+| 插入不间断空格 `(&nbsp;)` | ***Alt***+**空间** | ***选项***+**空间** |
 
 **父主题：** [使用Web编辑器](web-editor.md)

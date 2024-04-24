@@ -2,10 +2,10 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 6ff99d32dd7a30c1104a79da4f223defe109f190
+source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
 workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 5%
+source-wordcount: '1777'
+ht-degree: 6%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 5%
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2024版 {#2024-releases}
+            - 2024.4.0发行版 {#2404-release}
+               - [新增功能](./release-info/whats-new-2024-04-0.md)
+               - [修复的问题](./release-info/fixed-issues-2024-04-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2024-04-0.md)
             - 2024.2.0发行版 {#2402-release}
                - [新增功能](./release-info/whats-new-2024-2-0.md)
                - [修复的问题](./release-info/fixed-issues-2024-2-0.md)
@@ -115,7 +119,7 @@ ht-degree: 5%
                - [Web编辑器中的其他功能](./user-guide/web-editor-other-features.md)
                - [Web编辑器视图](./user-guide/web-editor-views.md)
                - [支持Schematron文件](./user-guide/support-schematron-file.md)
-               - [用于创作内容的AI支持的智能建议（测试版）](./user-guide/authoring-ai-based-smart-suggestions.md)
+               - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
                - [从Web编辑器创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
                - [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
                - [使用来自您的数据源的数据](./user-guide/web-editor-content-snippet.md)
@@ -317,6 +321,7 @@ ht-degree: 5%
       - 使用自定义DITA-OT和专业化 {#custom-dita-ot-spec-cs}
          - [使用自定义DITA-OT和DITA专业化](./cs-install-guide/dita-ot-specialization.md)
       - 配置基于UUID和非UUID的文件名 {#conf-non-uuid-filename-cs}
+         - [为文件夹配置后处理](./cs-install-guide/conf-folder-post-processing.md)
          - [配置文件名](./cs-install-guide/conf-file-names.md)
          - [根据UUID配置自动文件名](./cs-install-guide/conf-auto-uuid-filenames.md)
          - [为有效的文件名字符配置Regx](./cs-install-guide/conf-file-names-valid-regx.md)
@@ -441,7 +446,9 @@ ht-degree: 5%
 
          - [FMPS和指南](./knowledge-base/kb-articles/publishing/fmpsandguides.md)
          - [微服务体系结构和性能](./knowledge-base/publishing/publish-microservice-architecture-and-performance.md)
-         - [配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
+         - [使用JWT身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices.md)
+         - [使用OAuth身份验证配置基于微服务的发布](./knowledge-base/publishing/configure-microservices-imt-config.md)
+
          - [在AEM Cloud上发布基准](./knowledge-base/publishing/publishing-benchmarks-on-cloud.md)
          - [设置自定义DITA-OT](./knowledge-base/kb-articles/publishing/setup-a-custom-dita-ot.md)
       - 工作流程 {#workflows}

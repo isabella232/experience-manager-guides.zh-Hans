@@ -4,24 +4,28 @@ description: 了解如何为AEM Guides配置新的基于微服务的发布。
 exl-id: 92e3091d-6337-4dc6-9609-12b1503684cd
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 462647f953895f1976af5383124129c3ee869fe9
+source-git-commit: f929d4fd74e98e2025d80c14dbef6aeb464c0dd5
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
 
-# 为AEM Guidesas a Cloud Service配置新的基于微服务的发布
+# 使用JWT身份验证配置基于微服务的发布
 
-新的发布微服务使用户能够在AEM Guidesas a Cloud Service上同时运行大量发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。
-
-对于每个发布请求，AEM Guidesas a Cloud Service会运行一个单独的容器，该容器会根据用户请求水平缩放。 这使用户能够运行多个发布请求，并获得比其大型本地AEM服务器更好的性能。
+[!BADGE Cloud Service]{type=Informative}
 
 >[!NOTE]
 >
-> AEM Guides中基于微服务的发布支持PDF（本机或基于DITA-OT）、HTML5、JSON和CUSTOM类型的输出预设。
+> 服务帐户(JWT)凭据已弃用，推荐使用OAuth服务器到服务器凭据。 使用服务帐户(JWT)凭据的应用程序将在2025年1月1日之后停止工作。 您必须在2025年1月1日之前迁移到新凭据，以确保您的应用程序继续运行。 了解有关 [从服务帐户(JWT)凭据迁移到OAuth服务器到服务器凭据](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/).
 
-由于新的云发布服务受基于Adobe IMS JWT的身份验证保护，因此客户应该按照以下给定步骤将其环境与Adobe的安全基于令牌的身份验证工作流集成，并开始使用新的基于云的可扩展发布解决方案。
+
+
+适用于Adobe Experience Manager Guides的中基于微服务的发布as a Cloud Service支持PDF（本机或基于DITA-OT）、HTML5、JSON和CUSTOM类型的输出预设。
+
+由于服务帐户(JWT)凭据已被弃用，因此建议使用基于Adobe IMS OAuth的身份验证。 了解如何 [使用OAuth身份验证配置基于微服务的发布](configure-microservices-imt-config.md).
+
+对于由基于Adobe IMS JWT的身份验证保护的云发布服务，客户应遵循以下给定步骤，将其环境与Adobe的安全基于令牌的身份验证工作流集成，并开始使用新的基于云的可伸缩发布解决方案。
 
 
 ## 在Adobe Developer控制台中创建IMS配置
@@ -80,7 +84,7 @@ ht-degree: 0%
 >
 > 您需要打开、复制私钥和服务详细信息JSON文件的内容，并将其粘贴到配置面板的值列，如上面的屏幕快照所示。
 
-将IMS配置添加到环境后，执行以下步骤以使用OSGi将这些属性与AEM Guides链接：
+在将IMS配置添加到环境中后，请执行以下步骤，以使用OSGi将这些资产与Experience Manager指南链接到一起：
 
 1. 在您的Cloud Manager Git项目代码中，添加以下两个给定的文件(有关文件内容，请参阅 [附录](#appendix))。
 

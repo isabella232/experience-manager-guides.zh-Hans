@@ -1,9 +1,10 @@
 ---
 title: 配置用于创作的智能建议
 description: 了解如何为创作配置智能建议
-source-git-commit: 1cdad275651b78d794ebc3f4ad9ead266ebeb0bd
+exl-id: a595ca1f-0123-40d3-a79c-a066bc6517b4
+source-git-commit: b2042431e96f2cbd90eea9c8cfcdb3e7033e26bb
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '745'
 ht-degree: 1%
 
 ---
@@ -15,6 +16,11 @@ ht-degree: 1%
 ## 在Adobe Developer控制台中创建IMS配置
 
 执行以下步骤可在Adobe Developer控制台中创建IMS配置：
+
+>[!NOTE]
+>
+>如果您已经创建了OAuth项目来配置基于微服务的发布，则可以跳过以下步骤来创建项目。
+
 1. Launch [Adobe Developer控制台](https://developer.adobe.com/console).
 1. 成功登录到开发人员控制台后，您将看到 **主页** 屏幕。 此 **主页** 在屏幕中，您可以轻松查找信息和快速链接，包括指向项目和下载的顶部导航链接。
 1. 要创建新的空项目，请选择  **创建新项目** 从  **快速入门** 链接。
@@ -38,9 +44,20 @@ ht-degree: 1%
    ![连接的凭据](assets/conf-ss-connected-credentials.png) {width="800" align="left"}
 
    *连接到项目以查看凭据详细信息。*
-1. 复制CLIENT_ID和CLIENT_SECRET密钥。
 
-您现在已配置OAuth身份验证详细信息。 请随时使用这两个键，因为下一节需要用到它们。
+1. 返回到 **项目** 选项卡并选择 **项目概述** 左边。
+
+   <img src="assets/project-overview.png" alt="项目概述" width="500">
+
+   *新项目入门。*
+
+1. 单击 **下载** 按钮以下载服务JSON。
+
+   <img src="assets/download-json.png" alt="下载json" width="500">
+
+   *下载JSON服务详细信息。*
+
+您已配置OAuth身份验证详细信息并下载JSON服务详细信息。 根据下一节中的要求，随时准备此文件。
 
 ### 将IMS配置添加到环境
 
@@ -48,11 +65,14 @@ ht-degree: 1%
 
 1. 打开Experience Manager，然后选择包含要配置的环境的程序。
 1. 切换到 **环境** 选项卡。
-1. 选择要配置的环境名称。 这应该会将您导航到“环境信息”页面。
+1. 选择要配置的环境名称。 这应该会将您导航到 **环境信息** 页面。
 1. 切换到 **配置** 选项卡。
-1. 添加CLIENT_ID和CLIENT_SECRET密钥，如下面的屏幕快照所示。 请确保您使用的名称和配置与下面高亮显示的名称和配置相同。
-   ![环境配置](assets/conf-ss-environment.png) {width="800" align="left"}
-   *添加环境配置详细信息。*
+1. 更新SERVICE_ACCOUNT_DETAILS JSON字段。 确保您使用以下屏幕快照中给出的相同名称和配置。
+
+![ims服务帐户配置](assets/ims-service-account-config.png){width="800" align="left"}
+
+
+*添加环境配置详细信息。*
 
 
 
@@ -61,7 +81,7 @@ ht-degree: 1%
 
 1. 在您的Cloud Manager Git项目代码中，添加以下两个给定的文件(对于文件内容，请查看 [附录](#appendix))。
 
-   * `com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+   * `com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
    * `com.adobe.fmdita.smartsuggest.service.SmartSuggestConfigurationConsumer.cfg.json`
 1. 确保新添加的文件包含在您的 `filter.xml`.
 1. 提交并推送您的Git更改。
@@ -74,15 +94,13 @@ ht-degree: 1%
 ## 附录 {#appendix}
 
 **文件**：
-`com.adobe.fmdita.ims.service.ImsOauthUserAccountHeadersImpl.cfg.json`
+`com.adobe.aem.guides.eventing.ImsConfiguratorService.cfg.json`
 
 **内容**：
 
 ```
 {
-  "client.id": "$[secret:CLIENT_ID]",
-  "client.secret": "$[secret:CLIENT_SECRET]",
-  "ims.url": "https://ims-na1.adobelogin.com"
+ "service.account.details": "$[secret:SERVICE_ACCOUNT_DETAILS]",
 }
 ```
 
