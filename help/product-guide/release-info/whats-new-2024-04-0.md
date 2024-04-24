@@ -1,7 +1,7 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 2024.4.0版中的新增功能
 description: 了解Adobe Experience Manager Guidesas a Cloud Service2024.4.0版本中的新增功能和增强功能。
-source-git-commit: 9a0d2886012bd1695387a93984ccac5127384db3
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '1806'
 ht-degree: 0%
@@ -223,3 +223,4 @@ Experience Manager指南改进了映射编辑器中批量文件签入功能的�
 
 
 Experience Manager指南的云发布服务现在由基于Adobe IMS OAuth的身份验证来保护。 了解如何 [使用OAuth身份验证配置基于微服务的发布](../knowledge-base/publishing/configure-microservices-imt-config.md).
+

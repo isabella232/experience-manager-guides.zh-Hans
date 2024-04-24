@@ -1,7 +1,7 @@
 ---
 title: 发行说明 | 修复了Adobe Experience Manager Guides 2024.4.0版本中的问题
 description: 了解Adobe Experience Manager Guidesas a Cloud Service2024.04.0版本中的错误修复。
-source-git-commit: 9d1b0bea20b2fe3ae8fb2ee7cf4387cf7271562d
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '578'
 ht-degree: 0%
@@ -64,4 +64,5 @@ ht-degree: 0%
 ## 翻译
 
 - **接受翻译** 无法完成临时文件的翻译。 (14665)
+
 

@@ -3,7 +3,7 @@ title: 为AEM Guidesas a Cloud Service配置带有OAuth身份验证的基于微�
 description: 了解如何使用AEM Guides的OAuth身份验证配置基于微服务的发布。
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 17116ed5619b7177cf0174449d67cfebf5b9cf46
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -21,9 +21,6 @@ ht-degree: 0%
 > Experience Manager指南中基于微服务的发布支持PDF（本机或基于DITA-OT）、HTML5、JSON和CUSTOM类型的输出预设。
 
 由于云发布服务受Adobe IMS基于OAuth的身份验证保护，请执行以下步骤以将其环境与Adobe的安全基于令牌的身份验证工作流集成，并开始使用基于云的可伸缩发布解决方案。
-
-
-
 
 
 ## 在Adobe Developer控制台中创建IMS配置

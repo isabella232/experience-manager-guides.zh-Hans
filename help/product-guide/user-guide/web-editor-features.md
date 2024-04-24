@@ -4,7 +4,7 @@ description: 在AEM Guides中发现Web编辑器的功能。 了解Web编辑器�
 exl-id: 340cf72e-e44d-4df2-8312-50d00ac651b7
 feature: Authoring, Features of Web Editor
 role: User
-source-git-commit: 43bdcba4642c9d75585bc571acf0cb0da22a5f4c
+source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
 workflow-type: tm+mt
 source-wordcount: '18678'
 ht-degree: 0%
@@ -2014,3 +2014,4 @@ AEM Guides提供用于显示项目中所有审阅任务的功能。 您可以在
 > 跟踪的更改功能显示已使用主工具栏的启用/禁用跟踪更改功能跟踪的所有更新。 有关更多详细信息，请参阅 [启用/禁用跟踪更改](#id205DF0203Y4).
 
 **父主题：**[&#x200B;使用Web编辑器](web-editor.md)
+
