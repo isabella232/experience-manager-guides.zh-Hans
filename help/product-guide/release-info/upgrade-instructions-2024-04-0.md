@@ -1,9 +1,10 @@
 ---
 title: 发行说明 | Adobe Experience Manager Guides 2024.04.0版中的升级说明和修复问题
 description: 了解兼容性矩阵以及如何升级到Adobe Experience Manager Guidesas a Cloud Service的2024.04.0版本。
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: deca46e5-12cc-497f-84af-61ee02da3d65
+source-git-commit: 989f1628adf417167525a068845203380573b077
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -45,6 +46,12 @@ ht-degree: 0%
 ## 升级到2024.04.0版
 
 在升级Experience Manageras a Cloud Service的当前（最新）版本时，“Experience Manager指南”会自动升级。
+
+>[!NOTE]
+>
+> 开始使用当前（最新）版本后，将任何覆盖的配置与最新配置进行比较，以获取最新功能：
+>- ui_config.json（可能已在文件夹配置文件中设置）
+
 
 
 如果您之前尚未针对现有版本对《Experience Manager指南》执行以下操作，请as a Cloud Service对其执行以下步骤：
@@ -130,4 +137,3 @@ Experience Manager指南具有 [**自定义sling重写器**](../cs-install-guide
 如果您的代码库中有另一个自定义sling重写器，请使用 `'order'` 值大于50，因为Experience Manager指南sling重写器使用 `'order'` 50. 要覆盖此值，您需要一个大于50的值。 有关详细信息，请查看 [输出重写管道](https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html).
 
 在此升级过程中，由于 `'order'` 值从1000更改为50，您需要将现有的自定义重写器（如果有）与 `fmdita-rewriter`.
-
