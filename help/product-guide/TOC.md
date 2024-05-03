@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: e8febe389ed805375d4b79570cd9a0e023e046f3
+source-git-commit: ca1123005d1f36cba11b3f93a89de47006bfead4
 workflow-type: tm+mt
-source-wordcount: '1777'
+source-wordcount: '1783'
 ht-degree: 6%
 
 ---
@@ -404,8 +404,6 @@ ht-degree: 6%
       - [在《指南》中翻译内容 — 第2部分](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
    - 文章 {#kb-articles}
       - 创作 {#authoring}
-         - 报告 {#reports}
-            - [管理DITA内容的元数据](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
          - Web编辑器 {#webeditor}
             - [AEM Guides中的内容可重复使用](./knowledge-base/kb-articles/authoring/webeditor/content-reusability-in-aem-guides.md)
             - 自定义 {#customizing}
@@ -415,6 +413,9 @@ ht-degree: 6%
                - [自定义文件上下文菜单](./knowledge-base/kb-articles/authoring/webeditor/customization/remove-delete-from-webeditor.md)
             - 模式管 {#schematron}
                - [架构验证](./knowledge-base/kb-articles/authoring/webeditor/schematron/vailidating-with-schematron.md)
+         - 报告 {#reports}
+            - [管理DITA内容的元数据](./knowledge-base/kb-articles/authoring/reports/manage-metadata.md)
+         - [为自定义Dita类型定义图标](./knowledge-base/kb-articles/authoring/define-icon-for-custom-ditatypes.md)
       - 指南扩展框架 {#extention-framework}
          - Aem Guides框架 {#aem-guides-framework}
             - [基本自定义](./guides-ui-extensions/aem_guides_framework/basic-customisation.md)
