@@ -1,19 +1,19 @@
 ---
 title: 为自定义Dita类型配置图标
 description: 了解如何为自定义Dita类型定义图标，以便在AEM中的不同UI中显示其图标
-source-git-commit: 60d4aeec9841fdab8ff97d975fbbe4a640ccf9e8
+source-git-commit: de281989de21d8bf4ba771670d7cb871a089b1e1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '491'
 ht-degree: 0%
 
 ---
 
-# 为自定义Dita（主题或映射）类型配置图标
+# 为自定义/专用dita（主题或映射）类型配置图标
 
 
 ## 问题陈述
 
-利用AEM Guides中使用的自定义架构，您可以创建自定义主题或映射类型，并且您可能会注意到自定义主题/映射在Web编辑器或Assets UI中未显示图标。 请参阅下面的屏幕快照以供参考
+使用AEM Guides中使用的自定义架构，您可以创建自定义主题或映射类型，在使用时，您可能会注意到自定义主题/映射类型在Web编辑器或Assets UI中不显示图标。 请参阅下面的屏幕快照以供参考
 
 ![参考屏幕快照](../assets/authoring/custom-ditatype-icon-notshown.png)
 
