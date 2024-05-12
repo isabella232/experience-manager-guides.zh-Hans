@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: ca1123005d1f36cba11b3f93a89de47006bfead4
+source-git-commit: ee272542d75a72620ef05094775fe2ed7f37996f
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1788'
 ht-degree: 6%
 
 ---
@@ -402,6 +402,7 @@ ht-degree: 6%
       - [AEM Guides的扩展框架](./knowledge-base/expert-sessions/guides-extension-framework-nov2023.md)
       - [外部数据源集成](./knowledge-base/expert-sessions/external-datasource-integration-dec2023.md)
       - [在《指南》中翻译内容 — 第2部分](./knowledge-base/expert-sessions/translating-content-using-aem-guides-part2-feb2024.md)
+      - [定义、管理和利用元数据](./knowledge-base/expert-sessions/metadata-define-manage-utilize-may2024.md)
    - 文章 {#kb-articles}
       - 创作 {#authoring}
          - Web编辑器 {#webeditor}
