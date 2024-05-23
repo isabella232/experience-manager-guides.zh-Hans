@@ -2,7 +2,7 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 567b4833305d0b9ca639e6bf754b767c1b919de3
+source-git-commit: 56fa545f1dd32bcc3ec533cffb14a364b934ba20
 workflow-type: tm+mt
 source-wordcount: '1792'
 ht-degree: 6%
@@ -15,7 +15,7 @@ ht-degree: 6%
 - [[!DNL AEM Guides]概述](overview.md)
 - [免责声明](./user-guide/rebranding-disclaimer.md)
 - 发行信息 {#release-info}
-- [AEM Guides版本发行路线图](./release-info/aem-guides-releases-roadmap.md)
+   - [AEM Guides版本发行路线图](./release-info/aem-guides-releases-roadmap.md)
    - 发行说明 {#release-notes}
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
