@@ -5,9 +5,9 @@ exl-id: 90686f77-a769-44bc-90eb-116cf9d0341e
 feature: Rest API Packages
 role: Developer
 level: Experienced
-source-git-commit: 32da48d82b1267bb220424edf385035426293b66
+source-git-commit: b95a64ca2e8ebffebec3d8ff8704f76f7faceca2
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,17 @@ curl -u <*username*>:<*password*> -H "Content-Type: application/json; charset=UT
 
 **有效值**
 
-`preview` 或 `publish` 云服务和 `publish` 本地软件
+`preview` 或 `publish` 用于云服务和 `publish` 本地软件
 
-如果参数包含无效值，则包的激活将失败。 以下示例显示了使用带有可选参数的 curl 命令的 API 调用：
+- 对于云服务，如果参数包含无效值，则包激活将失败。
+
+- 对于本地软件，如果参数包含无效值，则会记录错误，并使用默认值 . `publish`
+
+如果未定义可选参数 ， `activationTarget`它将使用云服务和本地软件的默认发布代理激活。
+
+
+
+以下示例显示了使用带有可选参数的 curl 命令的 API 调用：
 
 
     &#39;&#39;&#39;XML

@@ -5,7 +5,7 @@ exl-id: 0d3a909c-3499-4ef4-b033-02e412dae959
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: bc2348ae3342addf9ab05a3e3898fa485dba9bcf
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 9%
@@ -92,7 +92,39 @@ ht-degree: 9%
 
 1. 单击&#x200B;**保存**。
 
+<!---
 
+This was added for 2406 CS IG
+
+## Configure the legacy translation workflow 
+
+It is recommended that you use the latest translation workflow, which provides enhanced performance. However, you can configure the legacy translation workflow if necessary.
+
+Based on the translation workflow used in your setup, provide the following (property) details to configure the legacy translation workflow: the component-based translation workflow option should be configured as follows:
+
+1.  Open the Adobe Experience Manager Web Console Configuration page.
+
+    The default URL to access the configuration page is:
+
+    ! Add the syntax of http as given in previous config
+
+    Note: Configure htttp code as given in previous sample
+    
+
+1.  Search for and click on the **com.adobe.fmdita.config.ConfigManager** bundle.
+
+
+
+1.  Configure the **Run legacy translation workflow** option as per your setup:
+
+    -   If you use the latest translation workflow, then *Disable* \( `false`\) the **Run legacy translation workflow** option. The latest translation workflow is enabled by default. <br> 
+
+    -   If you use the legacy translation, then *Enable \( `true`\)* the **Run legacy translation workflow** option.
+
+1.  Click **Save**.
+
+
+--->
 >[!IMPORTANT]
 >
 > 设置翻译配置后，请确保在语言文件夹上设置适当的云配置。

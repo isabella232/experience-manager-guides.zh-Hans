@@ -2,9 +2,9 @@
 user-guide-title: Experience Manager Guides
 user-guide-description: 阅读有关 Adobe Experience Manager Guides 的产品文档。
 breadcrumb-title: AEM Guides 文档
-source-git-commit: 56fa545f1dd32bcc3ec533cffb14a364b934ba20
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '1792'
+source-wordcount: '1815'
 ht-degree: 6%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 6%
       - 云服务 {#cloud-release-notes}
          - [部署说明](./release-info/deploy-xml-on-aemaacs.md)
          - 2024版 {#2024-releases}
+            - 2024.6.0发行版 {#2406-release}
+               - [新增功能](./release-info/whats-new-2024-06-0.md)
+               - [修复的问题](./release-info/fixed-issues-2024-06-0.md)
+               - [升级说明](./release-info/upgrade-instructions-2024-06-0.md)
             - 2024.4.0发行版 {#2404-release}
                - [新增功能](./release-info/whats-new-2024-04-0.md)
                - [修复的问题](./release-info/fixed-issues-2024-04-0.md)
@@ -121,6 +125,7 @@ ht-degree: 6%
                - [Web编辑器视图](./user-guide/web-editor-views.md)
                - [支持Schematron文件](./user-guide/support-schematron-file.md)
                - [用于创作内容的AI支持的智能建议](./user-guide/authoring-ai-based-smart-suggestions.md)
+
                - [从Web编辑器创作Markdown文档](./user-guide/web-editor-markdown-topic.md)
                - [将引用添加到您的内容](./user-guide/web-editor-apply-citations.md)
                - [使用来自您的数据源的数据](./user-guide/web-editor-content-snippet.md)
@@ -191,7 +196,8 @@ ht-degree: 6%
          - [配置其他特殊字符](./web-editor/configure-additional-special-characters.md)
       - [使用发布仪表板管理发布任务](./user-guide/generate-output-publish-dashboard.md)
       - [基本疑难解答](./user-guide/generate-output-basic-troubleshooting.md)
-      - [发布到内容片段](./user-guide/publish-content-fragment.md)
+      - [发布内容片段](./user-guide/publish-content-fragment.md)
+      - [发布体验片段](./user-guide/publish-experience-fragment.md)
       - 批量激活内容 {#bulk-activation}
          - [批量激活已发布的内容](./user-guide/conf-bulk-activation.md)
          - [创建批量激活映射集合](./user-guide/conf-bulk-activation-create-map-collection.md)
@@ -240,10 +246,11 @@ ht-degree: 6%
       - 使用自定义DITA-OT和专业化 {#custom-dita-ot-spec}
          - [使用自定义DITA-OT和DITA专业化](./install-guide/dita-ot-specialization.md)
       - 配置基于UUID和非UUID的文件名 {#conf-non-uuid-filename}
-         - [配置文件名](./install-guide/conf-file-names.md)
-         - [根据UUID配置自动文件名](./install-guide/conf-auto-uuid-filenames.md)
-         - [为有效的文件名字符配置Regx](./install-guide/conf-file-names-valid-regx.md)
-         - [为AEM站点输出配置有效文件名](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
+      - [为文件夹配置后处理](./install-guide/conf-folder-post-processing.md)
+      - [配置文件名](./install-guide/conf-file-names.md)
+      - [根据UUID配置自动文件名](./install-guide/conf-auto-uuid-filenames.md)
+      - [为有效的文件名字符配置Regx](./install-guide/conf-file-names-valid-regx.md)
+      - [为AEM站点输出配置有效文件名](./install-guide/conf-file-names-valid-regx-aem-site-output.md)
       - 使用主题和地图模板 {#topic-map-template}
          - [配置主题和映射模板](./install-guide/conf-template-tags.md)
          - [配置自定义DITA主题模板](./install-guide/conf-template-tags-custom-dita-topic-template.md)
@@ -287,6 +294,7 @@ ht-degree: 6%
             - [设计页面布局](./native-pdf/design-page-layout.md)
             - [PDF输出中的变量](./native-pdf/native-pdf-variables.md)
             - [支持语言变量](./native-pdf/native-pdf-language-variables.md)
+            - [向PDF输出添加条形码](./native-pdf/add-barcode.md)
             - 常见内容样式 {#content-styles}
                - [使用常见的内容样式](./native-pdf/stylesheet.md)
                - [使用自定义更改条样式](./native-pdf/change-bar-style.md)
@@ -295,8 +303,7 @@ ht-degree: 6%
                - [使用JavaScript处理内容或样式](./native-pdf/use-javascript-content-style.md)
                - [将样式应用于脚注](./native-pdf/footnote-number-style.md)
          - [为本机PDF发布配置JVM标记](./native-pdf/configure-jvm-flags.md)
-         - [创建主题和内容片段之间的映射](./install-guide/conf-content-fragment-mapping.md)
-      - 使用自定义工作流 {#custom-workflow}
+         - 使用自定义工作流 {#custom-workflow}
          - [配置和自定义工作流](./install-guide/customize-workflows.md)
       - 使用翻译配置 {#translate-config}
          - [翻译内容](./install-guide/translation.md)
@@ -365,6 +372,7 @@ ht-degree: 6%
          - [本机PDF发布](./cs-install-guide/native-pdf-publishing.md)
          - [为本机PDF发布配置节点进程](./native-pdf/configure-node-options.md)
          - [创建主题和内容片段之间的映射](./cs-install-guide/conf-content-fragment-mapping-cs.md)
+         - [创建主题和体验片段之间的映射](./cs-install-guide/conf-experience-fragment-mapping-cs.md)
       - 使用自定义工作流 {#custom-workflow-cs}
          - [配置和自定义工作流](./cs-install-guide/customize-workflows.md)
       - 使用翻译配置 {#translate-config-cs}

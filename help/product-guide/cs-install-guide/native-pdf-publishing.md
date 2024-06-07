@@ -5,9 +5,9 @@ exl-id: 00bc894a-031e-4d09-bd30-331399fedbc8
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 3bdc3c6370bbad67f9c31f538a49bee105fec0f9
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 0%
 * [设计页面布局](../native-pdf/design-page-layout.md)
 * [支持语言变量](../native-pdf/native-pdf-language-variables.md)
 * [PDF输出中的变量](../native-pdf/native-pdf-variables.md)
+* [向PDF输出添加条形码](../native-pdf/add-barcode.md)
 * 常见内容样式 {#content-styles}
    * [使用常见的内容样式](../native-pdf/stylesheet.md)
    * [使用自定义更改条样式](../native-pdf/change-bar-style.md)

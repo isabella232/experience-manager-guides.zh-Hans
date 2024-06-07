@@ -4,9 +4,9 @@ description: 在AEM Guides中，通过Web编辑器创建和管理基线。 了�
 exl-id: 14f87bdd-3042-46f9-853e-e9ded81b10ed
 feature: Authoring, Features of Web Editor, Publishing
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: c4c5fa16daf3f713f85783152094c8af59eb4f8c
 workflow-type: tm+mt
-source-wordcount: '1687'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -60,8 +60,12 @@ AEM Guides提供了集成在Web编辑器中的基线功能，允许用户创建�
 
    ![创建基线](images/dynamic-baseline.png){width="300" align="left"}
 
-   - **选择标签**：如果主题指定了标签，则使用 **选择标签** 下拉菜单供您选择 [列出的标签](#labels-list).
+   - **标签**：如果主题指定了标签，则使用 **标签** 下拉菜单供您选择 [列出的标签](#labels-list).
 首先选定的标签优先于后续的标签。
+
+     >[!NOTE]
+     >
+     >在提取标签时，会出现加载器，并且下拉列表被禁用。
 
      对于动态基线，将从地图的最新保存版本和当前工作副本中提取标签。 例如，如果您已创建标签   `Label Release A.1.0 ` 和 `Label Release A.1.1` 适用于主题A的版本1.0和1.1和标签 `Label Release B.1.0` 和 `Label Release B.1.1` 适用于主题B的版本1.0和1.1 。 然后，可以添加主题A来映射1.0版中的A，添加主题B来映射1.0*版中的A（工作副本）。 在这种情况下，您可以查看  `Label Release A.1.0 `， `Label Release A.1.1`， `Label Release B.1.0`、和 `Label Release B.1.1` 在动态基线标签下拉列表中。
 

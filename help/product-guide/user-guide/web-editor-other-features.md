@@ -4,7 +4,7 @@ description: 浏览AEM Guides中Web编辑器的其他功能。 了解如何在AE
 exl-id: 1833b1e3-c7f1-4f2c-be35-235b65ba2f36
 feature: Authoring, Web Editor
 role: User
-source-git-commit: caf00a014838751675aed11e5687a81fe7ad2e7c
+source-git-commit: d30f05ff614693beca5d9cf7f206a36f3dadfc8b
 workflow-type: tm+mt
 source-wordcount: '2532'
 ht-degree: 0%
@@ -182,6 +182,7 @@ ht-degree: 0%
 **插入脚注**
 
 - 使用在内容中插入脚注 `fn` 元素。 在创作模式下，脚注值与内容内联显示。 但是，当您切换“预览”模式或发布文档时，脚注会出现在主题末尾。
+
 
 **重命名或替换元素**
 

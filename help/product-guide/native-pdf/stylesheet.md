@@ -5,9 +5,9 @@ exl-id: 42ba7347-d81d-45d9-9627-8d164e4f9539
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f98aa2b4b196ee0fd46542317894163b64b8a486
 workflow-type: tm+mt
-source-wordcount: '3525'
+source-wordcount: '3778'
 ht-degree: 0%
 
 ---
@@ -374,3 +374,63 @@ h1样式的属性与其“预览”一起显示在“属性”面板中。
 以下屏幕截图显示了应用于文本“Primary Control”的wintitle样式。
 
 <img src="./assets/other-style-wintitle.png" width="500">
+
+
+## 为单页布局定义唯一样式
+
+发布本机PDF输出时，所有样式都会合并到最终PDF中，为CSS中的每个模板分配唯一样式至关重要。
+使用不同的CSS样式名称将特定字体和样式应用于PDF的不同部分。 例如，您可以使用以下CSS定义封面页的所需字体。
+
+```css
+...
+[data-page-layout="Front"] * { 
+    font-size: 18pt; 
+}  
+...
+```
+
+
+文档的其余部分将使用您在中为body标记指定的默认字体 `content.css` 或 `layout.css`. 这样可确保不会合并样式，并且每个部分均会保留其预期设计。 如果需要不同的字体大小，请为其创建特定的样式。
+
+例如，您可以定义以下样式来定义封面段落的字体大小18和后封面的字体大小11 pt ：
+
+```css
+[data-page-layout="Front"] p { //For all paragraphs inside Front page
+  font-size: 18pt; 
+} 
+  
+[data-page-layout="Back"] p { //For all paragraphs inside Back page
+  font-size: 11pt; 
+}
+```
+
+>[!NOTE]
+>
+在上一个示例中，“前”和“后”是可在模板中使用的布局文件的示例名称。
+
+
+## 为前缀和后缀内容定义自定义CSS样式
+
+如果定义自定义CSS样式，则在生成本机PDF输出时，将为它们赋予第一优先权。
+以下默认CSS样式会隐藏前缀和后缀内容。
+
+```css
+...
+.prefix-content, .suffix-content{
+    display: none;
+} 
+...
+```
+
+要在 `<note>` 元素，将以下CSS包含在您的 `content.css`：
+
+```css
+...
+.prefix-content{
+    display: inline !important;
+}
+...
+```
+
+此 `<note>` 元素会生成一个 `<span>` 具有对应于其type属性的类prefix-content。 此CSS规则以 `.prefix-content` 类范围 `<note>` 元素的type属性，允许您根据需要样式化或处理前缀内容。
+

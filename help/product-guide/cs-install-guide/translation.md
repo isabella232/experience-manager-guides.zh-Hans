@@ -5,10 +5,10 @@ exl-id: 5af78233-343e-47ba-b60c-b7f4789e2406
 feature: Translation
 role: Admin
 level: Experienced
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+source-git-commit: bcb61127f5f69ac39860a90eac2e1a56ecd1de31
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 11%
+source-wordcount: '756'
+ht-degree: 9%
 
 ---
 
@@ -68,9 +68,26 @@ ht-degree: 11%
 |---|------------|--------------|
 | `com.adobe.fmdita.config.ConfigManager` | `component.translation` | 布尔型： <br>  — 如果您使用人工翻译，则 *禁用* \( `false`\) **基于组件的翻译工作流** 选项。 <br>  — 如果您使用的是机器翻译，则 *启用\( `true`\)* 该 **基于组件的翻译工作流** 选项。 |
 
+
+
+## 配置旧版翻译工作流
+
+建议您使用最新的翻译工作流，该工作流可提高性能。 但是，如果您要使用旧版翻译工作流，则可以对其进行配置。
+
+请按照以下说明进行操作： [配置覆盖](download-install-additional-config-override.md#) 创建配置文件。 在配置文件中，提供以下（属性）详细信息以配置旧版翻译工作流：
+
+
+
+
+| PID | 属性键 | 属性值 |
+|---|------------|--------------|
+| `com.adobe.fmdita.config.ConfigManager` | `translation.workflow.version.legacy` | 布尔型： <br>  — 如果您使用最新的翻译工作流，则 *禁用* \( `false`\) **运行旧版翻译工作流** 选项。 默认情况下，将启用最新的翻译工作流。 <br>  — 如果您使用旧版翻译，则 *启用\( `true`\)* 该 **运行旧版翻译工作流** 选项。 |
+
+
+
 >[!NOTE]
 >
-> 如果您使用的是翻译连接器，请确保已按照 *[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* AEM主题。
+> 如果您使用的是翻译连接器，请确保已按照 *[配置翻译集成框架](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/integration-framework.html?lang=en)* Adobe Experience Manager主题。
 
 >[!IMPORTANT]
 >

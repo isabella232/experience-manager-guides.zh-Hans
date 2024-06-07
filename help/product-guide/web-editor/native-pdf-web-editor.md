@@ -4,9 +4,9 @@ description: 了解如何在AEM Guides中使用本机PDF发布、创建和生成
 exl-id: ec3d59b7-1dda-4fd1-848e-21d8a36ff5e4
 feature: Publishing, Web Editor, Native PDF Output
 role: User
-source-git-commit: 6006cabdc11b80179833a21b4d99d2f6c3f968ee
+source-git-commit: e78749b1d5b4ba944cbca69ba65c6d28355b2c34
 workflow-type: tm+mt
-source-wordcount: '3293'
+source-wordcount: '3362'
 ht-degree: 0%
 
 ---
@@ -212,3 +212,10 @@ ht-degree: 0%
 
 AEM Guides还提供了对语言变量的支持。 选择 **语言变量** <img src="./assets/language-variables.svg" width="25">  在左侧面板中定义开箱即用标签的本地化版本，如PDF输出中的“注释”、“警告”和“警告”或静态文本。 有关更多详细信息，请参阅 [支持语言变量](../native-pdf/native-pdf-language-variables.md).
 
+
+
+### 支持Markdown文档
+
+《Experience Manager指南》还为您的Markdown文档提供支持。  Markdown文件易于创作，并且还提供了各种格式选项。 了解如何 [从Web编辑器创作Markdown文档](../user-guide/web-editor-markdown-topic.md).
+
+您可以将Markdown主题添加到DITA映射中，并使用本机PDF输出预设生成PDF输出。  了解如何配置或 [创建PDF输出预设](#create-a-pdf-output-preset-create-output-preset).

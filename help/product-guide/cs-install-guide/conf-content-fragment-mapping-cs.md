@@ -5,9 +5,9 @@ exl-id: 438e2964-b9c7-462a-a68c-8031bd97911c
 feature: Output Generation
 role: Admin
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: f8c71e18f5e2e5dbc5a2abdbb92c72fdad3bb233
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -94,4 +94,4 @@ AEM Guides提供了在主题和内容片段模型之间创建基于JSON的映射
 ]
 ```
 
-您可以使用默认映射发布整个主题。 选择 `Full Topic` 中的下拉菜单的映射 **发布为内容片段** 对话框并在内容片段模型中具有“topicData”字段。
+您可以使用默认映射发布整个主题。 选择 `Full Topic` 从下拉菜单中映射 **生成内容片段** 对话框，并在内容片段模型中具有“topicData”字段。

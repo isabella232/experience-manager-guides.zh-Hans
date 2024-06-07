@@ -5,9 +5,9 @@ exl-id: d7cd412b-89ea-43a5-97b3-09944863bbee
 feature: Web Editor Configuration
 role: Admin
 level: Experienced
-source-git-commit: acd16f23a7b3023a62b3c15007b03d4f3b2cfb4f
+source-git-commit: 873542cb2e8e1b7e80e0ecc113cae4f603b18592
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 Experience Manager指南随附于 **数据源** 此工具可帮助您为数据源配置现成的连接器。 您可以设置JIRA、SQL(MySQL、PostgreSQL、Microsoft SQL Server、SQLite、MariaDB、H2DB)、AdobeCommerce、Elasticsearch和通用REST客户端连接器。
 
-除了这些现成的连接器外，Experience Manager指南还为Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)数据源提供连接器。 您可以下载并安装它们。 然后，用户可以配置这些连接器。
+
+除了这些现成的连接器外，Experience Manager指南还为Salsify、Akeneo和Microsoft Azure DevOps Boards (ADO)数据源提供连接器。 您可以从以下位置下载并安装这些开源连接器 [Maven中央存储库](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides). 然后，用户可以配置这些连接器。
+了解如何 [安装开源连接器](#install-open-source-connector).
+
+
 
 您还可以使用文件连接器连接到JSON数据文件。 从您的计算机中上传JSON文件或从Adobe Experience Manager资源中浏览该文件。 然后，使用生成器创建内容片段或主题。
 
@@ -78,6 +82,39 @@ Experience Manager指南随附于 **数据源** 此工具可帮助您为数据�
 1. 您还可以使用可用于数据源(如Salsify、Akeneo和Microsoft ADO)的默认资源。 将您不想为数据源配置的资源的选项切换为OFF。
 
 这有助于从单个内容片段或主题中特定数据源的任何资源快速获取数据。
+
+
+
+## 安装开源连接器{#install-open-source-connector}
+
+要发布上存在的依赖项，请执行以下操作 [Maven中央存储库](https://central.sonatype.com/search?q=com.adobe.aem.addon.guides) 对于Cloud Service，您需要包含并嵌入开源连接器的依赖项。
+
+1. 在中添加依赖项 `all/pom.xml`  在您的cloud manager Git项目代码中。 例如，您可以为Microsoft Azure DevOps Boards数据源连接器添加以下依赖项。
+
+
+   ```
+   <dependency>
+       <groupId>com.adobe.aem.addon.guides</groupId>
+       <artifactId>konnect-azure-devops</artifactId>
+       <version>1.0.0</version>
+       <type>jar</type>
+   </dependency> 
+   ```
+
+1. 嵌入添加的依赖项。
+
+       ```
+       &lt;embedded>
+       &lt;groupid>com.adobe.aem.addon.guides&lt;/groupid>
+       &lt;artifactid>konnect-azure-devops&lt;/artifactid>
+       &lt;type>jar&lt;/type>
+       &lt;target>/apps/aemdoxonaemcsstageprogram-vendor-packages/content/install&lt;/target>
+       &lt;/embedded>
+       ```
+   
+1. 运行管道以应用Cloud Service中的更改。
+连接器安装在您的环境中。
+
 
 ## 可用于连接器的功能
 
