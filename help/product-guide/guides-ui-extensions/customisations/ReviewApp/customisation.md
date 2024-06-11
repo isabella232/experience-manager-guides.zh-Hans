@@ -2,13 +2,13 @@
 title: 自定义
 description: 自定义审核应用程序
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 9f6a4e9f-fc13-40b5-a30f-151c94faff81
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
 
 ---
-
 
 # 自定义审核应用程序
 
@@ -28,10 +28,10 @@ ht-degree: 0%
 可以使用语法执行此操作：
 
 ```typescript
- this.updateExtraProps(
-        {'commentRationale': 'This is an important sentence.',
-        'severity': 'CRITICAL'}
-      )
+  this.next('updateExtraProps', {
+    'commentRationale': 'This is an important sentence.',
+    'severity': 'CRITICAL'
+  })
 ```
 
 上述代码片段将处理值的更新和保存。 通过定义视图，保存的值可以在UI中呈现。
@@ -65,7 +65,7 @@ ht-degree: 0%
 ```typescript
     onNewCommentEvent(args){
       const events = _.get(args, "events")
-      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.model.currTopicIndex || "0"
+      const currTopicIndex = tcx.model.getValue(tcx.model.KEYS.REVIEW_CURR_TOPIC) || this.getValue('currTopicIndex') || "0"
       const event = _.get(_.get(events, currTopicIndex), '0')
       const newComment = _.get(args, 'newComment')
       const newReply = _.get(args, 'newReply')
@@ -88,7 +88,8 @@ ht-degree: 0%
           'userEmail': userData?.email || '',
         }
         const data = {... event, extraProps}
-        this.sendExtraProps(
+        this.next(
+          'sendExtraProps',
           data
         )
       })

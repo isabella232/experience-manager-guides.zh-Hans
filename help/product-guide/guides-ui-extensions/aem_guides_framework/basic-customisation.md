@@ -2,7 +2,8 @@
 title: 自定义应用程序
 description: 自定义应用程序
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 3e454c48-2168-41a5-bbab-05c8a5b5aeb1
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -13,25 +14,26 @@ ht-degree: 0%
 
 我们的应用程序遵循MVC（模型、视图、控制器）结构
 
-## 型号
+## 模型
 
 模型定义各种属性并存储其值。 可使用语法从控制器访问存储在模型中的各种属性的值
 
 ```typescript
-this.model.attributeName
+this.getValue('attributeName')
 ```
 
 对于在应用程序中自定义，所有新创建的属性都将添加到模型中的映射下。
 要在模型中设置新属性，我们将在控制器中使用以下语法：
 
 ```typescript
-this.model.extraProps.set("key", value)
+// If a key is not already in model then it will be added to extraProps
+this.setValue('key', value)
 ```
 
 要访问添加到模型中的属性，我们将使用以下语法：
 
 ```typescript
-const value = this.model.extraProps.get("key")
+const value = this.getValue("key")
 ```
 
 ## 查看
@@ -87,13 +89,13 @@ this.next('methodName', args)
 
 ```typescript
   controller: {
-    init: function () {
-      this.model.extraProps.set("buttonLabel", "Submit")
+    init: function (context) {
+      context.setValue("buttonLabel", "Submit")
     },
 
     switchButtonLabel(){
-        const buttonLabel = this.model.extraProps.get("buttonLabel") === "Submit"? "Cancel" : "Submit"
-        this.model.extraProps.set("buttonLabel", buttonLabel)
+        const buttonLabel = this.getValue("buttonLabel") === "Submit"? "Cancel" : "Submit"
+        this.setValue("buttonLabel", buttonLabel)
     }
   }
 ```

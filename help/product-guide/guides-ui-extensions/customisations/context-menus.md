@@ -2,13 +2,13 @@
 title: 上下文菜单
 description: 自定义上下文菜单
 role: User, Admin
-source-git-commit: be06612d832785a91a3b2a89b84e0c2438ba30f2
+exl-id: 25aa76dd-ef05-41ed-b980-14bbc1626059
+source-git-commit: 4f00d6b7ad45636618bafe92e643b3e288ec2643
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # 自定义上下文菜单
 
@@ -88,7 +88,7 @@ const fileOptions = {
 
     controller: {
         downloadFile(){
-            const path  = this.model.selectedItem.path
+            const path  = this.getValue('selectedItems')[0].path
             this.loader.loadDitaFile(path).then((file) => {
               function download_file(name, contents) {
                 const mime_type = "text/plain";
