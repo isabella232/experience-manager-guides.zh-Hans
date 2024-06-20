@@ -5,7 +5,7 @@ exl-id: 6277e52d-1b05-4dd7-8d2b-4b94f329e2d7
 feature: Rest API DITA Map
 role: Developer
 level: Experienced
-source-git-commit: 0513ecac38840a4cc649758bd1180edff1f8aed1
+source-git-commit: 7c529e98334999cf2b5e9ee18a27278d24318437
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 **请求URL**： http://*&lt;aem-guides-server>*： *&lt;port-number>*/bin/fmdita/exportditamap
 
-**参数**： |名称|类型|必需|描述| --------------------------- |`ditamap`|字符串|是|AEM存储库中DITA映射文件的绝对路径。| |`baseline`|字符串|是|用于检索版本化内容的基线的标题。 <br> **注意：** 值区分大小写。 |
+**参数**： |名称|类型|必需|描述| --------------------------- |`ditamap`|字符串|是|AEM存储库中DITA映射文件的绝对路径。| |`baseline`|字符串|否|用于检索版本化内容的基线的标题。 <br> **注意：** 值区分大小写。 |
 
 **响应值**：一个.zip文件，其内容会写入响应的输出流中。
 
