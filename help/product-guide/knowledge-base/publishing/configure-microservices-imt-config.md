@@ -1,9 +1,10 @@
 ---
-title: 为AEM Guidesas a Cloud Service配置带有OAuth身份验证的基于微服务的发布
+title: 使用AEM Guides的OAuth身份验证配置基于微服务的发布as a Cloud Service
 description: 了解如何使用AEM Guides的OAuth身份验证配置基于微服务的发布。
 feature: Microservice in AEM Guides
 role: User, Admin
-source-git-commit: 4c7421391922d276ef82515fb4b1cbdc2397e4ce
+exl-id: db0c83c7-1ece-4010-b214-f8d806d26bc9
+source-git-commit: 6d935ce934890066de358c434717efeef2c997cb
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 0%
@@ -12,34 +13,34 @@ ht-degree: 0%
 
 # 使用OAuth身份验证配置基于微服务的发布
 
-发布微服务允许您同时在Experience Manager指南as a Cloud Service上运行大型发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。
+发布微服务允许您在Experience Manager Guides as a Cloud Service上同时运行大型发布工作负载，并利用业界领先的Adobe I/O Runtime无服务器平台。
 
-对于每个发布请求，Experience Manager指南as a Cloud Service会运行一个单独的容器，该容器可根据用户请求水平缩放。 与大型内部部署Adobe Experience Manager服务器相比，这提供了运行多个发布请求并获得更高性能的功能。
+对于每个发布请求，Experience Manager Guides as a Cloud Service会运行一个单独的容器，该容器可根据用户请求水平缩放。 与大型内部部署Adobe Experience Manager服务器相比，这提供了运行多个发布请求并获得更高性能的功能。
 
 >[!NOTE]
 >
-> Experience Manager指南中基于微服务的发布支持PDF（本机或基于DITA-OT）、HTML5、JSON和CUSTOM类型的输出预设。
+> Experience Manager Guides中基于微服务的发布支持PDF（本机或基于DITA-OT）、HTML5、JSON和CUSTOM类型的输出预设。
 
 由于云发布服务受Adobe IMS基于OAuth的身份验证保护，请执行以下步骤以将其环境与Adobe的安全基于令牌的身份验证工作流集成，并开始使用基于云的可伸缩发布解决方案。
 
 
-## 在Adobe Developer控制台中创建IMS配置
+## 在Adobe Developer Console中创建IMS配置
 
 **创建配置所需的角色**：系统管理员
 
-执行以下步骤以在中创建IMS配置 **Adobe Developer控制台**：
+执行以下步骤以在中创建IMS配置 **Adobe Developer Console**：
 
 >[!NOTE]
 >
 >如果您已经创建了OAuth项目来配置用于创作的AI支持的智能建议，则可以跳过以下步骤来创建项目。
 
-1. 打开 **开发人员控制台**： `https://developer.adobe.com/console`.
+1. 打开 **Developer Console**： `https://developer.adobe.com/console`.
 
 1. 切换到 **项目** 从顶部选项卡。
 
    <img src="assets/projects-tab.png" alt="“项目”选项卡" width="500">
 
-   *选择&#x200B;**项目**选项卡&#x200B;**Adobe Developer控制台***
+   *选择&#x200B;**项目**选项卡&#x200B;**Adobe Developer Console***
 
 1. 要创建新的空项目，请选择 **空项目** 从 **创建新项目** 下拉菜单。
 
@@ -127,7 +128,7 @@ ht-degree: 0%
 >
 > 如果您已在使用基于微服务的发布，请跳过以下步骤：
 
-在将IMS配置添加到环境中后，请执行以下步骤，以使用OSGi将这些资产与Experience Manager指南链接到一起：
+将IMS配置添加到环境后，执行以下步骤以使用OSGi将这些资产与Experience Manager Guides链接：
 
 1. 在您的Cloud Manager Git项目代码中，添加以下两个文件(对于文件内容，请查看 [附录](#appendix))。
 
